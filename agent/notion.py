@@ -1,4 +1,12 @@
+"""Thin wrapper around the Notion API client for the JPATE Triage Agent.
+
+All methods propagate `notion_client.errors.APIResponseError` to callers.
+The daemon loop in agent.py is responsible for catching and logging these.
+"""
 from notion_client import Client
+
+# Name of the Date property in the Notion Calendar DB
+_CALENDAR_DATE_PROPERTY = "Date"
 
 
 def _plain_text(rich_text: list) -> str:
@@ -6,10 +14,10 @@ def _plain_text(rich_text: list) -> str:
 
 
 def _paginate(fn, **kwargs) -> list:
-    """Collect all results across paginated Notion API responses."""
+    """Collect all results across paginated Notion API responses (max 50 pages)."""
     results = []
     cursor = None
-    while True:
+    for _ in range(50):  # safety cap — prevents infinite loop on API quirks
         resp = fn(**kwargs, start_cursor=cursor) if cursor else fn(**kwargs)
         results.extend(resp["results"])
         if not resp.get("has_more"):
@@ -35,7 +43,8 @@ class NotionClient:
         """Return all direct child blocks of a page."""
         return _paginate(self._client.blocks.children.list, block_id=page_id)
 
-    def extract_text(self, blocks: list[dict]) -> str:
+    @staticmethod
+    def extract_text(blocks: list[dict]) -> str:
         """Extract plain text from a list of Notion blocks."""
         lines = []
         text_types = {
@@ -67,7 +76,7 @@ class NotionClient:
             children=first_batch,
         )
         page_id = resp["id"]
-        # Append remaining blocks if any
+        # Append remaining blocks in 100-block chunks
         for i in range(100, len(children), 100):
             self.append_blocks(page_id, children[i:i + 100])
         return page_id
@@ -119,12 +128,15 @@ class NotionClient:
             callout={"rich_text": [{"type": "text", "text": {"content": new_text}}]},
         )
 
-    def get_table_rows(self, page_id: str) -> list[dict]:
-        """Find the first table block in a page and return its rows as [{id, cells: [str]}]."""
+    def get_table_rows(self, page_id: str) -> list[dict] | None:
+        """Find the first table block in page and return rows as [{id, cells: [str]}].
+
+        Returns None if no table block exists (distinct from empty table → []).
+        """
         blocks = self.get_all_blocks(page_id)
         table_block = next((b for b in blocks if b["type"] == "table"), None)
-        if not table_block:
-            return []
+        if table_block is None:
+            return None
         rows = _paginate(self._client.blocks.children.list, block_id=table_block["id"])
         result = []
         for row in rows:
@@ -136,16 +148,17 @@ class NotionClient:
     def update_table_cell(self, row_id: str, col_idx: int, text: str) -> None:
         """Update a single cell in a table row by fetching current row and patching."""
         row = self._client.blocks.retrieve(block_id=row_id)
-        cells = row["table_row"]["cells"]
+        # Copy to avoid mutating the SDK's live response object
+        cells = list(row["table_row"]["cells"])
         cells[col_idx] = [{"type": "text", "text": {"content": text}}]
         self._client.blocks.update(block_id=row_id, table_row={"cells": cells})
 
     def create_calendar_db_entry(self, db_id: str, title: str, date: str) -> None:
-        """Add a row to the Notion Calendar database."""
+        """Add a row to the Notion Calendar database. date must be ISO format: YYYY-MM-DD."""
         self._client.pages.create(
             parent={"database_id": db_id},
             properties={
                 "title": [{"text": {"content": title}}],
-                "Date": {"date": {"start": date}},
+                _CALENDAR_DATE_PROPERTY: {"date": {"start": date}},
             },
         )
