@@ -40,5 +40,5 @@ def create_event(title: str, date: str, notion, config) -> None:
         }
         service.events().insert(calendarId=config.google_calendar_id, body=event).execute()
     except Exception as exc:
-        logger.error("Google Calendar write failed for '%s': %s", title, exc)
+        logger.exception("Google Calendar write failed for '%s'", title)
         # Notion write already succeeded — log and continue

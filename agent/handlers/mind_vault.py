@@ -47,6 +47,8 @@ def update_active_situations(open_tasks: list[str], notion, config) -> None:
         max_tokens=256,
         messages=[{"role": "user", "content": _SITUATIONS_PROMPT + task_list}],
     )
+    if not msg.content:
+        return
     summary = msg.content[0].text.strip()
     blocks = [
         _callout("Active Situations — auto-updated", "🪞"),
