@@ -42,10 +42,15 @@ def expire_passed_deadlines(notion, config) -> None:
             logger.info("Expired deadline: %s", cells[0])
 
 
-def rewrite_current_focus(notion, config) -> None:
-    """Rewrite the 🔥 callout on the dashboard from current open tasks."""
-    todos = notion.get_todo_blocks(config.task_manager_id)
-    open_tasks = [t["text"] for t in todos if not t["checked"]]
+def rewrite_current_focus(notion, config, open_tasks: list[str] | None = None) -> None:
+    """Rewrite the 🔥 callout on the dashboard from current open tasks.
+
+    Accepts pre-fetched open_tasks to avoid a redundant get_todo_blocks call
+    when called from run_sync_cycle.
+    """
+    if open_tasks is None:
+        todos = notion.get_todo_blocks(config.task_manager_id)
+        open_tasks = [t["text"] for t in todos if not t["checked"]]
 
     callout = notion.find_callout_block(config.dashboard_id, "🔥")
     if not callout:
@@ -63,6 +68,9 @@ def rewrite_current_focus(notion, config) -> None:
         max_tokens=128,
         messages=[{"role": "user", "content": _FOCUS_PROMPT + task_list}],
     )
+    if not msg.content:
+        logger.warning("Claude returned empty content for focus rewrite — skipping")
+        return
     new_focus = msg.content[0].text.strip()
     notion.update_callout_text(callout["id"], new_focus)
     logger.info("Rewrote Current Focus: %s", new_focus)
@@ -83,10 +91,10 @@ def run_sync_cycle(notion, config) -> list[str]:
         logger.info("Removed %d completed task(s): %s", len(removed), removed)
 
     expire_passed_deadlines(notion, config)
-    rewrite_current_focus(notion, config)
 
     todos = notion.get_todo_blocks(config.task_manager_id)
     open_tasks = [t["text"] for t in todos if not t["checked"]]
+    rewrite_current_focus(notion, config, open_tasks=open_tasks)
     sync_mind_vault_situations(open_tasks, notion, config)
 
     return removed
