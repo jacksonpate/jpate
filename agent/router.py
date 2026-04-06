@@ -1,8 +1,12 @@
+import logging
+
 from agent.classifier import ClassificationResult
 from agent.handlers.study import create_chapter_pages
 from agent.handlers.tasks import append_tasks
 from agent.handlers.calendar import create_event
 from agent.handlers.mind_vault import dump_to_mind_vault
+
+logger = logging.getLogger(__name__)
 
 _DESTINATION_PAGE = {
     "microbiology": "microbio_page_id",
@@ -24,6 +28,8 @@ def route(result: ClassificationResult, notion, config) -> None:
         content = "\n\n".join(c.content for c in result.chapters)
         title = result.chapters[0].title if result.chapters else "Untitled"
         dump_to_mind_vault(title, content, notion, config)
+    else:
+        logger.warning("Unhandled destination '%s' — content not routed", result.destination)
 
     # Always route extracted tasks to Task Manager
     if result.extracted_tasks:
