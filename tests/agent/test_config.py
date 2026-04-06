@@ -1,6 +1,7 @@
-import os
 import pytest
+from pathlib import Path
 from agent.config import load_config
+
 
 def test_load_config_reads_env(monkeypatch):
     monkeypatch.setenv("NOTION_TOKEN", "secret_abc")
@@ -17,18 +18,26 @@ def test_load_config_reads_env(monkeypatch):
     assert config.anthropic_api_key == "sk-ant-abc"
     assert config.poll_interval == 30
 
+
 def test_load_config_defaults(monkeypatch):
     monkeypatch.setenv("NOTION_TOKEN", "t")
     monkeypatch.setenv("NOTION_INBOX_PAGE_ID", "i")
     monkeypatch.setenv("ANTHROPIC_API_KEY", "k")
-    monkeypatch.setenv("GOOGLE_CALENDAR_ID", "primary")
+    monkeypatch.delenv("GOOGLE_CALENDAR_ID", raising=False)
     monkeypatch.delenv("POLL_INTERVAL", raising=False)
     monkeypatch.delenv("JPATE_ROOT", raising=False)
 
     config = load_config()
     assert config.poll_interval == 60
+    assert config.google_calendar_id == "primary"
+    assert config.jpate_root == Path("C:/Users/jacks/JPATE")
 
-def test_load_config_missing_required(monkeypatch):
-    monkeypatch.delenv("NOTION_TOKEN", raising=False)
+
+@pytest.mark.parametrize("var", ["NOTION_TOKEN", "NOTION_INBOX_PAGE_ID", "ANTHROPIC_API_KEY"])
+def test_load_config_missing_required(monkeypatch, var):
+    monkeypatch.setenv("NOTION_TOKEN", "t")
+    monkeypatch.setenv("NOTION_INBOX_PAGE_ID", "i")
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "k")
+    monkeypatch.delenv(var, raising=False)
     with pytest.raises(KeyError):
         load_config()

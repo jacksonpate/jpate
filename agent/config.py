@@ -1,9 +1,8 @@
+"""Runtime configuration for the Notion Triage Agent, loaded from environment variables."""
 from dataclasses import dataclass
 from pathlib import Path
 import os
 from dotenv import load_dotenv
-
-load_dotenv(Path(__file__).parent.parent / ".env")
 
 
 @dataclass(frozen=True)
@@ -26,11 +25,15 @@ class Config:
 
 
 def load_config() -> Config:
+    # load_dotenv here (not at module level) keeps test isolation clean
+    load_dotenv(Path(__file__).parent.parent / ".env")
     return Config(
         notion_token=os.environ["NOTION_TOKEN"],
         notion_inbox_page_id=os.environ["NOTION_INBOX_PAGE_ID"],
         anthropic_api_key=os.environ["ANTHROPIC_API_KEY"],
-        google_calendar_id=os.environ["GOOGLE_CALENDAR_ID"],
+        # Defaults to "primary" (Google Calendar API sentinel for user's default calendar)
+        google_calendar_id=os.environ.get("GOOGLE_CALENDAR_ID", "primary"),
+        # Default is Jackson's local machine path — override via JPATE_ROOT in .env
         jpate_root=Path(os.environ.get("JPATE_ROOT", "C:/Users/jacks/JPATE")),
         poll_interval=int(os.environ.get("POLL_INTERVAL", "60")),
     )
