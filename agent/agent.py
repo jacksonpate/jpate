@@ -43,6 +43,9 @@ def process_inbox(notion: NotionClient, config) -> int:
                 "Classified as '%s' — %d chapter(s)", result.destination, len(result.chapters)
             )
             route(result, notion, config)
+            # Title update is last — if it fails, page re-enters queue next cycle.
+            # route() may run twice for the same page in that case (creates duplicates).
+            # Acceptable for a single-user agent; fix with a staging title if it becomes an issue.
             notion.update_page_title(page["id"], f"✅ {page['title']}")
             logging.info("Done: %s", page["title"])
         except Exception as exc:
