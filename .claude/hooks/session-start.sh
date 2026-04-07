@@ -1,44 +1,42 @@
 #!/bin/bash
-# Session Start Hook — runs when Claude Code starts a session
-# Output is injected into Claude's context automatically
+# Session Start Hook
+# Loads context from Obsidian vault (the real brain) + operational memory
 
-REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo ".")"
+OBSIDIAN="/mnt/c/Users/jacks/OneDrive/Desktop/Project_P/Claude-Brain"
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo "$HOME/jpate")"
+TODAY=$(date +%Y-%m-%d)
 
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "SESSION START — $(date '+%A, %B %d %Y %I:%M %p')"
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+echo "SESSION START \u2014 $(date '+%A, %B %d %Y %I:%M %p')"
+echo "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
 echo ""
 
-# Load master context
-if [ -f "$REPO_ROOT/CLAUDE.md" ]; then
-  echo "=== MASTER CONTEXT ==="
-  cat "$REPO_ROOT/CLAUDE.md"
+# ── OBSIDIAN BRAIN ──────────────────────────────────────────
+if [ -d "$OBSIDIAN" ]; then
+  echo "=== OBSIDIAN BRAIN ==="
+  for f in "$OBSIDIAN"/0*.md; do
+    [ -f "$f" ] && echo "--- $(basename $f) ---" && cat "$f" && echo ""
+  done
+else
+  echo "[WARNING] Obsidian vault not found at: $OBSIDIAN"
+  echo "Make sure you are running from WSL and OneDrive is synced."
   echo ""
 fi
 
-# Load personal context
-if [ -f "$REPO_ROOT/memory/personal-context.md" ]; then
-  echo "=== PERSONAL CONTEXT ==="
-  cat "$REPO_ROOT/memory/personal-context.md"
-  echo ""
-fi
-
-# Load project status
+# ── OPERATIONAL MEMORY ──────────────────────────────────────
 if [ -f "$REPO_ROOT/memory/projects.md" ]; then
-  echo "=== PROJECT STATUS ==="
+  echo "=== ACTIVE PROJECTS ==="
   cat "$REPO_ROOT/memory/projects.md"
   echo ""
 fi
 
-# Load shared agent memory
 if [ -f "$REPO_ROOT/memory/shared-memory.md" ]; then
-  echo "=== SHARED AGENT MEMORY ==="
+  echo "=== AGENT SHARED MEMORY ==="
   cat "$REPO_ROOT/memory/shared-memory.md"
   echo ""
 fi
 
-# Show today's log if it exists
-TODAY=$(date +%Y-%m-%d)
+# ── TODAY'S LOG ─────────────────────────────────────────────
 LOG_FILE="$REPO_ROOT/memory/daily-log/$TODAY.md"
 if [ -f "$LOG_FILE" ]; then
   echo "=== TODAY'S LOG ==="
@@ -46,14 +44,14 @@ if [ -f "$LOG_FILE" ]; then
   echo ""
 fi
 
-# Check for notes waiting to sync to Notion
+# ── INBOX CHECK ─────────────────────────────────────────────
 INBOX_COUNT=$(ls "$REPO_ROOT/notes/inbox/"*.md 2>/dev/null | wc -l | tr -d ' ')
 if [ "$INBOX_COUNT" -gt "0" ]; then
-  echo "⚠  $INBOX_COUNT note(s) in inbox waiting to sync to Notion"
+  echo "\u26a0  $INBOX_COUNT note(s) in inbox waiting to sync to Notion"
   echo "   Run: python scripts/sync-to-notion.py"
   echo ""
 fi
 
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "Ready. What are we working on today?"
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+echo "Ready."
+echo "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
