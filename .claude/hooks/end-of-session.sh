@@ -1,7 +1,7 @@
 #!/bin/bash
 # End of Session Hook — auto-commits, pushes, and logs the session
 
-REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo ".")"
+REPO_ROOT="/c/Users/jacks/OneDrive/Desktop/jpate"
 TODAY=$(date +%Y-%m-%d)
 LOG_DIR="$REPO_ROOT/memory/daily-log"
 LOG_FILE="$LOG_DIR/$TODAY.md"
