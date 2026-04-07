@@ -30,7 +30,19 @@ else
   echo ""
 fi
 
-# ── 2. AGENT MEMORY (jpate repo memory files) ───────────────
+# ── 2. NOTION LIVE FEED (priorities, deadlines, situations) ─
+echo "=== NOTION LIVE FEED ==="
+if [ -f "$REPO_ROOT/scripts/notion-context.py" ]; then
+  PYTHONUTF8=1 "$PYTHON" "$REPO_ROOT/scripts/notion-context.py" 2>/dev/null
+  if [ $? -ne 0 ]; then
+    echo "[Notion unreachable — running on Obsidian context only]"
+  fi
+else
+  echo "[notion-context.py not found — running on Obsidian context only]"
+fi
+echo ""
+
+# ── 3. AGENT MEMORY (jpate repo memory files) ───────────────
 if [ -f "$REPO_ROOT/memory/personal-context.md" ]; then
   echo "=== PERSONAL CONTEXT ==="
   cat "$REPO_ROOT/memory/personal-context.md"
@@ -49,25 +61,13 @@ if [ -f "$REPO_ROOT/memory/shared-memory.md" ]; then
   echo ""
 fi
 
-# ── 3. TODAY'S LOG ──────────────────────────────────────────
+# ── 4. TODAY'S LOG ──────────────────────────────────────────
 LOG_FILE="$REPO_ROOT/memory/daily-log/$TODAY.md"
 if [ -f "$LOG_FILE" ]; then
   echo "=== TODAY'S LOG ==="
   cat "$LOG_FILE"
   echo ""
 fi
-
-# ── 4. NOTION LIVE FEED (priorities, deadlines, situations) ─
-echo "=== NOTION LIVE FEED ==="
-if [ -f "$REPO_ROOT/scripts/notion-context.py" ]; then
-  PYTHONUTF8=1 "$PYTHON" "$REPO_ROOT/scripts/notion-context.py" 2>/dev/null
-  if [ $? -ne 0 ]; then
-    echo "[Notion unreachable — running on Obsidian context only]"
-  fi
-else
-  echo "[notion-context.py not found — running on Obsidian context only]"
-fi
-echo ""
 
 # ── 5. INBOX CHECK ──────────────────────────────────────────
 INBOX_COUNT=$(ls "$REPO_ROOT/notes/inbox/"*.md 2>/dev/null | wc -l | tr -d ' ')
