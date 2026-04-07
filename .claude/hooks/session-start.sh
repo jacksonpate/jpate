@@ -2,26 +2,23 @@
 # Session Start Hook
 # Loads context from Obsidian vault (the real brain) + operational memory
 
-OBSIDIAN="/mnt/c/Users/jacks/OneDrive/Desktop/Project_P/Claude-Brain"
-REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo "$HOME/jpate")"
+REPO_ROOT="/c/Users/jacks/OneDrive/Desktop/jpate"
 TODAY=$(date +%Y-%m-%d)
+PYTHON="/c/Users/jacks/AppData/Local/Python/bin/python3"
 
 echo "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
 echo "SESSION START \u2014 $(date '+%A, %B %d %Y %I:%M %p')"
 echo "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
 echo ""
 
-# ── OBSIDIAN BRAIN ──────────────────────────────────────────
-if [ -d "$OBSIDIAN" ]; then
-  echo "=== OBSIDIAN BRAIN ==="
-  for f in "$OBSIDIAN"/0*.md; do
-    [ -f "$f" ] && echo "--- $(basename $f) ---" && cat "$f" && echo ""
-  done
+# ── NOTION LIVE CONTEXT ─────────────────────────────────────
+if [ -f "$REPO_ROOT/scripts/notion-context.py" ]; then
+  PYTHONUTF8=1 "$PYTHON" "$REPO_ROOT/scripts/notion-context.py" 2>/dev/null || \
+    echo "[WARNING] Notion context pull failed — check NOTION_TOKEN in .env"
 else
-  echo "[WARNING] Obsidian vault not found at: $OBSIDIAN"
-  echo "Make sure you are running from WSL and OneDrive is synced."
-  echo ""
+  echo "[WARNING] notion-context.py not found at $REPO_ROOT/scripts/"
 fi
+echo ""
 
 # ── OPERATIONAL MEMORY ──────────────────────────────────────
 if [ -f "$REPO_ROOT/memory/projects.md" ]; then
