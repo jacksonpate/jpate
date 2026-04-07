@@ -1,0 +1,31 @@
+# Environment — never commit secrets
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+
+# Node
+node_modules/
+.next/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Secrets
+*.pem
+*.key
+credentials.json
+token.json
