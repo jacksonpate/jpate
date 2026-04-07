@@ -9,8 +9,17 @@ OBSIDIAN="/c/Users/jacks/OneDrive/Desktop/Project_P/Claude-Brain"
 TODAY=$(date +%Y-%m-%d)
 PYTHON="/c/Users/jacks/AppData/Local/Python/bin/python3"
 
+# Set terminal window title to agent name if provided
+if [ -n "$CLAUDE_AGENT_NAME" ]; then
+  echo -ne "\033]0;${CLAUDE_AGENT_NAME}\007"
+fi
+
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "SESSION START — $(date '+%A, %B %d %Y %I:%M %p')"
+if [ -n "$CLAUDE_AGENT_NAME" ]; then
+  echo "SESSION START — ${CLAUDE_AGENT_NAME} — $(date '+%A, %B %d %Y %I:%M %p')"
+else
+  echo "SESSION START — $(date '+%A, %B %d %Y %I:%M %p')"
+fi
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 
