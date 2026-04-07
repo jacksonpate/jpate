@@ -1,18 +1,28 @@
 # Health & Fitness
 
-## Training
-- **Current program:** [e.g. PPL, 5/3/1, etc.]
-- **Schedule:** [training days]
-- **Current PRs / benchmarks:** [Fill in]
+## Training Split
+| Day | Focus |
+|-----|-------|
+| Monday | Chest / Tris |
+| Tuesday | Back / Bis |
+| Wednesday | Rest |
+| Thursday | Chest / Bis |
+| Friday | Back / Tris |
+
+## Current PRs
+- **Bench:** 265 lbs
+- **Squat:** 275 lbs
+- **Deadlift:** 315 lbs
 
 ## Nutrition
-- **Approach:** [e.g. tracking macros, intuitive, etc.]
-- **Calories/macros target:** [Fill in]
-- **Supplements:** [List]
+- **Protein target:** 100g+ per day (minimum)
+- **Approach:** [calorie tracking, intuitive, etc. — fill in]
+
+## Supplements
+- Creatine
 
 ## Recovery
-- **Sleep target:** [hours]
-- **Recovery tools:** [e.g. sauna, stretching, etc.]
+- [Sleep target, anything else]
 
 ## Notes
 [Anything else health-related Claude should know]

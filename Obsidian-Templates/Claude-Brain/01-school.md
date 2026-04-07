@@ -3,24 +3,24 @@
 ## Program
 - **School:** Auburn University
 - **Track:** Nursing → PMHNP (Psychiatric Mental Health Nurse Practitioner)
-- **Year/Semester:** [Fill in]
-- **Expected graduation:** [Fill in]
+- **Year:** Sophomore
+- **Semester:** Spring
 
 ## Current Courses
-| Course | Professor | Credits | Notes |
-|--------|-----------|---------|-------|
-| [Course] | [Prof] | [#] | |
+| Course | Notes |
+|--------|-------|
+| Nursing 2030 | |
+| Nursing 2040 | |
+| Microbiology | |
+| Micro Lab | |
 
-## Upcoming Deadlines
-| Assignment | Course | Due Date | Status |
-|------------|--------|----------|--------|
-| | | | |
+## Deadlines
+All deadlines are tracked in Google Calendar — check there for current due dates.
 
 ## Study System
 [How you study. What works. What doesn't.]
 
-## Clinical / Practicum
-[If applicable — schedule, site, supervisor]
-
 ## Long-Term Academic Goals
-[Where you're headed. PMHNP path. Timeline.]
+- Complete nursing program at Auburn
+- PMHNP licensure
+- Use AI/tech to transform mental health care delivery

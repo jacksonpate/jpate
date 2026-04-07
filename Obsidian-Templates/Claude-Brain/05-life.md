@@ -1,19 +1,22 @@
 # Life Context
 
 ## Living Situation
-[Who you live with, where, what your environment is like]
+- **Type:** Apartment
+- **Roommates:** Trey Frey, Brittain Snyder, Harrison Chambers
 
 ## Relationships
-[Family, friends, anyone important Claude should know about — as much or as little as you want]
+[Family, friends, anyone important — as much or as little as you want]
 
 ## Finances
-[High-level. Budget situation, income, goals. Only what's useful for Claude to know.]
+- No personal income
+- Funded by parents
+- [Add budget details if useful]
 
 ## Mental / Emotional
 [What's going on under the surface. How you're doing. What you're processing.]
 
 ## Current Challenges
-[What's hard right now. What you're working through.]
+[What's hard right now.]
 
 ## What's Going Well
-[Momentum. Wins. What's working.]
+[Wins. Momentum. What's working.]
