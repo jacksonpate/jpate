@@ -2,9 +2,9 @@
 """
 notion-context.py
 
-Pulls live context from Notion for the session-start hook.
-Fetches Mind Vault, Task Manager, and Academic Hub via Notion REST API.
-Prints formatted output for Claude to read at session start.
+Live operational layer for session-start hook.
+Pulls: current priorities, deadlines, active situations from Notion.
+Identity and long-term memory come from Obsidian — not this script.
 """
 
 import os
@@ -115,31 +115,40 @@ def print_section(title: str, lines: list[str]):
         print("(empty)")
 
 
-def fetch_mind_vault():
+def fetch_active_situations():
+    """Pull Active Situations and Close Circle from Mind Vault."""
     lines = render_page(MIND_VAULT_ID, max_blocks=60)
-    print_section("MIND VAULT", lines)
+    # Filter to the situational/social sections only — identity loads from Obsidian
+    output = []
+    in_section = False
+    for line in lines:
+        if any(h in line for h in ["Active Situations", "Close Circle"]):
+            in_section = True
+        elif line.startswith("## ") and in_section:
+            # Stop at the next section that isn't one we want
+            if not any(h in line for h in ["Active Situations", "Close Circle"]):
+                in_section = False
+        if in_section:
+            output.append(line)
+    print_section("ACTIVE SITUATIONS & CIRCLE", output if output else lines)
 
 
 def fetch_task_manager():
+    """Pull current priorities and next actions."""
     lines = render_page(TASK_MANAGER_ID, max_blocks=60)
-    print_section("TASK MANAGER", lines)
+    print_section("CURRENT PRIORITIES & NEXT ACTIONS", lines)
 
 
 def fetch_academic_hub():
+    """Pull deadlines and course overview."""
     lines = render_page(ACADEMIC_HUB_ID, max_blocks=60)
-    print_section("ACADEMIC HUB", lines)
+    print_section("ACADEMIC HUB — DEADLINES", lines)
 
 
 def main():
-    print(DIVIDER)
-    print("NOTION CONTEXT — live pull")
-    print(DIVIDER)
-
-    fetch_mind_vault()
+    fetch_active_situations()
     fetch_task_manager()
     fetch_academic_hub()
-
-    print(f"\n{DIVIDER}")
 
 
 if __name__ == "__main__":
