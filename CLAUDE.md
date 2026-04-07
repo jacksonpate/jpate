@@ -4,6 +4,12 @@
 - 20yo nursing student at Auburn University. Long-term goal: PMHNP.
 - Systems thinker. Learning to code. Deep into AI/automation daily.
 - Timezone: Chicago (UTC-05:00)
+- GitHub: jacksonpate
+
+## My System
+- **Obsidian** = AI memory / computer's brain (this repo + context Claude reads)
+- **Notion** = Human notes source (school notes, journals, thoughts, mind notes)
+- **GitHub** = Code and project files (github.com/jacksonpate)
 
 ## Response Style
 - Direct and structured. No pleasantries. No narration. Get to the point.
@@ -28,6 +34,30 @@
 - Notion MCP
 - Google Calendar MCP
 - Gmail MCP
+
+## Agents
+I work with 3 agents coexistively. See `agents/` folder for full role definitions:
+- **Coder** — building, debugging, coding tasks, git workflow
+- **Researcher** — school, research, learning, note synthesis
+- **Planner** — life, goals, scheduling, project management
+
+To activate: "Switch to Coder / Researcher / Planner" or describe the task and I'll suggest the right one.
+Handoff protocol: `agents/handoff.md`
+
+## Notes Flow
+Raw notes/thoughts → `notes/inbox/` → auto-synced to Notion
+- `school-[title].md` → Notion School Notes database
+- `journal-[title].md` → Notion Journal database
+- `thought-[title].md` or `mind-[title].md` → Notion Quick Capture database
+
+To sync: `python scripts/sync-to-notion.py`
+
+## Session Rules
+1. Read this file + `memory/shared-memory.md` at session start
+2. Update `memory/projects.md` when project status changes
+3. Log session work to `memory/daily-log/` at end of session
+4. If switching agents, follow `agents/handoff.md` protocol
+5. Auto-commit and push at end of every session
 
 ## Notion OS — Dispatch Logic
 On every request, identify the correct Role and operate from it:
@@ -55,3 +85,9 @@ If a Skill SOP exists for a task, follow it.
 - Mind Vault — notes, processing, thought journaling
 - Interests Lab — AI, philosophy, markets, learning threads
 - Backstage > AI OS — the operating system powering this
+
+## Active Projects
+> See `memory/projects.md` for full status and school deadlines
+
+- [ ] jpate supersystem (this repo) — hooks live, agents scaffolded
+- [ ] [Add your other projects]
