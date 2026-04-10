@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "Bash(npm:*)",
+      "Bash(claude update:*)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); mcps=d.get\\('projects',{}\\).get\\('C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\jacks\\\\\\\\\\\\\\\\OneDrive\\\\\\\\\\\\\\\\Desktop\\\\\\\\\\\\\\\\Project_P',{}\\).get\\('mcpServers',{}\\); print\\(list\\(mcps.keys\\(\\)\\)\\)\")",
+      "Bash(node -e \"const d=JSON.parse\\(require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\)\\); const proj=d.projects?.['C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\jacks\\\\\\\\\\\\\\\\OneDrive\\\\\\\\\\\\\\\\Desktop\\\\\\\\\\\\\\\\Project_P']; console.log\\(JSON.stringify\\(Object.keys\\(proj?.mcpServers||{}\\)\\)\\)\")",
+      "Bash(node -e \"process.stdin.resume\\(\\);let s='';process.stdin.on\\('data',d=>s+=d\\);process.stdin.on\\('end',\\(\\)=>{const d=JSON.parse\\(s\\);const keys=Object.keys\\(d.mcpServers||{}\\);console.log\\(JSON.stringify\\(keys\\)\\)}\\)\")",
+      "Bash(node:*)",
+      "Bash(powershell.exe:*)",
+      "mcp__obsidian__list_vaults",
+      "mcp__claude_ai_Notion__notion-search",
+      "mcp__claude_ai_Notion__notion-fetch",
+      "Bash(chmod +x /c/Users/jacks/OneDrive/Desktop/jpate/.claude/hooks/session-start.sh)",
+      "Bash(chmod +x /c/Users/jacks/OneDrive/Desktop/jpate/.claude/hooks/session-end.sh)",
+      "Bash(curl -s --max-time 5 http://localhost:27124/vault/)",
+      "Bash(curl:*)",
+      "Bash(echo '')",
+      "Bash(echo '# Claude debug log alias')",
+      "Bash(echo 'alias claude=\"claude --debug-file ~/claude-debug.log\"')"
+    ],
+    "defaultMode": "bypassPermissions"
+  },
+  "skipDangerousModePermissionPrompt": true
+}
