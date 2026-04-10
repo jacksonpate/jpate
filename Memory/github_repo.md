@@ -1,11 +1,11 @@
 ---
-name: GitHub Repo — jacksonpate/jpate
-description: Jackson's main GitHub repo and account history
+name: GitHub Repo
+description: Main code repo is jacksonpate/jpate — scripts, hooks, MCP tools
 type: reference
 ---
 
-Main GitHub repo: `jacksonpate/jpate`
+Main repo: `https://github.com/jacksonpate/jpate`
 
-Previously owned by `jumpinjacl` — if any agent hits permission errors on old references (webhooks, clone URLs, etc.), this is why. The repo was transferred/renamed.
+**Why:** All scripts, hooks, and MCP tools live here. Auto-commits on session end via `end-of-session.sh`.
 
-GitHub MCP is configured via Copilot endpoint (`https://api.githubcopilot.com/mcp`) and is available to all three agents in Project_P.
+**How to apply:** When referencing scripts or pushing code changes, use this repo. Old references to `jumpinjacl` are stale — permission errors from that name mean it's the wrong user.

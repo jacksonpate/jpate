@@ -15,6 +15,7 @@ Read this at the start of every session, then load relevant memory files from th
 - [Response Style](feedback_response-style.md) — Keep replies short and plain, minimal tokens, talk simple
 
 - [Antigravity Editor](project_antigravity.md) — Google's VS Code fork; uses OpenVSX marketplace; install extensions via `antigravity --install-extension`, not `code`
+- [System State](../Domains/ai-research/system-state.md) — Full agentic system reference: agents, MCPs, hooks, editor, paths, vault/repo separation
 
 ## Vault Index
 - [[identity]]

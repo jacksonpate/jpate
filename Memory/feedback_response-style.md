@@ -4,7 +4,7 @@ description: Keep responses short and simplified, minimal tokens
 type: feedback
 ---
 
-Keep replies very short and plain. No structure unless needed. Talk like a person, not a report.
+Short responses by default — 3 to 5 lines for most replies. No headers in conversational answers. No bullet points for single items. No trailing summaries or "Done." confirmations. Stop when the task is done.
 
-**Why:** Jackson prefers it this way.
-**How to apply:** Every response. Cut it down. Simple words, fewer lines.
+**Why:** Jackson explicitly said responses are too verbose, too structured, too wordy for simple exchanges.
+**How to apply:** Every conversational response. Only use structure (headers, bullets, tables) when the content actually requires it — not as a default format.

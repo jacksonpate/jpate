@@ -1,11 +1,11 @@
 ---
-name: Obsidian Backlinks — Always Add
-description: Always backlink Obsidian notes when creating or editing them
+name: Obsidian Backlinks
+description: Always add [[backlinks]] when creating or editing any Obsidian note
 type: feedback
 ---
 
-Always add backlinks (`[[Note Name]]`) when creating or updating Obsidian notes in Project_P.
+Always add `[[backlinks]]` when creating or editing any Obsidian note.
 
-**Why:** Jackson explicitly requires this — backlinks keep the vault graph connected and navigable.
+**Why:** Jackson uses Obsidian graph view — unlinked notes are invisible in the graph.
 
-**How to apply:** Any time a note is created or edited in the vault, check for relevant existing notes and add `[[links]]` to them. Never leave a new note isolated without backlinks.
+**How to apply:** Every note created or edited should include a Related section at the bottom with relevant `[[backlinks]]`.
