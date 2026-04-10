@@ -1,72 +1,22 @@
 {
   "collapse-filter": true,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "path:Core",
-      "color": {
-        "a": 1,
-        "rgb": 2784591
-      }
-    },
-    {
-      "query": "path:Domains/personal",
-      "color": {
-        "a": 1,
-        "rgb": 5420936
-      }
-    },
-    {
-      "query": "path:Domains/nursing",
-      "color": {
-        "a": 1,
-        "rgb": 1402304
-      }
-    },
-    {
-      "query": "path:Domains/ai-research",
-      "color": {
-        "a": 1,
-        "rgb": 10233776
-      }
-    },
-    {
-      "query": "path:Claude-Brain",
-      "color": {
-        "a": 1,
-        "rgb": 16739584
-      }
-    },
-    {
-      "query": "path:agents",
-      "color": {
-        "a": 1,
-        "rgb": 16032307
-      }
-    },
-    {
-      "query": "path:Memory",
-      "color": {
-        "a": 1,
-        "rgb": 16098851
-      }
-    }
-  ],
+  "collapse-color-groups": false,
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.9,
-  "nodeSizeMultiplier": 0.413667820069204,
-  "lineSizeMultiplier": 1.09186851211073,
+  "textFadeMultiplier": -0.6,
+  "nodeSizeMultiplier": 0.566262975778547,
+  "lineSizeMultiplier": 0.294982698961938,
   "collapse-forces": false,
-  "centerStrength": 0.835640138408305,
-  "repelStrength": 20,
+  "centerStrength": 0.856401384083045,
+  "repelStrength": 19.3425605536332,
   "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 0.45050811767577825,
+  "linkDistance": 184,
+  "scale": 0.6316046762907426,
   "close": true
 }

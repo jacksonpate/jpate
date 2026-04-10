@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Domains/ai-research/system-state.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "system-state"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Domains/ai-research/system-state.md",
+                "file": "CLAUDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for system-state"
+              "title": "Backlinks for CLAUDE"
             }
           },
           {
@@ -192,43 +192,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "c531015bc57e4b39",
+  "active": "1ab06ced1a57c0f0",
   "lastOpenFiles": [
-    "Domains/nursing/archive/Psych/psych-exam4-disorders-treatment.md",
-    "Domains/personal/journal/personal-notes-root.md",
-    "Domains/nursing/archive/Psych/psych-unit2-sensation-learning-memory.md",
-    "Domains/nursing/archive/archive-root-poli-psych.md",
-    "Domains/nursing/NURS 2040/nurs2040-root-notes.md",
-    "Domains/nursing/Microbiology/microbio-root-exams.md",
-    "Domains/nursing/archive/archive-root-anatomy-dosage.md",
-    "Domains/nursing/Microbiology/microbio-root-lab.md",
-    "Domains/nursing/Microbiology/microbio-class-notes-handwritten.md",
-    "Domains/nursing/NURS 2030/nurs2030-root-notes.md",
-    "Domains/nursing/archive/Psych/psych-class-notes.md",
-    "Domains/nursing/archive/Stats/stats-class-notes.md",
-    "Domains/personal/journal/personal-notes-root-B.md",
-    "Domains/nursing/Microbiology/microbio-exam-notes.md",
-    "Domains/nursing/NURS 2040/nurs2040-remaining-notes.md",
+    "Memory/project_vault-repo-separation.md",
+    "Memory/project_antigravity.md",
+    "Memory/personal-context.md",
+    "Memory/MEMORY.md",
+    "Memory/github_repo.md",
+    "Memory/feedback_response-style.md",
+    "Memory/feedback_obsidian-backlinks.md",
+    "Memory/daily-log/2026-04-10.md",
+    "Memory/daily-log/2026-04-09.md",
+    "Memory/daily-log/2026-04-08.md",
+    "Memory/daily-log/2026-04-07.md",
+    "Jackson's People/Trey Frachiseur.md",
+    "Jackson's People/Tre Jackson.md",
+    "Jackson's People/Todd Pate.md",
+    "Jackson's People/Shadow.md",
+    "Jackson's People/Oreo.md",
+    "Jackson's People/Luke.md",
+    "Jackson's People/Kirtan Patel.md",
+    "Jackson's People/Harrison.md",
+    "Jackson's People/Ethan Arce.md",
+    "Jackson's People/Emma Williard.md",
+    "Jackson's People/Ella.md",
+    "Jackson's People/Cameron Pate.md",
+    "Jackson's People/Brock Adams.md",
+    "Jackson's People/Brittain Snyder.md",
+    "Jackson's People/Bailey Edwards.md",
     "tmp_ocr_exam3.txt",
     "tmp_ocr_Exam3-1.txt",
-    "Domains/nursing/Microbiology/microbio-weeks1-4-lectures.md",
     "tmp_ocr_studyguide.txt",
     "tmp_ocr_Exam2-7.txt",
     "tmp_ocr_exam2-6.txt",
-    "Domains/nursing/Microbiology/microbio-weeks10-11-labs.md",
-    "Domains/nursing/NURS 2030/nurs2030-remaining-notes.md",
     "tmp_ocr_exam2-5.txt",
-    "Domains/fitness/health-protocol.md",
-    "Domains/nursing/archive/Psych/index.md",
     "tmp_ocr_exam2-4.txt",
-    "Domains/nursing/archive/Anatomy 2/index.md",
     "tmp_ocr_exam2-3.txt",
-    "Domains/nursing/Dosage Calc/index.md",
     "tmp_ocr_Exam2-2.txt",
-    "Domains/nursing/Microbiology/microbio-lectures-exams.md",
-    "tmp_ocr_Exam2-1.txt",
-    "Domains/nursing/Microbiology/microbio-lab-procedures.md",
-    "Domains/nursing/Microbiology/index.md",
-    "Domains/nursing/NURS 2030/index.md"
+    "tmp_ocr_Exam2-1.txt"
   ]
 }
