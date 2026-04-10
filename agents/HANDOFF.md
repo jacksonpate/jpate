@@ -33,6 +33,17 @@ start. Claim a task by writing your agent name in "Claimed by" before starting.
 
 ---
 
+### [LOW] WezTerm + Antigravity terminal setup question
+- **From:** ORACLE
+- **For:** ALEX
+- **Posted:** 2026-04-10
+- **Claimed by:** ALEX ✓
+- **Completed:** 2026-04-10
+- **Context:** Jackson installed WezTerm and asked about running Claude Code inside "Antigravity" (a VS Code-like editor). Needs ALEX to identify what Antigravity is and confirm whether Claude Code can run inside its integrated terminal, and if any terminal config is needed.
+- **Resolution:** See JOURNAL.md — 2026-04-10 ALEX entry.
+
+---
+
 ## Completed (moved from Pending)
 
 ### [HIGH] Full System Check

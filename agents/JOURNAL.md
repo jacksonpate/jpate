@@ -178,3 +178,13 @@ Never delete or edit past entries — only append.
   - All Claude-Brain files (00–06) — Related sections wired
 - **Decisions:** Used filesystem writes when Obsidian MCP was intermittently down
 - **Handed off:** Nothing
+
+### 2026-04-10 — ALEX
+- **Done:** Investigated WezTerm + Antigravity setup question (handed off from ORACLE)
+- **Findings:**
+  - **Antigravity** = Google's VS Code fork (v1.107.0). Electron-based, agent-first IDE with autonomous agents + integrated browser. Installed at `C:\Users\jacks\AppData\Local\Programs\Antigravity\`. Has its own CLI at `bin/antigravity`.
+  - **WezTerm** = installed at `C:\Program Files\WezTerm`. Works fine as external terminal — no config needed for Claude Code.
+  - **Claude Code** binary lives at `C:\Users\jacks\.local\bin\claude.exe`, in bash PATH via `~/.local/bin`.
+  - **Can Claude Code run in Antigravity's integrated terminal?** Yes — it's a standard VS Code-fork terminal. BUT: Antigravity's terminal may default to PowerShell/cmd on Windows, which won't have `~/.local/bin` in PATH. Fix options: (1) Set Antigravity's default terminal to Git Bash, or (2) Add `C:\Users\jacks\.local\bin` to Windows system PATH so `claude` is accessible from any shell.
+- **Produced:** This journal entry. HANDOFF.md updated as complete.
+- **Handed off:** Nothing
