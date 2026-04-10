@@ -11,6 +11,7 @@ Antigravity (v1.107.0, author: Google) is Jackson's primary editor — a VS Code
 **How to apply:** When recommending or installing extensions for Antigravity, verify they exist on OpenVSX. Install via `antigravity --install-extension <id>` not `code --install-extension`. Extensions installed via `code` go to VS Code only, not Antigravity.
 
 **Current extensions installed:**
+
 - anthropic.claude-code (panel mode)
 - eamodio.gitlens (→ Claude Sonnet 4.6)
 - esbenp.prettier-vscode
