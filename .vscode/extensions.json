@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "anthropic.claude-code",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "davidanson.vscode-markdownlint",
+        "yzhang.markdown-all-in-one",
+        "usernamehw.errorlens",
+        "gruntfuggly.todo-tree",
+        "christian-kohler.path-intellisense"
+    ]
+}
