@@ -55,7 +55,6 @@ Note: Oxcarbazepine discontinued. Propranolol replaces it. 7pm last dose — act
 
 ## Recovery
 - Magnesium Glycinate before bed
-- [Sleep target — fill in]
 
 ## Apple Watch Health Baseline (March 2026)
 | Metric | Value | Notes |
@@ -71,3 +70,5 @@ Action: Start logging gym sessions on Apple Watch.
 ## Related
 - [[identity]]
 - [[00-identity]]
+- [[health-protocol]]
+- [[medication-supplement-protocol]]

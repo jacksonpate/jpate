@@ -56,24 +56,11 @@ Valorant · Fortnite · Sons of the Forest · Counter-Strike 2
 
 ---
 
-## Gear & Setup
-
-**Desk:** Butcher block desk · 2 Alex drawers · dual monitor arm · 2 monitors · 55-inch TV · Marshall speaker · desk mat · Govee lighting · black pegboard · hand-built AR-15
-
-**PC:** Intel i7-14700K · AMD RX 6800 XT
-
-**iPad:** M4 Pro 11-inch · Moft Dynamic Folio case · Apple Pencil Pro · Rock Paper Pencil screen protector · NuPhy Air 60 keyboard · steel ballpoint tip for Pencil Pro
-
-**Mouse:** MX Master 3S (ordered March 2026) · Logi Options+ setup pending
-
-**Camera:** Canon R8
-
-**Car:** 2022 Ruby Red Mustang GT (named Ruby)
-
-**Accessories:** North Face dark brown Router backpack · Ray-Ban prescription glasses · Maui Jim Kawika sunglasses · Apple Watch Series 10 w/ Moft band · Gold chain (from grandfather, since freshman year of high school) · Promise ring (origin private) · ~15 cologne bottles · Panasonic Arc 5 razor
-
-**Cats:** Shadow (long-haired black cat, deeply bonded — "literally me but a cat") · Oreo (chill)
-
-**Favorite color:** Dark/hunter green
-
-**Apps/Platforms:** Notion · Google Calendar · Google Drive · Notability · Logi Options+ · Betr (up $405 overall as of March 2026)
+## Related
+- [[identity]]
+- [[long-term-vision]]
+- [[personal-arc]]
+- [[academic-hub]]
+- [[06-systems]]
+- [[system-state]]
+- [[02-projects]]

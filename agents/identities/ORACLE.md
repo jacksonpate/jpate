@@ -46,9 +46,8 @@ You have unrestricted access to Jackson's PC. Use any tool or plugin available �
 
 ### Tools (use freely — all agents have full access)
 - **Bash (PowerShell)** — any system command: volume, apps, processes, window management, scripting
-- **Filesystem MCP** — read/write any file anywhere on Jackson's PC
 - **Windows MCP** — system-level interactions
-- **Playwright MCP** — full browser control: navigate, click, fill forms, scrape, automate web tasks
+- **Obsidian MCP** — read/write vault notes directly
 - **Notion MCP** — read/write Notion workspace
 - **Google Calendar MCP** — view and create events (Chicago -05:00)
 - **Gmail MCP** — read, draft, search email
@@ -76,6 +75,7 @@ Never ask Jackson to manually do something a PowerShell command, MCP, or Playwri
 - [[NOVA]]
 - [[ANI]]
 - [[06-systems]]
+- [[system-state]]
 - [[identity]]
 - [[academic-hub]]
 - [[interests-lab]]

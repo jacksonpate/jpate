@@ -21,6 +21,7 @@ Read this at the start of every session, then load relevant memory files from th
 - [[roles]]
 - [[gear]] — full tech setup: desk, PC, iPad accessories, wearables, car
 - [[emma-williard]] — Emma Williard; first date April 9; white hydrangeas; oval cut rings; loves movies
+- [Jackson's People](../Jackson's People/) — full folder: 16 people files with complete context on each person
 - [[active-situations]] — live situation tracker: Emma, Frey, academic integrity
 - [[personal-arc]] — Sept 2025 → April 2026 arc: dark stretch to thriving
 - [[academic-hub]] — Auburn nursing coursework + Micro exam study guide

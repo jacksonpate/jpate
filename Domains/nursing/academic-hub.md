@@ -8,11 +8,25 @@ source: Notion — Academic Hub
 
 ## Classes
 
-**NURS 2030** — (no content yet)
+**NURS 2030** — [[NURS 2030/index]]
+- [[nurs2030-modules-1-3]] | [[nurs2030-exam-notes]] | [[nurs2030-communication-professionalism]]
+- [[nurs2030-foundations-module3]] | [[nurs2030-remaining-notes]] | [[nurs2030-root-notes]]
 
-**NURS 2040** — (no content yet)
+**NURS 2040** — [[NURS 2040/index]]
+- [[nurs2040-modules-notes]] | [[nurs2040-lifespan]]
+- [[nurs2040-remaining-notes]] | [[nurs2040-root-notes]]
 
-**Microbio**
+**Microbiology** — [[Microbiology/index]]
+- [[microbio-weeks1-4-lectures]] | [[microbio-weeks10-11-labs]] | [[microbio-lectures-exams]]
+- [[microbio-lab-procedures]] | [[microbio-exam-notes]] | [[microbio-root-lab]] | [[microbio-root-exams]]
+- [[microbio-class-notes-handwritten]]
+
+**Dosage Calc** — [[Dosage Calc/index]]
+
+**Archive**
+- [[archive/Psych/index]] → [[psych-class-notes]] | [[psych-unit2-sensation-learning-memory]] | [[psych-exam4-disorders-treatment]]
+- [[archive/Stats/index]] → [[stats-class-notes]]
+- [[archive-root-anatomy-dosage]] | [[archive-root-poli-psych]]
 
 ---
 

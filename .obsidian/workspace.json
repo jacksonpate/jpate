@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core/roles.md",
+                "file": "Domains/ai-research/system-state.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "roles"
+              "title": "system-state"
             }
           }
         ]
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Domains/ai-research/system-state.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for system-state"
             }
           },
           {
@@ -174,13 +175,11 @@
               "title": "File properties"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,41 +194,41 @@
   },
   "active": "c531015bc57e4b39",
   "lastOpenFiles": [
-    "Domains/ai-research/system-state.md",
-    "Memory/daily-log/79TJJ7jH",
-    "Memory/daily-log/pxmqBkzC",
-    "Memory/project_antigravity.md",
-    "Core/identity.md",
-    "Core/circle.md",
-    "Jackson Pate/2026-04-08.md",
-    "CLAUDE.md",
-    "CONTRIBUTING.md",
-    "Memory/daily-log/2026-04-08.md",
-    "Jackson Pate",
-    "Memory/daily-log/2026-04-07.md",
-    "Trey Frachiseur.md",
-    "Tre Jackson.md",
-    "Todd Pate.md",
-    "Oreo.md",
-    "Ella.md",
-    "Brock Adams.md",
-    "Brittain Snyder.md",
-    "Untitled.base",
-    "Domains/personal/emma-williard.md",
-    "Memory/feedback_response-style.md",
-    "agents/JOURNAL.md",
-    "Memory/feedback_obsidian-backlinks.md",
-    "node_modules/prettier/LICENSE.md",
-    "agents/identities/ANI.md",
-    "Claude-Brain/05-life.md",
-    "docs/superpowers/plans/2026-04-07-obsidian-brain.md",
-    "docs/superpowers/plans/2026-04-07-notion-migration.md",
-    "Domains/personal/journal/2025-11-20-1.md",
-    "scripts/notion-context.py",
-    "scripts",
-    "Claude-Brain/03-goals.md.tmp.33648.1775593194986",
-    "Claude-Brain",
-    "Memory/daily-log",
-    "Untitled 8.base"
+    "Domains/nursing/archive/Psych/psych-exam4-disorders-treatment.md",
+    "Domains/personal/journal/personal-notes-root.md",
+    "Domains/nursing/archive/Psych/psych-unit2-sensation-learning-memory.md",
+    "Domains/nursing/archive/archive-root-poli-psych.md",
+    "Domains/nursing/NURS 2040/nurs2040-root-notes.md",
+    "Domains/nursing/Microbiology/microbio-root-exams.md",
+    "Domains/nursing/archive/archive-root-anatomy-dosage.md",
+    "Domains/nursing/Microbiology/microbio-root-lab.md",
+    "Domains/nursing/Microbiology/microbio-class-notes-handwritten.md",
+    "Domains/nursing/NURS 2030/nurs2030-root-notes.md",
+    "Domains/nursing/archive/Psych/psych-class-notes.md",
+    "Domains/nursing/archive/Stats/stats-class-notes.md",
+    "Domains/personal/journal/personal-notes-root-B.md",
+    "Domains/nursing/Microbiology/microbio-exam-notes.md",
+    "Domains/nursing/NURS 2040/nurs2040-remaining-notes.md",
+    "tmp_ocr_exam3.txt",
+    "tmp_ocr_Exam3-1.txt",
+    "Domains/nursing/Microbiology/microbio-weeks1-4-lectures.md",
+    "tmp_ocr_studyguide.txt",
+    "tmp_ocr_Exam2-7.txt",
+    "tmp_ocr_exam2-6.txt",
+    "Domains/nursing/Microbiology/microbio-weeks10-11-labs.md",
+    "Domains/nursing/NURS 2030/nurs2030-remaining-notes.md",
+    "tmp_ocr_exam2-5.txt",
+    "Domains/fitness/health-protocol.md",
+    "Domains/nursing/archive/Psych/index.md",
+    "tmp_ocr_exam2-4.txt",
+    "Domains/nursing/archive/Anatomy 2/index.md",
+    "tmp_ocr_exam2-3.txt",
+    "Domains/nursing/Dosage Calc/index.md",
+    "tmp_ocr_Exam2-2.txt",
+    "Domains/nursing/Microbiology/microbio-lectures-exams.md",
+    "tmp_ocr_Exam2-1.txt",
+    "Domains/nursing/Microbiology/microbio-lab-procedures.md",
+    "Domains/nursing/Microbiology/index.md",
+    "Domains/nursing/NURS 2030/index.md"
   ]
 }

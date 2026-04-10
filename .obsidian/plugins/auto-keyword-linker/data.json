@@ -1,0 +1,56 @@
+{
+  "keywordGroups": [],
+  "keywords": [
+    {
+      "id": "kw-1",
+      "keyword": "Keyword1",
+      "target": "Keyword1",
+      "variations": [],
+      "enableTags": false,
+      "linkScope": "vault-wide",
+      "scopeFolder": "",
+      "useRelativeLinks": false,
+      "blockRef": "",
+      "requireTag": "",
+      "onlyInNotesLinkingTo": false,
+      "suggestMode": false,
+      "preventSelfLink": false,
+      "groupId": null,
+      "skipCodeBlocks": null,
+      "collapsed": false
+    },
+    {
+      "id": "kw-2",
+      "keyword": "Keyword2",
+      "target": "Keyword2",
+      "variations": [],
+      "enableTags": false,
+      "linkScope": "vault-wide",
+      "scopeFolder": "",
+      "useRelativeLinks": false,
+      "blockRef": "",
+      "requireTag": "",
+      "onlyInNotesLinkingTo": false,
+      "suggestMode": false,
+      "preventSelfLink": false,
+      "groupId": null,
+      "skipCodeBlocks": null,
+      "collapsed": false
+    }
+  ],
+  "autoLinkOnSave": true,
+  "caseSensitive": false,
+  "firstOccurrenceOnly": true,
+  "autoCreateNotes": false,
+  "newNoteFolder": "",
+  "newNoteTemplate": "# {{keyword}}\n\nCreated: {{date}}\n\n",
+  "customStopWords": [],
+  "preventSelfLinkGlobal": false,
+  "skipHeadings": true,
+  "skipCodeBlocks": false,
+  "statistics": {
+    "totalLinksCreated": 0,
+    "totalNotesProcessed": 0,
+    "lastRunDate": null
+  }
+}
