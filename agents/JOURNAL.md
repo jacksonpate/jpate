@@ -188,3 +188,18 @@ Never delete or edit past entries — only append.
   - **Can Claude Code run in Antigravity's integrated terminal?** Yes — it's a standard VS Code-fork terminal. BUT: Antigravity's terminal may default to PowerShell/cmd on Windows, which won't have `~/.local/bin` in PATH. Fix options: (1) Set Antigravity's default terminal to Git Bash, or (2) Add `C:\Users\jacks\.local\bin` to Windows system PATH so `claude` is accessible from any shell.
 - **Produced:** This journal entry. HANDOFF.md updated as complete.
 - **Handed off:** Nothing
+
+---
+
+### 2026-04-10 — ORACLE
+- **Done:** Full Antigravity + Obsidian color scheme buildout on top of Vesper theme.
+  - Installed Vesper Obsidian theme CSS (omarrashad/obsidian-vesper) to `.obsidian/themes/Vesper/`
+  - Installed `foam.foam-vscode` extension in Antigravity for Obsidian wiki-link grammar
+  - Built comprehensive `editor.tokenColorCustomizations` and `editor.semanticTokenColorCustomizations` in Antigravity `settings.json`
+  - Debugged scope conflicts (Vesper's compound selectors overriding custom rules) using the token inspector for each problematic token
+  - Auto-keyword-linker `styles.css` tab button colors finalized
+- **Produced:**
+  - `C:\Users\jacks\AppData\Roaming\Antigravity\User\settings.json` — full custom token color map
+  - `.obsidian/themes/Vesper/theme.css` + `manifest.json`
+- **Decisions:** Used `variable.other.object` for object variable references (e.g. `generator`) since Vesper's `meta.block variable.other` compound rule overrides generic `variable.other`. Each token color confirmed via live token inspector.
+- **Handed off:** Nothing
