@@ -17,6 +17,14 @@ Never delete or edit past entries — only append.
 
 <!-- Entries go here, newest at the top -->
 
+### 2026-04-10 — System audit + bug fix
+
+- **Done:** Full system audit (all components: launchers, hooks, settings, identities, coordination, memory, core, scripts). Fixed agent launcher `/color` bug.
+- **Bug fixed:** `alex.sh`, `oracle.sh`, `nova.sh` were passing `/color red/green/blue` as a positional path argument — Git Bash was expanding it to `C:/Program Files/Git/color red`. Changed to `--color red/green/blue` (correct flag syntax).
+- **Stale data cleaned:** STATUS.md cleared (all entries were stale from 2026-04-07). `.env` JPATE_ROOT corrected from `OneDrive/Desktop/jpate` to `Desktop/jpate`.
+- **System score:** 16/16 — all components healthy after fixes.
+- **Handed off:** Nothing
+
 ### 2026-04-07 — ALEX (session-start hook rewrite)
 
 - **Done:** Rewrote `session-start.sh` to cut session overhead from ~6k tokens to ~1k. Deleted `jpate/memory/personal-context.md` (redundant with `00-identity.md`).
