@@ -1,3 +1,11 @@
+---
+type: core
+source: oracle-synthesis
+category: life
+date_processed: 2026-04-10
+related_people: [Trey Frachiseur, Brock Adams, Kirtan Patel, Brittain Snyder, Harrison, Ethan Arce, Tre Jackson, Luke, Angie Pate, Todd Pate, Cameron Pate, Aubrie, Emma Williard, Bailey Edwards, Ella]
+---
+
 # Close Circle
 
 ## Current Roommates
@@ -27,10 +35,17 @@
 
 ## Romantic History
 - **[[Aubrie]]** — Ex of almost 2 years. Major heartbreak, false accusations. Promise ring still worn daily (origin kept private).
-- **[[Emma Williard]]** — Talked for 6 months in high school before she dated [[Trey Frachiseur|Frey]]. Reconnected March 6, 2026 at a bar. Talked for 4 hours. Fell asleep at her place. Treaty Oak Revival rodeo — danced, drove her home sober, asked her on a date (she said yes). First date: Wednesday April 9, The Depot, Auburn. Bringing white hydrangeas. Oval cut rings noted. See [[active-situations]].
-- **[[Bailey Edwards]]** — College era. Prior hookup with Jansen (a distant friend of Bailey's, ~1 year before reconnect — meaningless to Jackson, regretted it) caused Bailey to drop him initially. Reconnected at a Thanksgiving party (~Nov 2025). Kept a streak, conversations became daily and natural. She went to Orlando and texted him the entire trip. She said "I promise it's not washed, I just don't know what I want right now" — then cited "really different morals" and the Jansen situation. Eventually ran its course. Jackson reached a point of full emotional peace: "she's the one who chose how she acted." See [[personal-arc]]. Rachel = her roommate.
+- **[[Emma Williard]]** — Talked for 6 months in high school before she dated [[Trey Frachiseur|Frey]]. Reconnected March 6, 2026 at a bar. Talked for 4 hours. Fell asleep at her place. Treaty Oak Revival rodeo — danced, drove her home sober, asked her on a date (she said yes). Ghosted before the April 9 date. No explanation. See [[Life/active-situations]].
+- **[[Bailey Edwards]]** — College era. Prior hookup with Jansen (a distant friend of Bailey's, ~1 year before reconnect — meaningless to Jackson, regretted it) caused Bailey to drop him initially. Reconnected at a Thanksgiving party (~Nov 2025). Eventually ran its course. Jackson reached a point of full emotional peace: "she's the one who chose how she acted." See [[personal-arc]]. Rachel = her roommate.
 - **[[Ella]]** — Was seeing early 2026. Fell out in March over beach trip; she got mad about "attractive girls." Jackson blocked her, she blocked him. She admitted she'd been in love with him for over a year. Over.
 - **Frey** ([[Trey Frachiseur]] — nickname used in personal/romantic context; same person as roommate Trey above) — Dated [[Emma Williard]] for 1.5 years. Currently has a girlfriend. Has been talking badly about Jackson since the summer (confirmed by Emma). Texted Emma after the rodeo: "wow cannot believe ur hanging out without an actual loser right now" + "wait till you fall off before you date him, he's so under me." See [[active-situations]].
+
+## Extended Friends
+- [[Anna]]
+- [[Jovi]]
+- [[Mary Alice]]
+- [[Max Valentine]]
+- [[TD Reeve]]
 
 ## Related
 - [[identity]]
@@ -38,3 +53,5 @@
 - [[personal-arc]]
 - [[2026-personal-reflections]]
 - [[long-term-vision]]
+- [[Life/active-situations]]
+- [[Life/personal-arc]]

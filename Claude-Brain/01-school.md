@@ -1,3 +1,11 @@
+---
+type: context
+source: oracle-synthesis
+category: context
+date_processed: 2026-04-10
+related_people: []
+---
+
 # School — Auburn University
 
 ## Program
@@ -26,3 +34,8 @@
 - PMHNP licensure — primary path
 - Med school is a consideration (not decided, exploring)
 - Use AI/tech to transform mental health care delivery
+
+## Related
+- [[academic-hub]]
+- [[School/academic-hub]]
+- [[00-identity]]

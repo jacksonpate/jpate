@@ -1,3 +1,10 @@
+---
+source: oracle-synthesis
+category: life
+date_processed: 2026-04-10
+related_people: [Ethan Arce, Emma Williard, Aubrie, Angie Pate, Todd Pate, Cameron Pate, Shadow, Oreo]
+---
+
 # Jackson Pate — Identity
 
 ## Who I Am
@@ -72,3 +79,13 @@
 - [[gear]]
 - [[2026-personal-reflections]]
 - [[active-situations]]
+- [[Ethan Arce]]
+- [[Emma Williard]]
+- [[Aubrie]]
+- [[Angie Pate]]
+- [[Todd Pate]]
+- [[Cameron Pate]]
+- [[Shadow]]
+- [[Oreo]]
+- [[Life/personal-arc]]
+- [[Life/active-situations]]

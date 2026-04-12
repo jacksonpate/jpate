@@ -18,7 +18,10 @@
       "Bash(curl:*)",
       "Bash(echo '')",
       "Bash(echo '# Claude debug log alias')",
-      "Bash(echo 'alias claude=\"claude --debug-file ~/claude-debug.log\"')"
+      "Bash(echo 'alias claude=\"claude --debug-file ~/claude-debug.log\"')",
+      "Bash(git -C \"C:/Users/jacks/Desktop/Project_P\" status --short)",
+      "Bash(git -C \"C:/Users/jacks/Desktop/Project_P\" log --oneline -5)",
+      "Bash(git -C \"C:/Users/jacks/Desktop/Project_P\" remote -v)"
     ],
     "defaultMode": "bypassPermissions"
   },

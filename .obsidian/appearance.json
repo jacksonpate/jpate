@@ -1,7 +1,7 @@
 {
-  "theme": "Vesper",
+  "theme": "system",
   "cssTheme": "Vesper",
   "baseFontSize": 16,
   "translucency": false,
-  "accentColor": "#309037d0"
+  "accentColor": "#17d3b4"
 }

@@ -17,6 +17,82 @@ Never delete or edit past entries — only append.
 
 <!-- Entries go here, newest at the top -->
 
+### 2026-04-10 — ORACLE (Session 3 — Coverage Rule + Standing Rules pass)
+
+- **Done:** Full vault coverage pass per Coverage Rule. Significant Moments and Mentioned In enrichment across all People pages, Journal entries, and Messages files.
+- **Key operations:**
+  - Emma Williard ghost correction propagated across 5 files (date never happened, not ghosted after)
+  - Emma's Notion page updated (ID: 33a89913-b641-8163-b868-e338c45c13b5) to reflect post-ghost status
+  - Standing Rules, Coverage Rule, Significant Moments rule, Third Party rule all applied retroactively
+  - 4 memory files written (feedback_significant-moments, feedback_third-party-mentions, feedback_coverage-rule, feedback_standing-rules)
+  - All 28 People pages enriched with Significant Moments sections via 4 parallel subagents
+  - Mentioned In entries added across People pages based on Messages/ cross-references
+  - School/ (35 files), Health/ (2), AI & Tech/ (all), Interests/ (3), Life/ (7), Core/ (3), Journal/ (33) — all read, no missed person mentions
+  - Messages/ Batches B (47 files, d-g) and C (96 files, h-m) completed via background agents
+  - Messages/ Batches A (91 files, nums+a-c) and D (71 files, n-z+emoji) — agents launched but stalled; high-value files read manually
+  - Angie Pate: academic integrity workplace context added to Mentioned In
+  - Aubrie: "Aubrie is in here" (May 2024, Tre Jackson) added to Mentioned In
+  - Tre Jackson: Brady gyatt group chat added to Mentioned In
+- **Produced:**
+  - Updated People pages: Angie Pate, Aubrie, Tre Jackson (Mentioned In additions)
+  - Memory files: feedback_significant-moments.md, feedback_third-party-mentions.md, feedback_coverage-rule.md, feedback_standing-rules.md, social_jaylamari-pier-park-2024.md (via h-m batch agent)
+  - Notion: Emma Williard page corrected
+- **Gaps remaining:**
+  - Messages/ A and D batches (~162 files) not fully processed by agents — manual spot-checks done on highest-volume files
+  - NOVA action items pending: Ethan Arce/Brittain Snyder/Harrison Notion cards (optional), Micro Exam 3 calendar date (when confirmed), academic integrity hearing date (when confirmed)
+- **Decisions:** Batch agents stalled (404 errors on capitalized filenames via Obsidian MCP) — covered highest-value remaining files directly via bash
+
+— ORACLE
+
+### 2026-04-10 — NOVA (joint op: Snapchat full extraction + intelligence synthesis)
+
+- **Done:** Complete Snapchat data export dissection and relationship intelligence build. Joint operation coordinated by NOVA across 8 parallel subagents.
+- **Source data:** `C:\Users\jacks\Downloads\mydata~1775810422864\` — 4,570 media files, 12 JSON files, 610 HTML files. Account active June 3, 2020 → April 10, 2026.
+- **Phase 1 — Raw extraction (~428 files):**
+  - `Personal Data/Snapchat/Account/` — 6 files: profile, device history, login history, account changes, purchases, engagement stats
+  - `Personal Data/Snapchat/Friends/` — 6 files: 464 active friends, 1,666 deleted, 524 requests sent, 102 pending, 2 blocked
+  - `Personal Data/Snapchat/Messages/` — 305 files: 304 conversation markdown files + index. 10,118 messages, 6,888 with text. Bug caught: Snapchat labels the timestamp field `Created(microseconds)` but it's actually milliseconds — corrected in parser.
+  - `Personal Data/Snapchat/Snap-History/` — 109 files: 108 per-contact files (10+ snaps threshold) + master index. 10,620 entries across 306 contacts.
+  - `Personal Data/Snapchat/Misc/` — misc.md + README.md
+- **Phase 2 — Intelligence synthesis (~27 files):**
+  - `Personal Data/Snapchat/Intelligence/` — 4 analytical pages: Relationship Map, People Index, Communication Patterns, Key Moments
+  - `Personal Data/Snapchat/Groups/` — 3 group chat pages: Fagmophobia, Roommates, Bowling
+  - `Jackson's People/` — 9 existing pages updated with Snapchat sections (Ella, Brittain, Aubrie, Ethan, Trey, Harrison, Brock, Kirtan, Cameron); 11 new pages created (Anna, Ella Dupree, Kaylee Henderson, Miller Jolliff, Max Valentine, TD Reeve, Evan Clay, Bailee, Jovi, Mary Alice, Ayden Smith)
+- **Key intelligence findings:**
+  - Top contact all-time: ellazoeb (Ella) — 1,045 messages, 2020–2022. Still active friend. 2026 reconnection happened off-platform.
+  - Most snapped individual: ethan_arce14 (Ethan Arce) — 1,009 snaps. Friendship runs on visual communication, not text.
+  - Highest snap count 1:1: aubrieee.kate (Aubrie, ex) — 991 snaps. Deleted friend. Clean end.
+  - Roommate group chat: "Aubbies sex slaves" = Brock + Kirtan + Trey + Jackson. 93 msgs, 645 snaps since May 2023.
+  - Core social group: "Fagmophobia" = Ethan Arce + mrbradyt07 + trej3635. Dec 2024–present. Highest group snap count (1,045).
+  - Bowling is a core social anchor: 2 dedicated group chats, 813 combined messages, 2023–2025.
+  - $75.72 spent on Snapchat streak restores (36 times). Streak maintenance is a social investment pattern.
+  - `jackson.pate27` appears in group chats as another participant — distinct from Jackson's account (`jackson.pate`). Identity unclear.
+- **Handed off:** Nothing. Original data untouched at `C:\Users\jacks\Downloads\mydata~1775810422864\`
+
+### 2026-04-10 — ALEX (joint op: Snapchat intelligence map)
+
+- **Done:** Full Snapchat data dissection + relationship/communication intelligence map built. Joint operation with NOVA + ORACLE context.
+- **Produced:**
+  - `Personal Data/Snapchat/` — full raw extraction: account, friends, messages (304 convos), snap history (306 contacts), misc
+  - `People/` — **389 individual person pages** with tiers, full message history, saved texts, group memberships, backlinks
+  - `Personal Data/Snapchat/Intelligence/Groups/` — **66 group chat pages** with participants, messages, cross-refs
+  - `Personal Data/Snapchat/Intelligence/Relationship-Map.md` — tiered graph of all 389 contacts
+  - `Personal Data/Snapchat/Intelligence/People-Index.md` — full alphabetical index
+  - `Personal Data/Snapchat/Intelligence/Communication-Patterns.md` — frequency analysis, add methods, group topology
+  - `Personal Data/Snapchat/Intelligence/Key-Moments.md` — oldest convos, most recent, longest saved messages
+  - `scripts/snapchat_import.py` + `scripts/snapchat_intelligence.py` — rerunnable if data refreshes
+- **Key findings:**
+  - **Tier 1 (Inner Circle, 17 people):** Brittain Snyder (1511 total), Ethan Arce (1277), Tre Jackson (986), Aubrie (1672 — snap alias "ak8"), Ella Zoe (1045 messages, faded 2022), kaylee_ann41706 (476 msgs), Trey Frachiseur, Harrison, Emma Williard, Brock, Mom, Cameron
+  - **ellazoeb:** 1045 saved messages — by far the most text-heavy relationship. Last contact June 2022. Appears to be a significant past relationship.
+  - **atallent97:** 433 messages, display name "anna" — high volume, faded Dec 2025
+  - **Bowling group chats (451 + 362 msgs):** Bowling is clearly a major social activity/group
+  - Account active since 2020-06-03. 389 contacts with any activity. 2141 deleted friends tracked.
+- **Flags:**
+  - Some group snap streak names (Fagmophobia, Aubbies sex slaves, etc.) appear in People/ as well as Groups/ — this is because Snapchat tracks group snap streaks as "contacts" in the snap history export. Not a bug, just how Snap exports work.
+  - `ellazoeb` relationship arc (2022 peak → dormant) is worth reviewing — most messages of any single contact
+- **Scripts:** Both scripts are idempotent and can be rerun if Jackson exports new Snapchat data
+- **Handed off:** Nothing
+
 ### 2026-04-10 — System audit + bug fix
 
 - **Done:** Full system audit (all components: launchers, hooks, settings, identities, coordination, memory, core, scripts). Fixed agent launcher `/color` bug.

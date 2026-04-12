@@ -1,37 +1,32 @@
-# Active Projects
+---
+type: context
+source: oracle-synthesis
+category: context
+date_processed: 2026-04-10
+related_people: []
+---
 
-## jpate — Personal AI Supersystem
-- **Repo:** github.com/jacksonpate/jpate
-- **Status:** 🟢 Operational
-- **What it is:** Personal AI OS — Claude with full context on Jackson, three agents working together, Obsidian brain (Project_P), Notion as human note layer, everything accessible from anywhere
-- **Architecture:**
-  - Obsidian (Project_P) = AI-facing memory / computer's brain
-  - Notion = human notes, school, journals, thoughts
-  - GitHub = code and project files
-  - Claude Code = primary AI interface with 3 agents ([[ORACLE]], [[ALEX]], [[NOVA]])
-  - MCP servers: Windows, Notion, Google Calendar, Gmail, Obsidian
-- **Agents:**
-  - **[[ORACLE]]** — research, nursing, knowledge synthesis
-  - **[[ALEX]]** — filesystem, automation, local machine, system control
-  - **[[NOVA]]** — Notion OS, calendar, email, digital organization
-- **Session hooks:** `session-start.sh` loads brain on every Claude Code session; `end-of-session.sh` auto-commits and pushes jpate repo
-- **Next steps:**
-  - [x] Wire session-start hook with absolute paths
-  - [x] Push hooks and settings to GitHub
-  - [x] Fill in all Claude-Brain files
-  - [x] Build and wire Obsidian Local REST API MCP (2026-04-07)
-  - [x] Full system diagnosis — 16/16 checks passing (2026-04-10)
-  - [x] Notion MCP connected and pulling context
-  - [ ] Wire notes inbox → Notion sync (`sync-to-notion.py`)
-  - [ ] Set up `notes/inbox/` routing to Notion DBs
-  - [ ] Make supersystem accessible from iPad / other machines
+# Projects
+
+## Active Projects
+
+### Obsidian Second Brain (Project_P)
+- Full vault organization sweep completed April 2026 (3-agent operation: ORACLE, ALEX, NOVA)
+- Snapchat data synthesized and integrated
+- Phase 3: enrichment, YAML frontmatter, backlinks — in progress
+
+### jpate Code Repo
+- Custom Obsidian MCP server built April 7, 2026
+- Session hooks: session-start.sh, end-of-session.sh
+- Auto-commits + pushes on session end
+
+### AI Supersystem
+- 3-agent network: ORACLE, ALEX, NOVA
+- All MCPs operational as of April 2026
 
 ## Related
-- [[06-systems]]
-- [[03-goals]]
-- [[interests-lab]]
 - [[system-state]]
-- [[ORACLE]]
-- [[ALEX]]
-- [[NOVA]]
-- [[ANI]]
+- [[AI & Tech/system-state]]
+- [[AI & Tech/dev-log-2026-04-07]]
+- [[06-systems]]
+- [[00-identity]]

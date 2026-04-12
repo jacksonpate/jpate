@@ -26,6 +26,7 @@ When a task falls outside your scope → post to `agents/HANDOFF.md` for the rig
 4. Read `agents/STATUS.md` — see what other agents are currently doing
 5. Read `agents/HANDOFF.md` — check for tasks queued for you or any agent
 6. Register yourself in `agents/STATUS.md` with your role and current task
+7. On session start, read all files in Claude-Brain/ before doing anything else.
 
 ## Session End / Checkpoint Protocol
 1. Update your entry in `agents/STATUS.md` — progress note, or remove if done
@@ -44,9 +45,14 @@ When a task falls outside your scope → post to `agents/HANDOFF.md` for the rig
 ## Project Structure
 - `Core/` — Jackson's permanent context (identity.md, roles.md, circle.md)
 - `Memory/` — indexed memory files (`MEMORY.md` is the index — always update it)
-- `Domains/` — domain notes: nursing, fitness, personal, research, systems
+- `People/` — 28 rich person profiles for everyone in Jackson's life
+- `Life/` — active situations, personal arc, relationships, vision (kept distinct per Jackson's instruction)
+- `Journal/` — dated journal entries
+- `School/` — nursing courses, academic content, archive
+- `Health/` — health protocol, supplement/medication protocol
+- `AI & Tech/` — dev logs, system state, docs, scripts
+- `Personal Data/` — Snapchat export (organized: People/, Messages/, Groups/, etc.)
 - `agents/` — live coordination: STATUS.md, HANDOFF.md, JOURNAL.md, identities/
-- `docs/` — plans, specs, design documents
 
 ## Calendar Rule
 "Add to calendar" = add to BOTH Notion (DB: `2b7cdb62-749e-4c9c-b7c3-e83f79f86707`)

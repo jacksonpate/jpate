@@ -1,3 +1,10 @@
+---
+source: oracle-synthesis
+category: context
+date_processed: 2026-04-10
+related_people: []
+---
+
 # Identity — Jackson Pate
 
 ## Core

@@ -19,6 +19,9 @@ https://github.com/raunofreiberg/vesper
   --text-faint: #707070;
   --text-on-accent: #000000;
 
+  --code-normal: #99FFE4;
+  --input-foreground: #99FFE4;
+
   --interactive-accent: #FFC799;
   --text-accent: #FFC799;
   --color-accent: #FFC799;
