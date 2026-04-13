@@ -21,7 +21,12 @@
       "Bash(echo 'alias claude=\"claude --debug-file ~/claude-debug.log\"')",
       "Bash(git -C \"C:/Users/jacks/Desktop/Project_P\" status --short)",
       "Bash(git -C \"C:/Users/jacks/Desktop/Project_P\" log --oneline -5)",
-      "Bash(git -C \"C:/Users/jacks/Desktop/Project_P\" remote -v)"
+      "Bash(git -C \"C:/Users/jacks/Desktop/Project_P\" remote -v)",
+      "Bash(cmd:*)",
+      "mcp__claude_ai_Notion__notion-create-pages",
+      "mcp__claude_ai_Notion__notion-create-database",
+      "mcp__claude_ai_Notion__notion-update-page",
+      "mcp__claude_ai_Notion__notion-create-view"
     ],
     "defaultMode": "bypassPermissions"
   },

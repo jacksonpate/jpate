@@ -1,59 +1,36 @@
-# Project_P — Shared Agent Protocol
+# Jackson Pate — Project_P Local
 
-## What This Is
-Project_P is Jackson Pate's central brain — Obsidian vault, memory system,
-and coordination hub for all Claude agents. Multiple agents may be running
-simultaneously across terminals. This file is your onboarding. Read it fully.
+## This vault
+C:/Users/jacks/Desktop/Project_P is the Obsidian vault and agent hub.
+NOT a git repo — intentional. Do not suggest initializing git here.
 
-## Who Jackson Is
-Full profile: `Core/identity.md` — load it at session start.
+## On session start
+1. Read C:/Users/jacks/.claude/CLAUDE.md (global — already loaded)
+2. Read all files in Claude-Brain/
+3. Read Memory/MEMORY.md and load relevant memory files
+4. Check agents/Shared_Log.md for recent activity
+5. Confirm ready
 
-## The Agent Network
-| Agent | Role | Primary Tools |
-|-------|------|---------------|
-| **ORACLE** | Research, nursing, knowledge synthesis, study material | Obsidian vault, web research |
-| **ALEX** | Filesystem, automation, local machine, system control | PowerShell, Filesystem MCP, Windows MCP |
-| **NOVA** | Notion OS, calendar, email, digital organization | Notion MCP, Google Calendar MCP, Gmail MCP |
+## Key paths
+- Vault root: C:/Users/jacks/Desktop/Project_P
+- Code repo: C:/Users/jacks/Desktop/jpate
+- Agent inboxes: agents/[AGENT]_inbox.md
+- Shared log: agents/Shared_Log.md
+- Memory index: Memory/MEMORY.md
+- Scripts: AI & Tech/scripts/
+- People: People/
+- Journal: Journal/
+- Claude-Brain: Claude-Brain/
 
-Load your full identity at session start: `agents/identities/<YOUR_NAME>.md`
-
-When a task falls outside your scope → post to `agents/HANDOFF.md` for the right agent.
-
-## Session Start Protocol (every agent, every session)
-1. Read `agents/identities/<YOUR_NAME>.md` — load your identity and scope
-2. Read `Core/identity.md` — understand who Jackson is
-3. Read `Memory/MEMORY.md` — load the memory index, then load relevant files
-4. Read `agents/STATUS.md` — see what other agents are currently doing
-5. Read `agents/HANDOFF.md` — check for tasks queued for you or any agent
-6. Register yourself in `agents/STATUS.md` with your role and current task
-7. On session start, read all files in Claude-Brain/ before doing anything else.
-
-## Session End / Checkpoint Protocol
-1. Update your entry in `agents/STATUS.md` — progress note, or remove if done
-2. If handing work off → add an item to `agents/HANDOFF.md`
-3. If completing significant work → append an entry to `agents/JOURNAL.md`
-4. If you learned something worth remembering → write a memory file to `Memory/`
-   and update `Memory/MEMORY.md` index
-
-## Coordination Rules
-- Check `agents/STATUS.md` before starting any task — avoid duplicating work
-- Before writing to any `Core/` or `Memory/` file, check if another agent owns it
-- Claim tasks in `HANDOFF.md` by writing your name before starting
-- Never leave `STATUS.md` stale — update or remove your entry when done
-- If you're stuck on something another agent could help with → post to HANDOFF.md
-
-## Project Structure
-- `Core/` — Jackson's permanent context (identity.md, roles.md, circle.md)
-- `Memory/` — indexed memory files (`MEMORY.md` is the index — always update it)
-- `People/` — 28 rich person profiles for everyone in Jackson's life
-- `Life/` — active situations, personal arc, relationships, vision (kept distinct per Jackson's instruction)
-- `Journal/` — dated journal entries
-- `School/` — nursing courses, academic content, archive
-- `Health/` — health protocol, supplement/medication protocol
-- `AI & Tech/` — dev logs, system state, docs, scripts
-- `Personal Data/` — Snapchat export (organized: People/, Messages/, Groups/, etc.)
-- `agents/` — live coordination: STATUS.md, HANDOFF.md, JOURNAL.md, identities/
-
-## Calendar Rule
-"Add to calendar" = add to BOTH Notion (DB: `2b7cdb62-749e-4c9c-b7c3-e83f79f86707`)
-AND Google Calendar simultaneously. Always use Chicago timezone (-05:00).
+## Vault structure
+- Claude-Brain/ — identity files, read on every session start
+- Memory/ — MEMORY.md index + memory files
+- agents/ — inbox files, shared log, handoff, journal, identities
+- People/ — one page per person in Jackson's life
+- Journal/ — dated entries Sept 2025 onwards
+- Life/ — active situations, long-term vision, personal arc
+- Health/ — training, supplements, medication protocol
+- AI & Tech/ — dev log, scripts, system state, docs
+- Interests/ — gear, interests lab
+- Personal Data/ — Snapchat and any other imported data
+- Core/ — identity, roles, circle

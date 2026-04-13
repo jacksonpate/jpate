@@ -16,7 +16,7 @@ related_people: [Emma Williard, Ethan Arce, Brittain Snyder, Trey Frachiseur, Ha
 ## Emotional State (April 2026)
 - "Best I've ever felt emotionally" — April 2026
 - Bailey Edwards arc fully resolved
-- Emma Williard situation active — ghosted after first date
+- Emma Williard situation active — ghosted before April 9 date — date never happened
 - Personal arc: Sept 2025 (lost) → April 2026 (clarity + growth)
 
 ## Social Life
