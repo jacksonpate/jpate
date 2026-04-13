@@ -1,0 +1,554 @@
+{
+  "title": "\ud83d\udc65 People",
+  "schema": {
+    "Name": {
+      "type": "title"
+    },
+    "Type": {
+      "type": "select"
+    },
+    "Category": {
+      "type": "select"
+    },
+    "Tags": {
+      "type": "multi_select",
+      "options": [
+        "academic",
+        "acquaintance",
+        "adversary",
+        "close-friend",
+        "family",
+        "inner-circle",
+        "medical",
+        "past",
+        "provider",
+        "romantic"
+      ]
+    },
+    "Related People": {
+      "type": "relation",
+      "to": "self"
+    },
+    "Date Updated": {
+      "type": "date"
+    },
+    "Source": {
+      "type": "rich_text"
+    }
+  },
+  "default_view": {
+    "type": "table",
+    "sort": [
+      {
+        "property": "Name",
+        "direction": "ascending"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "title": "Angie Pate",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "family"
+        ],
+        "Related People": [
+          "Todd Pate",
+          "Cameron Pate"
+        ],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who She Is\n- Jackson's mom. FNP (Family Nurse Practitioner).\n- Works at Rainbow City Family Medicine.\n- Deeply appreciated by Jackson.\n\n## Context\n- Tends to enable Cameron (Jackson's brother) \u2014 a source of friction in Jackson's view.\n- Jackson's relationship with his family is complicated ideologically, but his appreciation for his mom is genuine.\n\n## Significant Moments\n\n### October 2025 \u2014 Calling Her When Things Went Wrong\nDuring a particularly rough stretch of his fall semester, Jackson had a late-night situation spiral: he went to retrieve his phone from Ella Dupree's apartment, broke her toes in the chaos, and drove home panicked. His first call was to his mom. She told him he was in the right. That landed more than just reassurance \u2014 it was the specific comfort that only she provides: unconditional backing when he's spiraling and doubting himself. He noted it in his journal the next day, specifically that it made him feel better about the situation.\n\n### October 1, 2025 \u2014 Missing Her During the Dark Stretch\nWhile Jackson was throwing his weed out and trying to turn his life around at the start of his sophomore year, he wrote about missing his mom in his journal \u2014 unprompted, in the middle of a passage about loneliness and isolation. \"She works a lot and I am so thankful for all she does for me.\" It's a small line, but it shows up during one of the lowest points of his fall: he wasn't reaching out to friends in those entries, he was missing her. The appreciation was quiet but genuine.\n\n### January 2026 \u2014 \"Love You. Be Careful.\"\nA late-night Snapchat from her: \"Love you. Be careful.\" Simple and brief, but she sends it unprompted. Their Snapchat dynamic is light \u2014 mostly photos, a few short messages \u2014 and yet she consistently shows up. It's the kind of small, steady parental contact that doesn't make headlines but holds the thread. Jackson keeps her as a Snapchat friend under \"Mom\" (username dabombmom1000), which in itself says something.\n\n## Mentioned In\n\n### November 8, 2025 \u2014 referenced in Jackson's journal after the Ella Dupree incident\nAfter the bar night that ended with him accidentally breaking Ella Dupree's toes, Jackson drove home panicked and called his mom. She told him he was in the right. He noted it in his journal the next day specifically \u2014 not just that he talked to her, but that it made him feel better about the situation. During a stretch when Jackson was isolated and struggling, she was the person he defaulted to when things went sideways.\nSource: **2025-11-08-1**, **Ella Dupree**\n\n### October 1, 2025 \u2014 mentioned unprompted in journal during dark stretch\nMid-entry about loneliness and throwing his weed out, Jackson wrote: \"I miss my mom \u2014 she works a lot and I am so thankful for all she does for me.\" No context, no lead-up \u2014 just said it. He wasn't writing about family, he was writing about being alone, and she came up anyway. That's what it was.\nSource: **2025-10-01-1**\n\n### June 2022 \u2014 mentioned by Jackson in conversation with **Bailee**\nAt 3am, Jackson texted Bailee: \"mother angie doesnt not like you anymore.\" Bailee reacted with shock (\"OMG FR?!\") and Jackson confirmed it was a \"big surprise.\" A few days later Bailee sent: \"i was depressed\" \u2014 suggesting she understood why Angie's opinion had shifted, referencing a hard period she'd been going through. Reveals that Angie formed opinions about Jackson's friends and communicated them to him, and that at least at one point she'd withdrawn approval of Bailee. Jackson used the affectionate \"mother angie\" phrasing even while delivering uncomfortable news.\nSource: **Bailee**, **baileeneal1**\n\n### December 14, 2023 \u2014 Surgery\nJackson skipped bowling practice to go to the hospital: \"mom has to have a surgery.\" He texted his teammates at 3:17 PM to explain why he wasn't coming. No detail on what the surgery was. The fact that he went to the hospital rather than sending her alone \u2014 and that it was the first reason he offered \u2014 tracks with how much she anchors him.\nSource: **bowling**\n\n### Spring 2026 \u2014 workplace central to academic integrity case\nAngie works at Rainbow City Family Medicine \u2014 the same clinic that generated the excuse note at the center of Jackson's academic integrity hearing. She was explicitly uninvolved: \"My mother works at Rainbow City Family Medicine but was not involved in my visit, scheduling, or documentation in any way.\" Jackson flagged this preemptively in his defense to avoid any appearance of conflict of interest, and directed the committee to verify through other clinic staff. Her employer becoming a contested institution in his academic defense \u2014 while she had no role in it \u2014 is a notable piece of context about how close her professional world sits to his.\nSource: **academic-integrity-defense**, **Ivonne Joiner**",
+      "source_file": "People/Angie Pate.md"
+    },
+    {
+      "title": "Anna",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who She Is\n- Active friend. Consistent Snapchat contact for 5+ years (Sep 2020 \u2192 Dec 2025).\n- No additional biographical detail confirmed.\n\n## Snapchat\n- **Username:** atallent97 (display: \"anna\")\n- **Messages:** 433 (Sep 2020 \u2192 Dec 2025) \u2014 6th highest all-time\n- **Snaps:** 84\n- **Friend status:** Active\n- **Note:** One of the longest sustained connections in Jackson's social network. Consistent volume over 5+ years without any clear spike or fade \u2014 a stable, low-drama presence.\n\n## Significant Moments\n\n### December 2021 \u2014 The Readd After 31 Weeks\nAnna had been dating Ethan, and during the relationship she'd deleted Jackson from Snapchat because he didn't allow her to talk to guy friends. When they broke up, she readded Jackson immediately. Jackson called it out directly \u2014 \"why the readd after 31 weeks?\" She was straight with him: she wasn't allowed to have guy friends, and now that was over. No drama, no deflection. It was one of those moments that revealed something about her situation she'd been living in, and she handled it with a quiet kind of dignity \u2014 \"you live and you learn.\" Jackson respected that.\n\n### May 2022 \u2014 She Talked Him Down\nOne night Jackson texted Anna saying life was making him suicidal. She didn't panic or brush it off. She came back with faith \u2014 told him God doesn't take anyone through hardships He knows they can't survive, that even Christ suffered, and that hard times are part of it. She wasn't performative about it. Jackson pushed back a little, said he'd heard it all before, but she didn't flinch \u2014 just kept steady. Then she asked what was actually wrong. He said he was fine. She let it land and told him she was there if he needed her, a hug included. She was 16 or 17 at the time. That kind of groundedness from a friend that young is not nothing.\n\n### April 2022 \u2014 \"I Love You Too, Jackson\"\nIn the middle of what appeared to be a running warm exchange one night, Jackson sent \"i love you\" and Anna came right back with \"i love you too jackson.\" Stated plainly, no weirdness. With 5+ years of consistent contact and zero drama, that kind of easy warmth is what defines the friendship \u2014 not highs and lows, just reliability.\n\n## Mentioned In (Additional)\n\n### April 2022 \u2014 Anna in the \"no balz\" Group Chat\nAnna (atallent97) was present in a small group chat called \"no balz\" (April 24\u201326, 2022) alongside Jackson. Jackson said \"5 leaf clover\" and Anna responded \"that's fye / where is that.\" Minimal content, but it places Anna in a group context with Jackson in spring 2022 \u2014 around the same time as other key exchanges documented on her page (the May 2022 suicidal ideation conversation where she talked him down). They were in regular contact, group and direct.\nSource: **no-balz**\n\n### September\u2013October 2025 \u2014 Anna in \"\ud83d\ude44\ud83d\ude44\ud83d\ude44\" Group Chat\nAnna (atallent97) was the sole sender in a two-message group chat named \"\ud83d\ude44\ud83d\ude44\ud83d\ude44\" (Sept 20, 2025 and Oct 12, 2025) \u2014 both were snaps. The group name implies a shared frustration or running eye-roll about something. Jackson was in the group. No text content is visible beyond the snaps, but the chat's existence (and name) suggests Anna was in a mutual context with Jackson during fall semester 2025 at Auburn, still active in a group format.\nSource: **\ud83d\ude44\ud83d\ude44\ud83d\ude44**\n\n## Mentioned In\n\n### April 2021 \u2014 Friend Admitted to Nearly Kissing Her\nIn Jackson's chat with mr.pandasempie (a high school-era friend), he received this message on April 18, 2021: \"I just told Anna I was holding back the urge to kiss her \ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\" \u2014 unprompted, sent to Jackson as if he'd confess it to him specifically. Jackson's response was just a photo. This was during the period when Anna and Ethan were dating (the relationship that ended in December 2021 with the \"readd after 31 weeks\" moment). The message reveals at least one person in Jackson's circle had feelings for Anna that went beyond friendship \u2014 something she may or may not have known. Context: mr.pandasempie appears to be a mutual friend from Jackson's high school soccer circle.\nSource: **mr.pandasempie**\n\n### 2025 \u2014 Ethan's Pattern Confirmed by **Ethan Arce**'s Snapchat with Jackson\nAnna's page already documents that Ethan deleted her from Snapchat during their relationship because he didn't allow her to have guy friends (December 2021). Ethan's Snapchat conversation with Jackson across 2025 reveals the same pattern continued into a later relationship \u2014 he refers to someone named \"Haven\" repeatedly (April, June, and August 2025), with messages like \"Fuck this is actually making me miss my haven fr\" (April 7) and \"What I said to haven btw\" (April 24), and in August Jackson quotes Ethan saying \"when we thought havens mom was gonna come in.\" The references suggest another serious relationship with the same possessive undertones. This is not directly about Anna but it corroborates the controlling behavior she experienced \u2014 it wasn't a one-time thing with her specifically. What happened to Anna appears to be a pattern.\nSource: **Ethan Arce**, **ethan_arce14**",
+      "source_file": "People/Anna.md"
+    },
+    {
+      "title": "Aubrie",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "past",
+          "romantic"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who She Is\n- Ex-girlfriend. Almost 2 years together.\n- Major heartbreak \u2014 ended with false accusations.\n\n## What She Left Behind\n- Promise ring \u2014 Jackson still wears it daily. Origin kept private from others.\n\n## Status\n- Over. No contact.\n\n## Snapchat\n- **Username:** aubrieee.kate (displayed as \"ak8\")\n- **Messages:** 681 (Oct 2022 \u2192 Nov 2024)\n- **Snaps:** 991 \u2014 highest 1:1 snap count in the entire dataset\n- **Friend status:** Deleted (Jackson removed her \u2014 aligns with \"over, no contact\")\n- **Note:** The relationship's intensity shows clearly in the data. The snap volume (991) signals daily visual communication throughout the relationship period.\n- **Relationship Map**\n\n## Snapchat Intelligence\n- **Username:** aubrieee.kate\n- **Snaps:** Not in snap export (or not tracked)\n- **Messages:** 681 (Oct 2022 -- Nov 2024) -- #3 all-time by messages\n- **Pattern:** Chat-dominant relationship. No snap data = snaps weren't saved or relationship was text-first.\n- **Era:** Auburn era, Oct 2022 -- Nov 2024. Aligns with the relationship timeline.\n- **Status:** Over. No contact.\n- **aubrieee.kate**\n\n## Significant Moments\n\n### Oct 2022\u2013Nov 2024 \u2014 Almost Two Years\nThe relationship ran from fall of his freshman year at Auburn through the fall of his junior year. Nearly two years, and by volume the most active 1:1 dynamic in his entire Snapchat history \u2014 991 snaps, 681 messages. That density signals something: this wasn't passive. They were in daily contact, consistently, for the full run of the relationship.\n\n### Nov 23, 2024 \u2014 What He Said Right Before the End\nA week before the conversation goes cold, Jackson sent her a message that reads like someone laying everything down at once: \"you are the only person that i have ever seen myself in... i see our future, i see having kids with you... i want to be there every step of the way... i love you more than life itself.\" She responded \u2014 \"I love you so much and that genuinely means the world\" \u2014 and talked about wanting to be healthy together. Two days later she was still saying \"I need you / No we aren't done.\" The conversation ends at November 24, 2024. Whatever broke them apart happened right after that.\n\n### Nov 2024 \u2014 The End: False Accusations\nThe relationship ended with accusations Jackson considers false. What exactly she accused him of isn't documented here \u2014 that's deliberate, or unspoken, or both. He removed her from his Snapchat. She isn't in his friends list. The detail that sticks is that one week before this, they were still saying \"I love you more than life itself\" to each other. Whatever happened at the end hit hard enough to make two years feel finished.\n\n### The Promise Ring\nHe still wears the ring she gave him \u2014 every day. He doesn't explain where it came from to other people. Keeps the origin private. That's not an accident. It's the only externally visible trace of the relationship that remained, and it's not something he makes easily explainable. That says something about how he held onto what the relationship was, even after what it became.\n\n## Mentioned In\n\n### June 2022 \u2014 Referenced as \"ak\" in Jackson's Chat with Brady\nIn Jackson's conversation with mrbradyt07 (Brady Tennyson) in June 2022, Jackson asked: \"u gonna tell ak abt tre and nat\" \u2014 \"ak\" being Aubrie's Snapchat display name (\"ak8\"). This places Aubrie in the social circle several months before she and Jackson began dating (Oct 2022). Whatever was happening between Trey and someone named \"nat,\" Jackson believed Aubrie had standing to know about it \u2014 meaning she was already close enough to their world that information would matter to her. This is the earliest documented reference to Aubrie in Jackson's Snapchat record.\nSource: **Trey Frachiseur**, **mrbradyt07**\n\n### May 1, 2024 \u2014 Mentioned by **Tre Jackson** in conversation with Jackson\nTre texted Jackson at 2:37 PM: \"Aubrie is in here.\" No additional context is captured \u2014 probably a location or group chat where she was present. The timing matters: May 2024 was within the active window of Jackson and Aubrie's relationship (Oct 2022\u2013Nov 2024). Tre had enough awareness of Aubrie's presence to flag it to Jackson as noteworthy.\nSource: **Tre Jackson**, **trej3635**\n\n### July 2025 \u2014 mentioned by **Ella Dupree** in conversation with Jackson\nDuring the blowup where Jackson confronted Ella Dupree about hooking up with his best friend, Ella Dupree had previously told Jackson \"I'm not like Aubrie\" \u2014 invoking Aubrie's name as a benchmark for untrustworthiness or betrayal. Jackson threw this back at her during the confrontation: \"and 'im not like aubrie'\" \u2014 meaning Ella Dupree had used Aubrie's name to position herself as more honest or loyal, and then did the exact thing that proved otherwise. Reveals that Aubrie's name had become shorthand in Jackson's social circle for a certain kind of relational betrayal. Whatever Aubrie did at the end of the relationship left enough of a reputation that others referenced her to signal trustworthiness.\nSource: **Ella Dupree**, **elladupree22859**",
+      "source_file": "People/Aubrie.md"
+    },
+    {
+      "title": "Ayden Smith",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "acquaintance",
+          "past"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Pre-Auburn friend. Active in the early Snapchat era (2020\u20132022); no recent messages.\n- 97 Snapchat messages between Jun 2020 and Apr 2022.\n\n## Snapchat\n- **Username:** aydenj0915 (display: \"Ayden Smith\")\n- **Messages:** 97 (Jun 2020 \u2192 Apr 2022)\n- **Snaps:** 1\n- **Friend status:** Active (still connected, no recent messages)\n- **Note:** One of the first people Jackson messaged after creating his account (Jun 2020).\n\n## Significant Moments\n\n### April 2022 \u2014 The Last Message, the Clean Cutoff\nAyden's final message to Jackson in the Snapchat record: \"How you gonna snap me but not answer a phone call.\" No response documented. It's not a dramatic ending \u2014 more like the natural trailing off of a high school friendship as Auburn approached. The whole thread from June 2020 through April 2022 is casual gamer energy: coordinating sessions, joking, lightweight banter. Nothing heavy. The cutoff at Auburn is clean \u2014 they stayed connected as friends but stopped talking. The last message captures the whole dynamic: Ayden reaching, Jackson already somewhere else.",
+      "source_file": "People/Ayden Smith.md"
+    },
+    {
+      "title": "Bailee",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who She Is\n- Active friend. Primarily a snap-based connection.\n\n## Snapchat\n- **Username:** baileeneal1 (display: \"Bailee\")\n- **Messages:** 81 (Mar 2022 \u2192 Apr 2026)\n- **Snaps:** 316 \u2014 80% of interactions are snaps\n- **Friend status:** Active\n- **Note:** Recent snap as of April 1, 2026 \u2014 still active.\n\n## Significant Moments\n\n### June 2022 \u2014 \"Mother Angie Doesn't Like You Anymore\"\nJackson texted Bailee late at night: \"mother angie doesnt not like you anymore.\" Bailee responded with shock. Jackson said \"big surprise\" \u2014 so something had shifted with his mom's opinion of her. A few days later, Jackson sent: \"always loved you / you left me / weve been through this.\" Whatever happened between them in that earlier period, this is evidence there was something real \u2014 a dynamic that ended, left some residue, and was apparently complicated enough that his mom formed a view on it.\n\n### January 2025 \u2014 Giving Her Advice on Kody (After the Breakup)\nBailee came to Jackson after her breakup with Jax, processing feelings for Kody \u2014 someone she'd liked before the relationship. Jackson gave her real advice: don't act on it yet, give yourself actual time, not just a few weeks. He referenced his own pattern of moving too fast after Aubrie. He was honest enough to say he'd been through the same mistake himself, thoughtful enough not to just validate what she wanted to hear. It reveals him as someone she trusts for unfiltered perspective \u2014 and him as someone who takes that role seriously.\n\n### June 2025 \u2014 The Court Hearing Update\nBailee sent Jackson a long, detailed account of going to court for a protective order against someone. She described standing before the judge, her father speaking up for her, the defendant claiming he didn't remember what happened, the judge offering to dismiss it in two months if no issues arose. Jackson's response was brief but steady: \"you will always have me.\" She followed up: \"I was just updating u on the situation.\" The intimacy of sharing that in detail \u2014 and his response being exactly what it needed to be without making it about him \u2014 captures what the friendship is at its core: she trusts him with things that matter.\n\n### January 26, 2025 \u2014 The Pep Talk\nBailee was struggling \u2014 circumstances not specified \u2014 and Jackson sent an unprompted message about confidence, self-respect, and trusting God. \"Just know that you're better than that, you're stronger mentally than that... act like you are doing great even if you aren't, that's gonna show him more than crying would.\" Then: \"and don't break confidence.\" It's the kind of thing you say to someone you've known long enough to know exactly what they need to hear. He meant it.\n\n## Mentioned In\n\n### Feb\u2013Apr 2023 \u2014 mentioned by Jackson in conversation with **Aubrie**\nDuring fights with Aubrie, Jackson compared her behavior to Bailee's on at least three occasions: \"that's bailee type shot\" (Feb 12, 2023), \"u sound like bailee rn\" and \"u act just like bailee sometimes\" (Apr 17, 2023). Aubrie pushed back \u2014 \"okay don't compare me to bailee\" \u2014 suggesting Bailee carried a specific reputation in Jackson's eyes for a certain kind of behavior (reactive, difficult, or hot-headed). Jackson was using her as a negative reference point during relationship conflict. Reveals that however complicated the Jackson/Bailee dynamic was, she existed in his mind as a behavioral benchmark he didn't want Aubrie to emulate. The fact that Aubrie recognized the reference and objected to the comparison suggests Bailee's name and implied meaning were known context between them.\nSource: **Aubrie**, **aubrieee.kate**",
+      "source_file": "People/Bailee.md"
+    },
+    {
+      "title": "Bailey Edwards",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "past",
+          "romantic"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who She Is\n- College-era romantic situation. Fully resolved April 2026.\n\n## Known Details\n- **Favorite color:** Purple\n- **Flowers:** Daisies, hydrangeas, hibiscus\n- **Family:** Twin brother named Ethan\n- **Pets:** Has cats\n- **Music:** Country music\n- **Food:** Mexican food\n- **Allergy:** Smoke allergy\n\n## Timeline\n- Prior hookup with Jansen (a distant friend of hers, ~1 year before reconnect \u2014 meaningless to Jackson, regretted it) caused her to drop him initially\n- Reconnected at a Thanksgiving party (~Nov 2025)\n- Kept a streak, conversations became daily and natural\n- She went to Orlando and texted him the entire trip\n- Said \"I promise it's not washed, I just don't know what I want right now\"\n- Then cited \"really different morals\" and the Jansen situation as reasons\n- Eventually ran its course\n\n## How It Ended\n- Jackson's final read: \"she's the one who chose how she acted.\" Full emotional peace \u2014 no bitterness, no spiral.\n- Said it was \"probably the best I've ever felt emotionally\" at the point of resolution.\n\n## Other\n- Rachel = her roommate\n\n## Status\n- Closed. No action needed.\n\n## Significant Moments\n\n### October 13, 2025 \u2014 First Mention\nJackson first noted Bailey in his journal on October 13, 2025. She appeared as someone he was beginning to notice \u2014 she was already on his radar. This is the earliest documented reference.\n\n### October 19, 2025 \u2014 The Detailed Notes\nJackson wrote detailed notes about Bailey around October 19, 2025 \u2014 enough to document her preferences, her twin brother Ethan, her allergies, her tastes. The fact that he catalogued these details says something about how much attention he was paying.\n\n### October 27, 2025 \u2014 She Went Distant\nAround October 27, 2025, Bailey went distant on Jackson. She also posted something petty on Instagram around this time. He noticed both. The shift was sudden and unexplained.\n\n### October 27, 2025 \u2014 Morning Rejection\nAt some point around this period, Bailey told Jackson he was \"a shitty person.\" He hadn't done anything to warrant it. It landed hard. He kept it.\n\n### November 2, 2025 \u2014 Jackson Stopped Talking to Her\nBy November 2, 2025, Jackson made the decision to stop talking to Bailey. Not out of anger \u2014 out of clarity. She'd called him a shitty person without cause. Her final reason for ending things was \"really different morals\" and a prior Jansen hookup. His final read: \"she's the one who chose how she acted.\" Full emotional peace. See **active-situations**.\n\n### Nov\u2013Dec 2025 \u2014 The Reconnection After Jansen\nThey'd known each other before, but a prior hookup with Jansen \u2014 a distant friend of hers, about a year before they reconnected, meaningless to Jackson, something he regretted \u2014 had caused her to drop him initially. They ran into each other at a Thanksgiving party around November 2025. The streak started. Conversations became daily and natural, not forced.\n\n### The Orlando Trip\nShe went to Orlando and texted him the entire trip. That was the signal \u2014 she was choosing to include him even when she didn't have to. The relationship felt real and consistent during this period. She was showing up.\n\n### \"I Just Don't Know What I Want\"\nAt some point she pulled back. Said: \"I promise it's not washed, I just don't know what I want right now.\" That sentence captures everything about how the situation ran \u2014 she was acknowledging something was there while refusing to commit to it. It wasn't cruelty, it was indecision. But indecision with consequences.\n\n### April 2026 \u2014 How It Ended\nShe cited \"really different morals\" and the Jansen situation as the reasons. The Jansen thing had happened over a year before they reconnected \u2014 it was history she knew about, not a surprise. Jackson didn't argue it. His read at the end: \"she's the one who chose how she acted.\" Not bitterness \u2014 clarity. He described the emotional state at closure as \"probably the best I've ever felt emotionally.\" No spiral, no unfinished business. He let it be what it was and moved on clean.\n\n## Mentioned In (Additional)\n\n### January 17, 2026 \u2014 Third party relays Bailey's read on Jackson\nA mutual contact (rb_waldrup) texted Jackson: \"she said you were cute but she's not a fan of your past \ud83d\ude14.\" This was January 17, 2026 \u2014 in the middle of the reconnection window (they rekindled around the Thanksgiving party in Nov 2025). Someone in the mutual circle was actively passing along what Bailey was saying about Jackson behind the scenes. What she communicated was that the attraction was there, but his \"past\" was the obstacle \u2014 which aligns exactly with how it ultimately ended (she cited Jansen as a final reason). The third-party relay confirms this concern was active and circulating among mutual friends well before the final conversation.\nSource: **rb_waldrup**\n\n### February 3, 2026 \u2014 Harrison's unsolicited opinion in group chat\nIn the \"Robert's funeral \ud83d\udd4a\ufe0f\" group chat, Harrison (harrison.cha7) said \"Bailey is like a mosquito bro deadass.\" He prefaced it with \"I sure got a lot to say but I'd rather keep it cordial\" \u2014 meaning he was actively choosing restraint about her. He had more opinions and held them back. Whatever was happening between Jackson and Bailey in early February 2026, it was registering in the friend circle as a topic worth commenting on.\nSource: **Harrison**, **robert's-funeral-\ud83d\udd4a\ufe0f**\n\n## Mentioned In\n\n### October 13, 2025 \u2014 first mentioned in Jackson's journal\nJackson wrote about her for the first time, calling her \"my wife\" and noting she'd said she didn't want a relationship but \"she has not seen the absolute 100% JPB.\" First documented mention of her in any record.\nSource: **2025-10-13-1**\n\n### October 19, 2025 \u2014 full profile written in journal\nHe wrote down everything he knew: favorite color purple, flowers daisies/hydrangeas/hibiscus, twin brother Ethan, loves cats, country music, Mexican food, allergic to smoke. Called her \"completely wife material\" and \"I truly admire her.\" This is the entry where the situation was real to him \u2014 detailed enough to catalog. He also wrote \"Love Doesn't Exist\" in red and then crossed it out.\nSource: **2025-10-19-1**\n\n### October 27, 2025 \u2014 distance, the Instagram post, and the rejection\nShe went distant. He posted a photo with another girl on Instagram \u2014 a petty move he knew was petty. She rejected him that night, called him a shitty person for \"what he did to Jansen.\" He wrote: \"I hate having a bad reputation.\" Still didn't want to stop pursuing.\nSource: **2025-10-27-1**, **2025-10-27-2**\n\n### October 28, 2025 \u2014 his defense of the Jansen situation\nHe worked through it in writing: he'd told Jansen from the start he didn't want a relationship, so why was he the liar? He couldn't reconcile being called a pathological liar for telling the truth. The Jansen dynamic would follow him into the Bailey situation \u2014 she used it as her final reason months later.\nSource: **2025-10-28-1**",
+      "source_file": "People/Bailey Edwards.md"
+    },
+    {
+      "title": "Brittain Snyder",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "inner-circle",
+          "close-friend"
+        ],
+        "Related People": [
+          "Trey Frachiseur",
+          "Harrison"
+        ],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Close friend. Male (noted because the name reads ambiguous).\n- Next year's roommate alongside Trey and Harrison.\n\n## Snapchat\n- **Username:** brittain_snyder\n- **Messages:** 688 (Jun 2022 \u2192 Apr 2026) \u2014 2nd highest contact\n- **Snaps:** 823\n- **Friend status:** Unknown (not in export's friends list, but actively messaging as of Apr 10, 2026)\n- **Current group chats:** **apartment** (started Apr 9, 2026 \u2014 housing planning), **madison's sandals**\n- **Relationship Map** | **Key Moments**\n\n## Snapchat Intelligence\n- **Username:** brittain_snyder\n- **Snaps:** 1,059 total (367 sent / 692 received) -- #3 all-time\n- **Messages:** 688 (Jun 2022 -- Apr 10 2026) -- active today\n- **Combined Rank:** #2 among named contacts\n- **Pattern:** Jackson receives ~1.9x what he sends. Brittain initiates snaps more.\n- **Group chats shared:** **apartment**, **aubbies-crew**, **madisons-sandals**\n- **Era:** Auburn exclusively. Relationship started same week Auburn started.\n- **Status:** Active and current. Most engaged ongoing contact.\n- **brittain_snyder**\n\n## Mentioned In\n\n### September 6, 2025 \u2014 \"Fuck Noah Wright\" group chat with Harrison\nIn a group chat named \"Fuck Noah Wright,\" Harrison (harrison.cha7) was the primary sender with Brittain (brittain_snyder) also present. Content was photos/stickers, but the name signals a shared antagonism toward someone named Noah Wright. Confirms Harrison and Brittain were already running together in September 2025 before Harrison's DM history with Jackson begins.\nSource: **Harrison**, **fuck-noah-wright**\n\n## Significant Moments\n\n### June 2022 \u2014 The Beginning\nBrittain was the first Auburn friend in the Snapchat record \u2014 first message came in during the summer before freshman year, same week Jackson arrived at Auburn. That timing matters. He wasn't someone Jackson knew and then brought to college; he was someone Auburn made. The relationship is entirely a product of that world, which explains why it runs so deep \u2014 they built the whole thing from scratch together.\n\n### April 9, 2026 \u2014 Apartment Group Chat Created\nThe night the \"apartment\" group chat was created \u2014 just Jackson and Brittain at 3am, going back and forth with stickers \u2014 is a small but telling moment. This was the night Jackson was supposed to have his first date with Emma, which she ghosted before it happened. Jackson ended up out instead. Brittain was there. The fact that the group chat for next year's living situation was created that same night, in the early hours of what turned into a messy evening, says something about where Brittain sits: he's one of the people Jackson ends up around when plans fall apart. The apartment group, named simply \"apartment,\" is the planning channel for next year \u2014 Brittain, Harrison, Trey, and Jackson living together. Brittain was the one who made it real by starting the chat.",
+      "source_file": "People/Brittain Snyder.md"
+    },
+    {
+      "title": "Brock Adams",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [
+          "Trey Frachiseur",
+          "Kirtan Patel"
+        ],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Current roommate.\n- Part of the close friend group.\n\n## Snapchat\n- **Username:** brockadams_02 (display: \"Brock\")\n- **Direct messages:** 6 (minimal direct chat \u2014 communicates mainly in group)\n- **Roommate group chat:** \"Aubbies sex slaves\" \u2014 **Brock Adams**, **Kirtan Patel**, **Trey Frachiseur**, Jackson. 93 messages, 645 group snaps (May 2023\u2013Apr 2026).\n- **Relationship Map**\n\n## Significant Moments\n\n### Fall 2024 \u2014 The Group Chat as the Real Record\nThe direct message thread between Jackson and Brock contains almost nothing \u2014 a few texts across nearly two years. The actual relationship lives in the \"Aubbies sex slaves\" group chat with Trey and Kirtan: 93 messages and 645 group snaps from May 2023 through April 2026. That's where Brock exists in Jackson's life. They're roommates who talk in person and document life together in photos \u2014 not a texting relationship. The sparse DMs aren't distance; they're just not the channel.\n\n### October 2024 \u2014 \"Good Comms There\"\nIn a brief direct exchange, Brock sent Jackson: \"good comms there / fuck with that.\" Minimal, but it registers \u2014 Brock acknowledged Jackson for something, probably something Jackson handled or said. It's the kind of quiet affirmation between guys who live together and don't over-verbalize things. Low key but genuine.\n\n### Context: The Frey Situation (Background Only)\nPer the 2026 personal reflections, Trey Frachiseur \u2014 also in this roommate group \u2014 was talking negatively about Jackson to Emma Williard during the period Jackson was pursuing her, telling her to wait until Jackson \"falls off\" before dating him. Jackson's response was to not react and let how he lives speak for itself. This sits in the background of the roommate dynamic in early 2026. Brock's role in that tension is not documented, but it's the context in which the group was operating.\n\n## Mentioned In\n\n### September 13, 2024 \u2014 \"Fuck southeast\" group chat with Trey\nIn a group chat named \"Fuck southeast\" (September 2024), Trey Frachiseur sent: \"Tre's high as shit.\" Brock replied: \"real.\" Both sparse and snap-only otherwise, but it places Brock in the same social moment as Trey Frachiseur and Tre Jackson in September 2024. The group name suggests a venue or team they were reacting to.\nSource: **Trey Frachiseur**, **fuck-southeast**\n\n## Mentioned In (Additional)\n\n### August\u2013November 2025 \u2014 \"Real Yugo\" group chat\nBrock was active in a group chat called \"Real Yugo\" (Aug\u2013Nov 2025) alongside Trey Frachiseur, devlo_07, jdub0055, curtain_kid, and piercebueto. On September 8, Brock shared an Auburn address (819 E Glenn Ave, Ste 120, Auburn, AL 36830) \u2014 likely a meetup location or social venue. He also sent photos on October 7. The group places him in a broader Auburn social network beyond just the roommate house.\nSource: **Trey Frachiseur**, **real-yugo.md**",
+      "source_file": "People/Brock Adams.md"
+    },
+    {
+      "title": "Cameron Pate",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "family"
+        ],
+        "Related People": [
+          "Angie Pate",
+          "Todd Pate"
+        ],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Jackson's brother. Age 26.\n- Has spina bifida.\n\n## Jackson's Take\n- Feels Cameron has wasted potential due to laziness, enabled by their mom Angie.\n- Likely won't leave the house because of that dynamic.\n- Not a source of closeness \u2014 more of a complicated family reality.\n\n## Snapchat\n- **Username:** cpate2006 (display: \"Cameron\")\n- **Messages:** 2 \u2014 essentially no Snapchat contact with brother\n- **Friend status:** Active friend\n- **Note:** Aligns with the known complexity of their relationship. They're connected but not communicating on this platform.\n\n## Significant Moments\n\nNo direct interaction documented. Their Snapchat thread has two messages across five years \u2014 the silence between them is the most honest record of where things stand.\n\n## Mentioned In\n\n### April 6, 2026 \u2014 discussed by Jackson in personal reflections journal\nJackson wrote directly about Cameron: he has spina bifida, and Jackson believes he has wasted potential due to laziness that their mom enables. His read is that Cameron likely won't leave the house because of that dynamic. It's not delivered with bitterness so much as frustration \u2014 Jackson sees something in his brother that he thinks isn't being used, and he connects it to the enabling dynamic with Angie. This is the only place in the record where Jackson speaks about Cameron at length, and it reveals a complicated mixture of care and exasperation that doesn't come through in the silence of their Snapchat thread.\nSource: **2026-personal-reflections**, **Angie Pate**",
+      "source_file": "People/Cameron Pate.md"
+    },
+    {
+      "title": "Ella Dupree",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "acquaintance"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who She Is\n- Snapchat contact from the Auburn era. Significant communication volume.\n- No additional biographical detail confirmed beyond Snapchat data.\n\n## Snapchat\n- **Username:** elladupree22859\n- **Messages:** 412 (Aug 2024 \u2192 Mar 2026) \u2014 7th highest all-time\n- **Snaps:** 172\n- **Friend status:** Unknown (not in friends export \u2014 may be unfriended or export gap)\n- **Period:** Aug 2024 \u2013 Mar 2026 (Auburn era only)\n\n## Significant Moments\n\n### Aug 2024 \u2014 How It Started\nThey connected at Auburn in August 2024 \u2014 right at the start of a new school year. Within days they were exchanging snaps, staying up late, telling each other they were obsessed with each other. She told him \"I'm glad I know this you\" at 3am. He said it might be the hottest thing anyone had ever said to him. It moved fast, the way things do when both people are leaning in at the same time.\n\n### Aug\u2013Sep 2024 \u2014 The First Tension: Not Ready\nJackson had just come off the Aubrie breakup. He told Ella Dupree he wasn't ready for anything serious \u2014 he needed time to heal. She said she understood but pushed back quietly: \"I wanna grow with you.\" He held firm. The dynamic was charged \u2014 real feelings on both sides, but his timing was off. She started getting sharp when frustrated. On August 21, after a night that clearly went sideways, she sent \"ok yeah i'm blocking u\" \u2014 then hours later she was sending photo after photo and then a 4am apology barrage: \"I've been bawling my eyes out to Kyra for literally 3 hours bc u mean so so much to me... I can't lose you as a friend... you're one of the only people who actually care.\" He woke up to all of it and told her he wasn't mad \u2014 just tired of her saying mean things when she got upset. He set the boundary clearly: \"I really need you right now but you have to start treating me better.\"\n\n### Oct 2024 \u2014 The Cancer Scare\nLate one night she texted him scared. She thought she might be sick \u2014 thought it might be cancer. \"They said this would be the time it would come back,\" she told him. \"What if I die.\" He stayed on with her. \"You're going to be okay, Ella.\" He didn't brush her off. That she went to him in that moment meant something about how much she trusted him, whatever else was complicated between them.\n\n### Jul 2025 \u2014 The Blowup About His Best Friend\nBy summer 2025 the talking stage had long passed, but she'd apparently been involved with one of his close friends. When he found out, he confronted her directly: \"you said i could trust you but literally the entire time ur fking my best friend.\" She laughed it off \u2014 literally typed \"LOL / That's hilarious.\" He made clear it wasn't about exclusivity in principle; it was about the specific person. \"Why him \u2014 someone I've literally told you about multiple times.\" She pushed back: \"You told me a million times you never wanted anything serious.\" He didn't argue the logic, he just held his position: \"stay delusional twin / it fits you / him too.\" The conversation ended there. It didn't blow the connection up entirely \u2014 they kept snapping through the end of 2025 \u2014 but it established a ceiling on trust.\n\n### Nov 2025 \u2014 The Bar Night and the Broken Toes\nHe was out at a bar with Dev Patel and needed a ride. He asked Ella Dupree \u2014 described in his journal as an \"ex talking stage\" \u2014 to come get them. She did, but he accidentally left his phone in her car. When she wouldn't return it, he went to her place, barged through the door to get it back, and accidentally broke her toes in the process. She screamed at him. He drove home panicked and sick about it. He called his mom; his mom said he was in the right. He felt terrible regardless. It was the kind of ugly, small-hours incident that doesn't define a relationship but does sit in the record of it. A few days later he came down with a 103\u2013104 fever. That week he wrote: \"Day by day life gets harder and I am getting tired.\"\n\n## Mentioned In\n\n### November 8, 2025 \u2014 Discussed with **Angie Pate**\nJackson called his mom to talk through the bar night / broken-toes situation with Ella. Angie said he was in the right. Source: **2025-11-08-1** and **Angie Pate**.",
+      "source_file": "People/Ella Dupree.md"
+    },
+    {
+      "title": "Ella",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "past",
+          "romantic"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who She Is\n- Was seeing early 2026. Ended March 2026.\n\n## How It Ended\n- She got mad about \"attractive girls\" during a beach trip.\n- Jackson blocked her, she blocked him.\n- After the fact: she admitted she'd been in love with him for over a year.\n\n## Status\n- Over. No contact. No spiral, no guilt.\n\n## Snapchat\n- **Username:** ellazoeb\n- **Messages:** 1,045 (Jun 2020 \u2192 Jun 2022) \u2014 Top contact by volume, all-time\n- **Snaps:** 1\n- **Friend status:** Active (still connected)\n- **Note:** The 2020\u20132022 chapter was entirely on Snapchat. The 2026 reconnection appears to have happened off-platform (no messages in export after June 2022, still listed as active friend).\n- **Relationship Map** | **Key Moments**\n\n## Snapchat Intelligence\n- **Username:** ellazoeb\n- **Snaps:** Not in snap export (conversation likely predated snap tracking)\n- **Messages:** 1,045 (Jun 2020 -- Jun 2022) -- #1 all-time by messages\n- **Pattern:** The dominant high school relationship by volume. Conversation ends at Auburn transition.\n- **Note:** The 2026 'seeing each other' relationship likely happened on a different platform or in person -- no Snapchat activity between Jun 2022 and when relationship ended Mar 2026.\n- **Status:** Ended March 2026. No contact.\n- **ellazoeb**\n\n## Significant Moments\n\n### March 2026 \u2014 The Beach Trip Fallout\nThey were seeing each other going into the PCB beach trip. During the trip, she got mad about \"attractive girls\" \u2014 the specifics aren't documented, but the reaction revealed something about where she was at. Jackson blocked her. She blocked him back. Total clean break, no drawn-out fallout. He didn't spiral or feel guilty. It just ended.\n\n### After the Block \u2014 The Confession\nAfter they'd already cut contact, she reached out to tell him she'd been in love with him for over a year. He processed it without drama. The relationship was already over \u2014 the confession didn't change anything, just added context. He let it be what it was: true, too late, and not his problem to carry.",
+      "source_file": "People/Ella.md"
+    },
+    {
+      "title": "Emma Williard",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "romantic"
+        ],
+        "Related People": [
+          "Trey Frachiseur",
+          "Ethan Arce"
+        ],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who She Is\n- Jackson's strongest romantic interest as of Spring 2026. Both from Gadsden, Alabama.\n- Previously talked for 6 months in high school before she dated **Frey** for 1.5 years.\n- Reconnected March 6, 2026 at a bar \u2014 talked 4 hours, Jackson fell asleep at her place.\n\n## Known Details\n- **Flowers:** White hydrangeas (reposted hydrangea TikTok \u2014 confirmed preference)\n- **Rings:** Oval cut (noted for the long game)\n- **Movies:** Loves going to the theater\n- **Mom:** Knows about Jackson by name. Asked \"is Jackson staying with you tonight?\" at the rodeo.\n- **Snap BSF list:** Jackson is #2 (mom is #1)\n- **Communication style:** Not a heavy phone communicator \u2014 don't read into response time\n\n## Timeline\n- March 6 \u2014 Reconnected at a bar. Talked 4 hours. Jackson realized he's in love with her.\n- March 9 (her birthday) \u2014 Texted happy birthday, flirted about \"running off together.\"\n- Late March (bar) \u2014 Jackson told her he loves her. She said \"I love u too\" back.\n- Treaty Oak Revival rodeo \u2014 spent the night together, danced, he drove her home sober, asked her on a date. She said yes.\n- ~April 4 \u2014 Invited him to margs with her roommates, ended up at her place, talked for hours, fell asleep together.\n- April 9 \u2014 Date was planned (The Depot + AMC Classic Auburn 14, white hydrangeas ready). She ghosted before it happened. Last contact Apr 7-8 on Snap. No explanation. Jackson was nothing but good to her the entire time.\n\n## What She Communicated\n- Said she wants something but is scared of being hurt.\n- Said \"I love u too\" back unprompted.\n- Not unsure about him \u2014 was navigating the Frey fallout.\n\n## Jackson on Her\n- \"I know she could be my wife.\" The clearest he's ever been about anyone.\n\n## Status\n- Ghosted before first date. Date never happened. Reason unknown. Unresolved.\n\n## Snapchat Intelligence\n- **Username:** ewilliard09\n- **Snaps:** 47 (13 sent / 34 received) -- #24 by snaps\n- **Messages:** 12 (Jun 28, 2022 -- Apr 8, 2026)\n- **Pattern:** Low volume on Snapchat -- relationship lives elsewhere (in person, iMessage likely)\n- **Notable messages:** She sent an address (Jul 2022). March-April 2026 reconnection documented. Last messages Apr 7-8 2026 are deleted.\n- **Status:** Ghosted before the April 9 2026 date. Date never happened.\n- **ewilliard09**\n\n## Significant Moments\n\n### March 6, 2026 \u2014 The Reconnection\nThey ran into each other at a bar. Neither planned it. They ended up talking for four hours and Jackson fell asleep at her place \u2014 just talking, nothing more. By the time he left he knew. He described it later as realizing he's in love with her. This was the moment the whole 2026 arc started from \u2014 a years-apart reconnection that didn't feel like reconnecting at all, just like picking up something that was always there.\n\n### Late March, 2026 \u2014 \"I Love You\" at the Bar\nAt another bar, Jackson told her he loves her. She said \"I love u too\" back \u2014 unprompted, not just returning the sentiment. She'd already said she wants something but is scared of being hurt. This was said and received between two people who both knew something was real. It wasn't a declaration and a response \u2014 it was mutual and unforced.\n\n### Treaty Oak Revival, ~Late March 2026 \u2014 The Rodeo Night\nShe told him to find her at the rodeo \u2014 she initiated the connection that night. They danced. He drove her home sober. He asked her on a date and she said yes. Her mom already knew his name by this point \u2014 had asked Emma \"is Jackson staying with you tonight?\" \u2014 meaning Emma had been talking about him at home before any of this became official. Frey found out about the rodeo and texted Emma: \"wow cannot believe ur hanging out without an actual loser right now\" and \"wait till you fall off before you date him, he's so under me.\" Emma told Jackson about it herself.\n\n### ~April 4, 2026 \u2014 Her Place After Margs\nShe invited him out with her roommates for margs. It turned into hours at her place. They talked. They fell asleep together. At 3\u20134am she woke him up to go \u2014 she had an 8am advisor appointment. She was the one managing his exit, not letting him just stay indefinitely. Nothing dramatic about the night itself \u2014 just the pattern of the whole thing: ending up together naturally, without a plan, and it feeling right. She cared about him enough to track both their schedules.\n\n### April 9, 2026 \u2014 The Ghost\nShe went quiet before the planned first date. No explanation, no fight, nothing. Last contact was Apr 7\u20138 on Snap \u2014 and those messages were deleted. He had white hydrangeas ready. The Depot was the plan. The date never happened. He'd been nothing but good to her the entire time. She'd told him she was scared of being hurt \u2014 and then disappeared without giving him the chance to show her she wouldn't be. That's where it sits: unresolved, no closure, no bad memory to point at. Just a door that closed before it opened.\n\n## Mentioned In\n\n### Spring 2026 \u2014 Emma and Jackson Talking About Frey\nEmma was the one who told Jackson that Frey had been talking badly about him since the summer. She also showed or told Jackson about the rodeo texts Frey sent her. She didn't stay neutral \u2014 she was transparent with Jackson about what Frey was doing. That act of disclosure is part of what defined where her loyalty sat, and it's part of what makes the ghost on April 9 sit harder. Referenced in **Trey Frachiseur**'s page (Significant Moments and Mentioned In) and **active-situations** (The Frey Situation).\n\n### April 9, 2026, 2am \u2014 Referenced by **Trey Frachiseur** in conversation with Jackson\nOn the night the date didn't happen, at 2am, Jackson sent Trey a status screenshot and they exchanged multiple messages \u2014 all now deleted or unavailable. The content is gone. But the timing makes clear: when Emma went silent and the date fell apart, Jackson's first move was to talk to Trey about it. The conversation happened in the same window as the ghost. That's all the record shows.\nSource: **Trey Frachiseur**, **trey_frachiseur**\n\n### August 7, 2025 \u2014 Mentioned by **Tre Jackson** in conversation with Jackson\nTre sent Jackson a quote attributed back to him: \"i miss her real shit\" \u2014 jackson p. Tre had heard or seen Jackson say this at some point, clocked it, and saved it long enough to send it back months later. At the time (August 2025) Jackson was not yet in active contact with Emma \u2014 this predates the March 2026 reconnection. It shows Jackson had been carrying something about her, probably from their earlier history, and that Tre was paying close enough attention to notice and name it. Reveals: Emma occupied enough space in Jackson's mind that his friends registered it.\nSource: **Tre Jackson**, **trej3635**",
+      "source_file": "People/Emma Williard.md"
+    },
+    {
+      "title": "Ethan Arce",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "inner-circle",
+          "close-friend"
+        ],
+        "Related People": [
+          "Emma Williard",
+          "Trey Frachiseur",
+          "Brittain Snyder"
+        ],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Jackson's most trusted person. Lives in Oklahoma.\n- The one person Jackson lets closest \u2014 even Ethan doesn't know about the \"not good enough\" fear. Nobody does.\n\n## Similarities to Jackson\n- Nearly identical in almost every way \u2014 the friendship is built on that mirroring\n\n## Key Differences\n- Not religious\n- Sees people as beneath him \u2014 Jackson is the opposite (sees everyone as better than himself)\n\n## Status\n- Close friend, long distance (Oklahoma)\n\n## Snapchat\n- **Username:** ethan_arce14\n- **Messages:** 268 (Jul 2024 \u2192 Apr 2026) \u2014 ongoing, active\n- **Snaps:** 1,009 \u2014 highest for any individual in the dataset\n- **Note:** The snap-to-message ratio is notable: 3.8 snaps per message. The friendship runs primarily on visual communication, not text. This mirrors the description of him as the most trusted person \u2014 they don't need words.\n- **Group chat:** **Fagmophobia** (with mrbradyt07, trej3635 \u2014 core group chat, Dec 2024\u2013present, 1,045 group snaps)\n- **Relationship Map** | **Key Moments**\n\n## Snapchat Intelligence\n- **Username:** ethan_arce14\n- **Snaps:** 1,042 (604 sent / 438 received) -- #4 all-time, SENDER-dominant\n- **Messages:** 268 (Jul 2024 -- Apr 9 2026)\n- **Pattern:** One of the ONLY relationships where Jackson sends more snaps than he receives. Initiator with Ethan.\n- **Group chats shared:** **brady-gyatt** (with Brady + dbrackett89), **fagmophobia**\n- **Status:** Active. Messages as recent as yesterday.\n- **ethan_arce14**\n\n## Significant Moments\n\n### Ongoing \u2014 The Thing Nobody Knows\nJackson's biggest fear \u2014 not being good enough, trying everything and still not being enough \u2014 is something he's never told anyone. The person he's closest to, the person he trusts more than anyone else, is Ethan. And even Ethan doesn't know. That's not a failure of the friendship \u2014 it's a description of how deep that fear is buried. Ethan is as close as Jackson lets anyone get, and the fear still doesn't come out. The friendship is real and deep. The wall is just deeper.\n\n### July 15, 2025 \u2014 \"I don't understand why you're so dry with me now\"\nAt 6:20am, Jackson sent Ethan: \"like i dont understand why your so dry w me now.\" It's a rare moment of Jackson expressing something vulnerable directly \u2014 he doesn't usually do that. This is the person he trusts most, and he still felt the need to ask why. The message going out at 6am means it was sitting on him. Whatever the distance was \u2014 temporary friction, Ethan's own life pulling him away \u2014 it was enough for Jackson to say something. The fact that he did says more about what Ethan means to him than anything else in the record.\n\n### January 6, 2025 \u2014 The Rap Lyrics\nJackson sent Ethan a rap built around the three of them \u2014 Jackson, Ethan, Tre \u2014 set in Auburn, positioned as kings. The lyrics are ridiculous but intentional: they're a tribute in the form of a joke. The choice to send something like that at 1:52am to the person you trust most is a specific kind of affection. Jackson doesn't perform closeness, so when he does something like this, it means it.\n\n### November 23, 2025 \u2014 \"Ur so fucking hot \u2014 Maddie\"\nEthan sent a message at 2:58am that just said \"Ur so fucking hot\" and then immediately followed with \"\u2013 Maddie,\" meaning his girlfriend had grabbed his phone. It's a small thing. But it's the kind of thing that only happens in a friendship where there's no performance \u2014 where the other person's girlfriend feels easy enough around the dynamic to be funny about it, and where nobody needs to explain the joke.\n\n## Group Chat Record\n\n### \"gruesome twosome\" (March 2025 \u2013 April 2026)\nEthan is one of two named members in a group called \"gruesome twosome\" alongside Tre Jackson (trej3635), with Jackson as the third. 55 messages, March 2025 through April 3, 2026. Readable lines are sparse: Ethan sent \"dude what the hell\" (May 31, 2025), and \"i was stuck\" (Jan 4, 2026), and \"\ud83d\udd25\ud83d\udd25\" (April 3, 2026). Most content is snaps and unavailable notes. The name \"gruesome twosome\" almost certainly refers to Ethan and Tre \u2014 they're the twosome. The group is separate from Fagmophobia, suggesting these two communicate in multiple channels with Jackson.\n\n### \"Foursome of d00m\" (April\u2013May 2025)\nEthan and Tre appear together with Jackson in this group as well. Ethan's readable contribution: \"Cucumber Calvin\" (April 15, 2025 \u2014 an inside joke or nickname) and a photo April 22, 2025.\n\n## Mentioned In (Additional)\n\n### December 28, 2025 \u2014 \"Very natty \ud83d\udc89\" group chat\nEthan appeared in a two-message group chat called \"Very natty \ud83d\udc89\" on December 28, 2025 alongside mrbradyt07 \u2014 both sent snaps. The group name is a reference to natural bodybuilding or gym culture (\"natty\" = no steroids, the syringe emoji ironic). December 28 was the day after Jackson's birthday (Dec 27). The group places Ethan in contact with mrbradyt07 (the same person who appears in the Fagmophobia and Racist mfers group chats with Tre Jackson), confirming overlap in social circles between Ethan and Tre's world even from Oklahoma.\nSource: **very-natty-\ud83d\udc89**\n\n## Mentioned In\n\n### April 6\u201317, 2025 \u2014 \"Lads\" Group Chat with coben_guest23\nEthan appeared in a group chat called \"Lads\" alongside coben_guest23 (Coben Guest, a recurring figure from Jackson's high school soccer circle). On April 6, Ethan sent a sticker. On April 17, coben_guest23 sent a photo. Sparse content, but the group confirms Ethan and Coben had at least some overlap in Jackson's social world during spring 2025 \u2014 despite Ethan being in Oklahoma. Most likely a legacy group from a shared in-person period that was still technically alive.\nSource: **lads**\n\n### April 6, 2026 \u2014 discussed by Jackson in personal reflections journal\nJackson wrote a dedicated section about Ethan in his personal reflections. Called him the most trusted person in his life, noted he lives in Oklahoma, and spelled out the key similarities and differences: nearly identical in almost every way, except Ethan isn't religious and sees people as beneath him while Jackson sees everyone as better than himself. The most significant line: \"Even Ethan doesn't know about the 'not good enough' fear. Nobody does.\" Jackson disclosed this to the record, not to Ethan himself. The trust is real, and so is the distance that exists even within it.\nSource: **2026-personal-reflections**\n\n### December 2021 \u2014 mentioned by **Anna** in conversation with Jackson\nWhen Jackson asked Anna why she readded him after 31 weeks of no contact, she explained directly: \"bc me and E broke up and ur my friend.\" She followed up that she \"wasn't allowed to talk to any of my guy friends\" during the relationship \u2014 meaning Ethan had controlled who she could talk to, and the moment they broke up, she immediately reconnected with Jackson. Jackson called it \"kind of restrictive\" and she replied \"you live and u learn.\" Reveals Ethan as having been controlling in at least one prior relationship \u2014 controlling enough that Anna deleted Jackson from her contact list while they were together, and reconnected the same day the relationship ended.\nSource: **Anna**, **atallent97**",
+      "source_file": "People/Ethan Arce.md"
+    },
+    {
+      "title": "Evan Clay",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Active friend. Core member of the bowling social group.\n\n## Snapchat\n- **Username:** evan_clay77 (display: \"Evan Clay\")\n- **Messages:** 171 (Jul 2022 \u2192 Apr 2024)\n- **Snaps:** 0 \u2014 exclusively a text communicator on Snapchat\n- **Friend status:** Active\n- **Group chats:** **Bowling**, **Sane bowling people** \u2014 one of the most active members in both\n\n## Significant Moments\n\n### April 2023 \u2014 Checking In After the Breakup\nJackson figured out on his own that Evan and Riley had broken up \u2014 no one told him, he just noticed she hadn't been to church with Evan or going to his car anymore. He messaged at 4am to ask if it was true. Evan confirmed it, said they kept having problems they couldn't solve and it kept getting worse. When Jackson asked if they'd get back together, Evan said \"idk\" and signed off quickly. Jackson's response before they ended the conversation: \"hope u doing good.\" Small moment, but it shows how Jackson moves \u2014 pays attention, shows up, doesn't make it weird.\n\n### June 2023 \u2014 Evan Checks In Back\nJackson messaged Evan saying he'd cut himself and was sorry for the slow response. Evan's immediate reply was just \"Are you ok?\" Short, no elaboration \u2014 but that response matters. The friendship is built on that kind of low-key, present-when-it-counts energy on both sides.\n\n### January 2023 \u2014 Teaching Jackson to Bowl One-Handed\nJackson got a new one-handed bowling ball and came to Evan for advice on getting it to hook more. Evan diagnosed the issue as form \u2014 specifically getting under the ball \u2014 and offered to show him the next day. This kind of exchange was the bread and butter of their friendship: Evan as the knowledgeable older bowling guy, Jackson as the newer player genuinely trying to improve.\n\n## Mentioned In\n\n### January 2023\u2013February 2025 \u2014 \"Sane Bowling People\" Group Chat (Core Organizer)\nEvan was the most active organizer in the \"Sane bowling people\" group chat (362 messages, Jan 2023\u2013Feb 2025). Members included: evan_clay77, jkilgo39, alexnorris_13, treym1396, jdub0055, idkhowaboutyeet, and Jackson. Key moments from this group:\n- **January 2023** \u2014 Evan hosted game night at his house (4057 River Chase Dr) and coordinated bowling practice logistics throughout the season.\n- **January 2024** \u2014 After a state tournament loss, the team vented frustration at their coach Blume in this chat. Evan reported that Blume had publicly told the Gadsden Times that the players had attitude problems \u2014 a claim that infuriated everyone. The whole team united in the group, suggesting Blume should be replaced or they should transfer. Trey (treym1396) and Evan led the conversation. Evan's parents were reportedly making him go back to meet with Blume despite him not wanting to.\n- **January 2024** \u2014 A rival bowler named Jackson Bush added Evan on Snapchat. Evan's mom told him to get Bush to say something incriminating. There were also drug test allegations about a rival team member named Jaxon, whose parents are on the school board.\n- **Gadsden Times moment** \u2014 Someone was nominated for something and the whole group was instructed to vote for jkilgo39 on Gadsden Times.\nEvan was the team's social glue \u2014 the one who organized practices, called out team issues, and pushed for accountability.\nSource: **sane-bowling-people**",
+      "source_file": "People/Evan Clay.md"
+    },
+    {
+      "title": "Harrison",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [
+          "Brittain Snyder",
+          "Trey Frachiseur"
+        ],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Close friend.\n- Next year's roommate alongside Trey and Brittain.\n\n## Snapchat\n- **Username:** harrison.cha7 (display: \"Harrison Chambers\")\n- **Messages:** 120 (Oct 2025 \u2192 Apr 2026) \u2014 relatively recent, strong growth\n- **Snaps:** 150\n- **Note:** The connection starts October 2025 \u2014 relatively new in Snapchat terms but already in top 25 by volume. Consistent with the next-roommate relationship being actively built.\n- **Relationship Map**\n\n## Snapchat Intelligence\n- **Username:** harrison.cha7\n- **Snaps:** 156 (61/95) -- #12 by snaps\n- **Messages:** 120 (Oct 2025 -- Apr 9 2026) -- text messaging only began Oct 2025\n- **Pattern:** Snap relationship predates the text relationship by a significant margin.\n- **Group chats shared:** **madisons-sandals**\n- **Status:** Active. Messages yesterday.\n- **harrison.cha7**\n\n## Mentioned In\n\n### September 6, 2025 \u2014 \"Fuck Noah Wright\" group chat with Brittain\nHarrison appears as the primary sender in a group chat named \"Fuck Noah Wright\" \u2014 he sent two snaps and a sticker, Brittain Snyder sent one sticker, all in one evening. The content is photos/stickers only, but the name of the chat implies a shared antagonism toward someone named Noah Wright. The group exists and was active in September 2025, placing Harrison and Brittain together before the Snapchat text record between Harrison and Jackson even begins (October 2025). Confirms they were already running together before that.\nSource: **Brittain Snyder**, **fuck-noah-wright**\n\n### June 16, 2025 \u2014 Mentioned by **Brittain Snyder** in conversation with Jackson\nBrittain sent Jackson a message: \"just dr egaed hsrrsn\" \u2014 clearly intoxicated and apparently having just drunk-DMed Harrison. Jackson responded \"what.\" and Brittain immediately sent \"BAHAAHHAHA,\" treating it as embarrassing and funny. Context: this was June 2025, before Harrison's Snapchat text history even begins (October 2025), which means Brittain and Harrison already had enough of a connection that Brittain was reaching out to him while drunk. Reveals: Harrison was already in the inner-circle orbit before Jackson's Snapchat record shows it \u2014 Brittain was in contact with him independently.\nSource: **Brittain Snyder**, **brittain_snyder**\n\n## Mentioned In\n\n### February 1\u20135, 2026 \u2014 \"Robert's Funeral\" group chat\nHarrison was active in a group chat called \"Robert's funeral \ud83d\udd4a\ufe0f\" alongside rb_waldrup and memphis.myersss (and Jackson). The five-day window (Feb 1\u20135, 2026) consisted mainly of photos. Harrison sent multiple snaps and posted one notable line on February 3: \"Bailey is like a mosquito bro deadass\" \u2014 clearly an opinion about Bailey Edwards, who was involved with Jackson at the time. He also wrote: \"I sure got a lot to say but I'd rather keep it cordial\" and called someone \"Ratchel\" in the same timeframe. Harrison was in the room for the Bailey situation and had opinions he was choosing to hold back. The restraint itself is significant.\nSource: **Bailey Edwards**, **robert's-funeral-\ud83d\udd4a\ufe0f**\n\n### March 2026 \u2014 Spring Break Group (\"Spring Break bitches 2.0\")\nHarrison was a core member of the spring break group alongside Jackson, Trey Frachiseur, nickzito-17, and grantcollins83. Messages ran March 13\u201319, 2026 \u2014 the week of spring break. Mostly photos with minimal text; Harrison sent multiple snaps through the week. This was a shared trip or at minimum a shared social bubble during spring break 2026.\nSource: **spring-break-bitches-2.0**\n\n## Significant Moments\n\n### October 25, 2025 \u2014 \"Meet us at entrance\"\nThe first text message in the record is Harrison telling Jackson to meet him at an entrance \u2014 almost certainly a bar or venue. It's a minor detail that lands big in context: October 2025 was during the darkest stretch of Jackson's year. He was isolated, writing about loneliness and feeling like nobody wanted to hang out with him one-on-one. Harrison reaching out to find each other in a crowd, even casually, matters more than it looks.\n\n### March 2, 2026 \u2014 \"1 year ago, today\"\nJackson sent Harrison \"1 year ago, today\" at 2am \u2014 an unprompted marker of something they shared exactly a year prior. Harrison is a relatively new Snapchat connection (text history starts Oct 2025) but that message implies a shared memory that predates the export. It's the kind of thing you send to someone when you actually think about them, not just as a contact \u2014 someone whose presence in a specific moment stuck.\n\n### April 8\u20139, 2026 \u2014 Out Together, Active All Night\nThe night of April 8\u20139 shows Harrison and Jackson actively in contact until 4\u20136am and then again throughout the following day. Jackson sent stickers in a rapid burst at 3:42am, Harrison deleted a message, they texted again at 6:20am (\"Gotta fade\"), and then exchanged snaps throughout the 9th into the evening. This was the night Jackson's date with Emma didn't happen \u2014 he was out instead. Harrison was one of the people in the mix. The contact that night is dense and mutual. Whatever was happening, they were in it together.",
+      "source_file": "People/Harrison.md"
+    },
+    {
+      "title": "Ivonne Joiner",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "medical",
+          "provider"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who She Is\n- CRNP (Certified Registered Nurse Practitioner) at Rainbow City Family Medicine, Gadsden, Alabama.\n- Jackson's provider for the February 25, 2026 visit that became the center of the academic integrity case.\n\n## The Academic Integrity Situation\n- Evaluated and treated Jackson on 02/25/2026 for nausea. Prescribed Zofran (ondansetron).\n- The clinic generated an excuse note on 02/24 (phone call date) before Jackson's actual visit \u2014 a standard clerical practice.\n- A corrected note was emailed to Jackson on 02/25 at 12:21 PM, confirming the 02/25 visit date.\n- When Scott Miller contacted the clinic, Ivonne Joiner and the front desk told him Jackson had been seen on 02/25 \u2014 accurate. Miller interpreted this as evasion.\n- The pharmacy record for Zofran (filled 02/25) serves as the independent third-party proof of the visit \u2014 cannot be backdated or altered.\n\n## Role in Jackson's Defense\n- Key witness. Her name is on both the prescription and the corrected clinic note.\n- The virtual visit confirmation email (02/25, 9:37 AM, listing Ivonne Joiner, CNP) corroborates Jackson's full account.",
+      "source_file": "People/Ivonne Joiner.md"
+    },
+    {
+      "title": "Jovi",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who She Is\n- Active friend. Long-tenure Snapchat connection since Sep 2020.\n\n## Snapchat\n- **Username:** jovimarble01 (display: \"Jovi\")\n- **Messages:** 78 (Sep 2020 \u2192 Mar 2026)\n- **Snaps:** 4\n- **Friend status:** Active\n- **Note:** 5.5-year connection at moderate, consistent pace. Text-based.\n\n## Significant Moments\n\n### March 29, 2026 \u2014 The Rodeo Group Chat\nJovi was part of the \"Rodeo\ud83e\udd20\" Snapchat group chat \u2014 the one formed around the Treaty Oak Revival rodeo concert where Jackson spent the night with Emma Williard. On March 29, Jovi sent the group a PhotoCircle album invite link, which means she was coordinating photo sharing from that night. This puts her in the inner circle of the rodeo crew that night \u2014 the same night that became one of the most significant in the Emma arc. Jackson stopped drinking at 5pm, danced with Emma, drove her home sober. Jovi was part of that group.",
+      "source_file": "People/Jovi.md"
+    },
+    {
+      "title": "Kaylee Henderson",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "past",
+          "acquaintance"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who She Is\n- Pre-Auburn connection. Significant volume 2021\u20132023, then faded.\n\n## Snapchat\n- **Username:** kaylee_ann41706 (display: \"kaylee henderson\")\n- **Messages:** 476 (Feb 2021 \u2192 Apr 2023) \u2014 4th highest all-time\n- **Snaps:** 13\n- **Friend status:** Deleted\n- **Note:** The communication history includes study-related content (AP English), suggesting a high school peer. Ended April 2023. No active contact.\n\n## Mentioned In\n\n### March 2022 \u2014 Kaylee in \"the boys who don't want a gf\" Group Chat\nKaylee (kaylee_ann41706) was the sole sender in a group chat named \"the boys who don't want a gf\" \u2014 she sent a sticker on March 20, 2022. The name of the group is notable: it either includes her as a joke addition to a male-coded group, or she was the one who created/named it. Given she was the only sender and sent a sticker, it may have been a dead group or newly created. This is a minor finding but places Kaylee in a shared group context with Jackson in spring 2022.\nSource: **the-boys-who-don't-want-a-gf**\n\n## Significant Moments\n\nNo specific significant moments are documented yet from available source material. Kaylee was a high-volume high school contact \u2014 476 messages, study collaboration including AP English, general friend energy. The connection faded completely by April 2023 and her status is now Deleted. The record doesn't surface a clear turning point or emotionally meaningful exchange.",
+      "source_file": "People/Kaylee Henderson.md"
+    },
+    {
+      "title": "Kirtan Patel",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [
+          "Trey Frachiseur",
+          "Brock Adams"
+        ],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Current roommate.\n\n## Snapchat\n- **Username:** curtain_kid (display: \"Kirtan Patel\")\n- **Roommate group chat:** \"Aubbies sex slaves\" \u2014 **Kirtan Patel**, **Brock Adams**, **Trey Frachiseur**, Jackson. 93 messages, 645 group snaps (May 2023\u2013Apr 2026).\n- **Relationship Map**\n\n## Significant Moments\n\nNo specific significant moments are documented yet from available source material. The direct Snapchat thread between Jackson and Kirtan is essentially empty \u2014 5 messages over 2.5 years, all logistical. Their relationship lives primarily in the roommate group chat and in shared physical space, neither of which has yielded documented moments with emotional substance yet.",
+      "source_file": "People/Kirtan Patel.md"
+    },
+    {
+      "title": "Luke",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Close friend.\n- No Snapchat data confirmed in the export. Relationship exists off-platform or under an unknown username.\n\n## Significant Moments\n\nNo specific significant moments are documented yet from available source material. Luke is listed as a close friend but has no Snapchat data in the export, and he doesn't appear by name in any journal entries or arc documents reviewed. The relationship likely exists in spaces \u2014 in person, phone calls, platforms not captured here \u2014 that haven't been documented yet.",
+      "source_file": "People/Luke.md"
+    },
+    {
+      "title": "Mary Alice",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who She Is\n- Active friend. Consistent contact 2021\u20132025.\n\n## Snapchat\n- **Username:** ma_anglea (display: \"Mary Alice\")\n- **Messages:** 75 (Apr 2021 \u2192 Feb 2025)\n- **Snaps:** 14\n- **Friend status:** Active\n\n## Significant Moments\n\n### November 2021 \u2014 Jackson's Appendicitis Scare\nJackson messaged Mary Alice to tell her he had a rare form of appendicitis and had to wait on treatment. She immediately asked what was going to happen next. When he said he just had to wait, she said \"I'm sorry dude\" and he responded \"doesn't help\" \u2014 blunt, frustrated, but not mean. She didn't take it personally: \"I know. But. You know.\" That exchange was honest in a way that most people don't manage when someone's going through something. She was genuinely there, even if there wasn't anything useful to say.\n\n### May 2018 \u2014 Friendzone Announcement (via Anna)\nIn May 2022, Anna told Jackson that a teacher named Patton had told the whole class what happened between Jackson, Bo, and Mary Alice \u2014 and specifically said \"Jackson was friendzoned so hard.\" Anna was relaying it, not maliciously, but that's what the record has. What it reveals: there was a situation with Mary Alice that was embarrassing enough to become classroom gossip, and Jackson was on the receiving end of it.\n\n## Mentioned In (Additional)\n\n### October 2021 \u2014 Mary Alice Organized the Study Group\nMary Alice (ma_anglea) organized a study group called \"study group\ud83e\udd76\" in October 2021, inviting Jackson, Trey Frachiseur, laurelbella, katielynn_w8, hbain1111, macysteapleton, taywestcott0506, and bmb052505. She hosted at 231 Claremont Drive, coordinated the meet time (5pm), and kept the group small intentionally \u2014 \"let's keep it small \ud83d\udc80.\" When hbain1111 made a 0 on the exam after the session, she responded with \"Hayden I'm sorry \ud83d\ude2d.\" The group ran through February 2022 on quizlet links and exam prep. This situates Mary Alice as a social organizer and a point of connection between Jackson and other high school peers during that period. Trey Frachiseur confirmed \"Yes\" to attendance.\nSource: **study-group\ud83e\udd76**, **Trey Frachiseur**\n\n## Mentioned In\n\n### May 2022 \u2014 mentioned by **Anna** in conversation with Jackson\nAnna texted Jackson to tell him that their teacher Patton had told the whole class about what happened between Jackson, Bo, and Mary Alice \u2014 specifically saying \"Jackson was friendzoned so hard.\" Anna added that \"they are all talking ab u.\" She wasn't being malicious \u2014 she was giving him a heads-up. The moment puts Mary Alice at the center of classroom gossip, with a teacher as the one who surfaced it. Reveals that whatever happened between Jackson, Bo, and Mary Alice was known enough that a teacher felt comfortable announcing the outcome to the class.\nSource: **Anna**, **atallent97**",
+      "source_file": "People/Mary Alice.md"
+    },
+    {
+      "title": "Max Valentine",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Active friend. 5-year Snapchat relationship.\n\n## Snapchat\n- **Username:** maximusv29 (display: \"Max Valentine\")\n- **Messages:** 122 (Apr 2021 \u2192 Mar 2026)\n- **Snaps:** 160\n- **Friend status:** Active\n- **Note:** Consistent low-volume connection over 5 years. Snap-heavy relative to text.\n\n## Significant Moments\n\n### March 2023 \u2014 \"1 Year Ago Today\"\nJackson sent Max a snap on March 6, 2023 with the caption \"1 year ago, today.\" No additional context in the record, but the fact that he marked the date \u2014 and sent it to Max specifically \u2014 suggests something happened March 6, 2022 that mattered to both of them. It's a small moment that gestures at a shared history worth remembering.\n\nNo other specific significant moments are documented from available source material. The Max and Jackson connection is warm, long-running, and mostly visual (160 snaps vs. 122 messages) \u2014 it reads as a genuine friendship maintained through consistent low-key contact rather than big moments.\n\n## Mentioned In\n\n### March 2021\u2013August 2022 \u2014 \"Money L's\" Group Chat (Core High School Circle)\nMax (maximusv29) was a regular active sender in a group chat called \"Money L's\" \u2014 a large high school group that ran from March 2021 through August 2022 and included coben_guest23, mr.pandasempie, sapphireseth88, devlo_07, ninjaspamsl2, wyatt_simmon20, ouzeiph, and Jackson. This is one of the oldest and largest group records on Jackson's account, and Max was consistently present throughout. The group was active across all of sophomore year and into junior year \u2014 Jackson's formative high school period. Max was clearly embedded in this core social group from early on.\nSource: **money-l's**\n\n### June 2022 \u2014 \"KoolKidsKlub\" and \"Master Debaters\" Group Chats\nMax appeared as the sole named sender in both \"KoolKidsKlub\" (alongside mrbradyt07) and \"Master Debaters\" \u2014 both short-lived group chats. In KoolKidsKlub (June 2022, January 2023, October 2023), Max sent the first snap in June 2022. In Master Debaters (February 2023), Max sent a snap. Both groups had minimal content but place Max in shared social spaces with Brady Tennyson (mrbradyt07) across the 2022\u20132023 period.\nSource: **koolkidsklub**, **master-debaters**\n\n### December 23, 2024 \u2014 \"\ud83e\ude77\ud83e\ude77\ud83e\ude77ladies first\ud83e\ude77\ud83e\ude77\ud83e\ude77\" Group Chat\nMax (maximusv29) was the sole sender in a group chat named \"\ud83e\ude77\ud83e\ude77\ud83e\ude77ladies first\ud83e\ude77\ud83e\ude77\ud83e\ude77\" on December 23, 2024 \u2014 he sent a snap. The group name implies either an ironic male-coded title or a mixed group. Jackson was a member. Minor finding, but it places Max in a shared social group context with Jackson during the holidays in 2024.\nSource: **\ud83e\ude77\ud83e\ude77\ud83e\ude77ladies-first\ud83e\ude77\ud83e\ude77\ud83e\ude77**",
+      "source_file": "People/Max Valentine.md"
+    },
+    {
+      "title": "Miller Jolliff",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Active friend. Consistent Snapchat contact since mid-2022.\n\n## Snapchat\n- **Username:** miller_jolliff (display: \"Miller\")\n- **Messages:** 156 (Jun 2022 \u2192 Apr 2026)\n- **Snaps:** 168\n- **Friend status:** Active\n- **Note:** Snap-to-message ratio is roughly 1:1 \u2014 balanced communicator. Been consistent from 2022 to present.\n\n## Significant Moments\n\n### April 2024 \u2014 The Girl Who Lied to Both of Them\nJackson went to Miller in April 2024 because a girl Jackson had been involved with had apparently also dated Miller \u2014 briefly, two weeks \u2014 and had been less than honest with Jackson about the extent of it. She told Jackson they'd only kissed once, a peck, and it was a mistake. Miller confirmed they'd actually made out a lot. Jackson said it wouldn't bother him if she'd just been honest. Miller's response was measured: \"yall figure that out, I don't wanna be brought into this, I just wanna leave it in the past.\" He wasn't covering for anyone or throwing fuel \u2014 he was done with it. When Jackson kept pressing, Miller gave him what he needed and then told him clearly that at least he was going to college, and to look at the bright side. It was a friendship moment that required Miller to be honest even when it was awkward \u2014 and he was.",
+      "source_file": "People/Miller Jolliff.md"
+    },
+    {
+      "title": "Oreo",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "family"
+        ],
+        "Related People": [
+          "Shadow"
+        ],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Jackson's cat. Chill, laid back.\n- The other cat is **Shadow** (deeply bonded, long-haired black cat \u2014 \"literally me but a cat\").",
+      "source_file": "People/Oreo.md"
+    },
+    {
+      "title": "Scott Miller",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "academic",
+          "adversary"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Microbiology Lab instructor at Auburn University.\n- The instructor who escalated the academic integrity charge against Jackson in Spring 2026.\n\n## The Academic Integrity Situation\n- Filed a report against Jackson with the Academic Integrity Office over a clinic excuse note date discrepancy.\n- The note was sent to Jackson by Rainbow City Family Medicine on 02/24 \u2014 a clerical date error by the clinic, not an alteration by Jackson.\n- Jackson forwarded the note without checking the specific date; the clinic emailed a corrected note on 02/25 at 12:21 PM.\n- Scott Miller sent his escalation email at 12:52 PM \u2014 **26 minutes after receiving the corrected documentation.**\n- He interpreted the clinic's consistent message (\"Jackson was seen on 02/25\") as evasion. It was the truth.\n- His escalation proceeded despite the corrected note, the pharmacy record (Zofran filled 02/25), and a virtual visit confirmation (9:37 AM email, 02/25).\n- Jackson's position: the evidence is airtight. Documentation error only.\n\n## Status\n- Academic integrity hearing in preparation as of April 2026.\n- Jackson is preparing a full defense. See **academic-integrity-defense**.",
+      "source_file": "People/Scott Miller.md"
+    },
+    {
+      "title": "Shadow",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "family"
+        ],
+        "Related People": [
+          "Oreo"
+        ],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Jackson's cat. Long-haired black cat. Deeply bonded.\n- Jackson's words: \"literally me but a cat, I want to die before he dies.\"\n- The one Jackson feels most identified with of his two cats.",
+      "source_file": "People/Shadow.md"
+    },
+    {
+      "title": "TD Reeve",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who She Is\n- Active friend. Snap-dominant relationship \u2014 one of the highest 1:1 snap counts in the dataset.\n\n## Snapchat\n- **Username:** td_reeve (display: \"Tay\")\n- **Messages:** 265 (Apr 2022 \u2192 Jan 2026)\n- **Snaps:** 721 \u2014 4th highest 1:1 snap count in the dataset\n- **Friend status:** Active\n- **Note:** 73% of interactions are snaps, not text. The relationship is primarily visual/daily-check-in based.\n\n## Significant Moments\n\nNo specific significant moments are documented yet from available source material. TD Reeve (Tay) has one of the highest snap counts in Jackson's network \u2014 721 snaps, 4th highest 1:1 \u2014 but the text message record in the export is nearly empty (3 messages, all from April 2026, with the only readable one being content-unavailable). The relationship is heavily visual and real-time, not captured in text threads. Nothing from journals or arc documents references a specific moment with her either.",
+      "source_file": "People/TD Reeve.md"
+    },
+    {
+      "title": "Todd Pate",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "family"
+        ],
+        "Related People": [
+          "Angie Pate",
+          "Cameron Pate"
+        ],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Jackson's dad.\n- Owns a construction company.\n\n## Context\n- Jackson doesn't share the same ideologies as his family and probably never will.\n- Auburn was the first time Jackson felt truly free \u2014 freedom from the family dynamic.\n\n## Significant Moments\n\nNo specific documented moments. Todd doesn't appear in the Snapchat data, the journals, or the personal arc in any scene-level way. What exists is context: he owns a construction company, and Jackson's departure to Auburn represented freedom from the family dynamic \u2014 including the ideological gap that likely includes his dad. That gap is real and documented, but no single moment is on record. Nothing to fabricate.",
+      "source_file": "People/Todd Pate.md"
+    },
+    {
+      "title": "Tre Jackson",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [
+          "Ethan Arce",
+          "Brittain Snyder",
+          "Harrison"
+        ],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Close friend.\n\n## Snapchat\n- **Username:** trej3635\n- **Group chat:** **Fagmophobia** (with ethan_arce14, mrbradyt07 \u2014 core group chat)\n- **Relationship Map**\n\n## Significant Moments\n\n### April 25, 2024 \u2014 Finding Out Nat Cheated\nLate one night, Tre texted Jackson to tell him that Savannah had told him, in person, that Nat had been cheating on him with some guy named Cole while they were still together \u2014 and that they'd slept together. Tre's messages came in rapid bursts: \"Savannah said nat told her in person that she was cheating on me with that Cole guy while we were still dating,\" \"And that she heard they fucked,\" \"Holy brotha.\" Jackson's response was just \"what the fuck,\" three times in a row. He didn't know what else to say because there wasn't anything else to say. Tre said he was \"lost for words.\" Jackson said it back. The exchange was short \u2014 neither of them had a script for something like that \u2014 but Jackson was who Tre told first.\n\n### August 7, 2025 \u2014 \"I miss her real shit\"\nTre sent Jackson a quote attributed back to him: \"i miss her real shit\" - jackson p. Jackson had apparently said this at some point, probably about Emma, and Tre clocked it and saved it \u2014 enough to send it back. The fact that Tre was paying that close attention, and felt comfortable reflecting it back like that, says something about how they talk. They don't let each other disappear into their own heads without noticing.\n\n### June 5, 2024 \u2014 \"I'm so depressed\"\nOne afternoon in early June, Tre sent Jackson just three words: \"I'm so depressed.\" Jackson's response was simple and immediate: \"call me brotha.\" He didn't ask questions, didn't offer explanations, didn't make it complicated. Just: call me. That's the whole thing.\n\n## Group Chat Record\n\n### \"gruesome twosome\" (March 2025 \u2013 April 2026)\nA group chat named \"gruesome twosome\" with Jackson and Ethan Arce (ethan_arce14) \u2014 55 messages, March 2025 through April 3, 2026. Tre is the primary sender. Content is almost entirely snaps and notes (unavailable text), with scattered readable lines: \"and chest is still so sore and fatigue\ud83e\udd7a\ud83e\udd7a\ud83e\udd7a\ud83d\udc68\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\" (Aug 1, 2025, about being sore from working out), \"i was stuck\" (Jan 4, 2026, Ethan's response to something), \"thats reethanstarted\" (June 12, 2025, Jackson's message \u2014 appears to be a joke mid-conversation). The name and the membership make it clear: Tre and Ethan Arce are the two, with Jackson included as a third. This is the inner trio documented in a separate channel from Fagmophobia.\n\n### \"Foursome of d00m\" (April\u2013May 2025)\nA group chat with Tre (trej3635) and Ethan Arce (ethan_arce14), 12 messages. Content is snaps, stickers, and one readable line from Ethan: \"Cucumber Calvin\" (April 15, 2025 \u2014 a nickname or joke about someone). Active late-night (4-6am) during April 2025.\n\n### \"Glib\" (December 2025)\nA two-message group chat where Tre sent two snaps on December 15, 2025. Very minimal, but the name \"Glib\" suggests an inside term.\n\n## Mentioned In\n\n### July\u2013December 2023 \u2014 \"Brady gyatt\" Group Chat\nTre (trej3635) was a member of a group chat called \"Brady gyatt\" alongside Ethan Arce (ethan_arce14), mrbradyt07 (Brady), coben_guest23, and dbrackett89. The group ran July through December 2023. Content included messages explicitly addressing Ethan by last name (\"Arce this one's for you,\" \"Arce you pullin up tn\") and casual coordination. The group confirms Tre, Ethan, and Brady were all running together in summer/fall 2023 \u2014 same core trio that later anchored the Fagmophobia group.\nSource: **Ethan Arce**, **brady-gyatt**",
+      "source_file": "People/Tre Jackson.md"
+    },
+    {
+      "title": "Trey Frachiseur",
+      "properties": {
+        "Type": "person",
+        "Category": "people",
+        "Tags": [
+          "close-friend"
+        ],
+        "Related People": [
+          "Emma Williard",
+          "Brittain Snyder",
+          "Harrison",
+          "Brock Adams",
+          "Kirtan Patel"
+        ],
+        "Date Updated": "2026-04-10",
+        "Source": "oracle-synthesis"
+      },
+      "content_markdown": "## Who He Is\n- Jackson's current roommate. Also next year's roommate.\n- Goes by **Frey** in personal/romantic context (same person).\n\n## The Emma Situation\n- Dated **Emma Williard** for 1.5 years. Currently has a girlfriend.\n- Has been talking badly about Jackson since the summer \u2014 Emma confirmed this directly.\n- After the Treaty Oak Revival rodeo, texted Emma: \"wow cannot believe ur hanging out without an actual loser right now\" and \"wait till you fall off before you date him, he's so under me.\"\n- Jackson's response: not reacting. Living well is the answer.\n\n## Living Situation\n- The conversation between them is coming eventually \u2014 living together makes it unavoidable.\n- Jackson is not initiating confrontation. Letting it play out.\n\n## Snapchat\n- **Username:** trey_frachiseur (display: \"Frey\")\n- **Messages:** 138 (Oct 2020 \u2192 Apr 2026) \u2014 ongoing since freshman year\n- **Snaps:** 203\n- **Roommate group chat:** \"Aubbies sex slaves\" \u2014 members: **Brock Adams**, **Kirtan Patel**, **Trey Frachiseur**, Jackson. 93 messages, 645 group snaps (May 2023\u2013Apr 2026). This is the primary roommate coordination channel.\n- **Relationship Map**\n\n## Snapchat Intelligence\n- **Username:** trey_frachiseur\n- **Snaps:** 681 (116 sent / 565 received) -- receives 4.9x what Jackson sends\n- **Messages:** 138 (Oct 2020 -- Apr 9 2026) -- spans nearly the entire account history\n- **Pattern:** Heavily receiver-dominant. Jackson rarely initiates snaps with Trey.\n- **Group chats shared:** **aubbies-crew**, **fagmophobia**\n- **Era:** Longest-spanning relationship. First message Oct 2020, still active.\n- **Status:** Active but tension documented in vault. Messages continue despite relationship strain.\n- **trey_frachiseur**\n\n## Significant Moments\n\n### September 25, 2025 \u2014 Nursing Interview Support\nThe morning of Jackson's nursing program interview, Trey texted him: \"Good luck on your interview today big dog. You gonna kill that shit.\" This was months before the Emma situation complicated things. Trey was genuinely in Jackson's corner on something that mattered. That support was real, and it existed before the tension did.\n\n### October 30, 2024 \u2014 The Mountain Dream\nAt 6am, Trey sent a running narrative of a dream he'd just woken from: they were in a mountain town, Trey stole back Jackson's fake ID from someone who took it, a guy started chasing them, Jackson physically carried Trey to the car when his legs gave out, four cops got on them, they kept going because Jackson had vapes, they slid off the road and crashed but everyone lived. Kennadie was there the whole time. Ended with: \"Then I woke up.\" The fact that he texted this out unprompted at 6am \u2014 and that the dream had both of them in a loyalty-under-fire scenario \u2014 captures what the friendship looked like at its most natural.\n\n### April 9, 2026, 2am \u2014 The Night the Date Didn't Happen\nAt 2am on April 9 \u2014 the night Emma was supposed to go on a first date with Jackson and ghosted instead \u2014 Jackson sent Trey a status screenshot and they exchanged multiple messages that are now deleted or unavailable. The content is gone. But Jackson went to Trey when things went sideways that night. Whatever got said, Trey was who he reached first.\n\n### ~Late March 2026 \u2014 The Rodeo Texts\nWhen Emma went to the Treaty Oak Revival rodeo with Jackson, Frey found out. He texted her: \"wow cannot believe ur hanging out without an actual loser right now\" and \"wait till you fall off before you date him, he's so under me.\" Emma told Jackson about it. He's been talking badly about Jackson since the summer \u2014 Emma confirmed this directly, separately from the rodeo texts. The texts revealed something specific: Frey felt threatened enough to try to poison the relationship before it started. Jackson's response wasn't confrontation. He's living in the same apartment as this person, planning to room with him next year too, and not reacting. The conversation between them is coming eventually. He's not forcing it.\n\n## Mentioned In (Additional)\n\n### October 2021 \u2014 Study Group with Mary Alice (High School)\nTrey appeared in a group chat called \"study group\ud83e\udd76\" (Oct 2021\u2013Feb 2022) organized by Mary Alice (ma_anglea), which included Jackson, laurelbella, katielynn_w8, hbain1111, macysteapleton, taywestcott0506, and bmb052505. This is a high school study group, placing Trey in the same academic/social circle as Mary Alice and Jackson during sophomore/junior year. He responded \"Yes\" to Mary Alice's study session invite \u2014 one of the few readable lines in the chat.\nSource: **Mary Alice**, **study-group\ud83e\udd76**\n\n### August\u2013November 2025 \u2014 \"Real Yugo\" group chat\nTrey was active in a group called \"Real Yugo\" (Aug 29\u2013Nov 18, 2025) alongside devlo_07, jdub0055, curtain_kid, brockadams_02, and piercebueto. The group was active across fall semester 2025. The most notable line came from devlo_07 on September 5: \"Trey and that dude had sex / He grabbed his bicep\" \u2014 clearly a joke/commentary about Trey interacting with someone. Also on September 8, Brock Adams shared an Auburn address (819 E Glenn Ave, Ste 120) in the chat \u2014 likely a meetup spot. The group confirms Trey's broader social circle in fall 2025 Auburn included both roommates and other Auburn connections.\nSource: **Brock Adams**, **real-yugo.md**\n\n### March 2026 \u2014 Spring Break (\"Spring Break bitches 2.0\")\nTrey was active in the spring break group chat alongside Jackson, Harrison, nickzito-17, and grantcollins83 (March 13\u201319, 2026). On March 14, Trey sent two texts: \"Ashkon\" and \"30 min shit\" \u2014 coordinating timing or logistics. Despite the documented tension with Jackson over Emma, they were still in shared social spaces for spring break 2026.\nSource: **spring-break-bitches-2.0**\n\n## Mentioned In\n\n### June 2022 \u2014 \"Tre and Nat\" Referenced in Jackson's Conversation with Brady\nIn Jackson's chat with mrbradyt07 (Brady Tennyson), Jackson wrote: \"u gonna tell ak abt tre and nat\" \u2014 asking Brady if he was going to tell Aubrie (\"ak\" = Aubrie's display name \"ak8\") about Trey being involved with someone named \"nat.\" The implication: in June 2022 Trey had something going on with a girl named Nat, and Aubrie may have had a stake in knowing about it \u2014 possibly because of her own social circle or relationship with Trey. The question being directed at Brady (not Trey directly) suggests Jackson knew but didn't feel it was his place to say, and the framing presumes Brady would be the one to deliver it. This predates the Aubrie/Jackson relationship (which starts Oct 2022) by several months \u2014 Aubrie was already in their shared social world before Jackson was dating her.\nSource: **Aubrie**, **mrbradyt07**\n\n### November 2021\u2013August 2022 \u2014 \"mommy?\" Group Chat (High School)\nTrey was an active member of a group chat named \"mommy?\" alongside Jackson, katielynn_w8, jdub0055, and curtain_kid. Ran October 2021 through September 2022 \u2014 spanning senior year of high school and first months of Auburn. Trey sent multiple photos and contributed to study discussions about American history. One notable exchange in September 2022: Trey texted \"So how are we supposed to know what the freak acetate is\" \u2014 complaining about chemistry material. The chat confirms Trey and Jackson were in the same academic/social circle through the end of high school and into early Auburn.\nSource: **mommy.md**\n\n### May 2023 \u2014 \"Jackson is no longer the DD\" Group Chat\nA group chat by that name (with Trey and katielynn_w8) shows Trey sending a photo on May 19, 2023 at 2am \u2014 likely at a party or social event. Jackson responded at 9pm the same day: \"at least i'll be sober.\" The chat name itself is the content: Jackson had apparently lost (or given up) the designated driver role. Trey was active and seemingly not sober. Captures the dynamic of this group's social life in May 2023.\nSource: **jackson-is-no-longer-the-dd**\n\n### September 13, 2024 \u2014 Mentioned in \"Fuck southeast\" group chat\nTrey sent a message to a group called \"Fuck southeast\" (with Brock Adams): \"Tre's high as shit.\" Brock replied \"real.\" The name of the group and the message both suggest a reaction to something happening at Southeast \u2014 possibly a venue, game, or event. Tre Jackson is referenced by name. Reveals the social orbit in September 2024: Trey, Brock, and Tre were all running together.\nSource: **Brock Adams**, **fuck-southeast**\n\n### October 2020 \u2014 High School Geometry Group Chat\nTrey appears in a group chat called \"geometry\ud83d\ude17\ud83d\udd2b\" alongside jkilgo39 and egwhiteside22, dating to October 2020 \u2014 sophomore year of high school. Trey is the first active sender. Places him in Jackson's social world from the earliest Snapchat record. This is one of the oldest group chats on Jackson's account.\nSource: **geometry\ud83d\ude17\ud83d\udd2b**\n\n### Spring 2026 \u2014 Jackson and Emma Talking About Frey\nEmma Williard was the source of everything documented about Frey's behavior in this period. She told Jackson directly that Frey had been talking badly about him since the summer. She also shared the rodeo texts with Jackson \u2014 he found out what Frey said to her through her, not through Frey. This matters: Emma chose to tell Jackson. She didn't protect Frey or stay neutral. These conversations are documented in **Emma Williard**'s page (Significant Moments \u2014 The Rodeo Night) and **active-situations** (The Frey Situation).",
+      "source_file": "People/Trey Frachiseur.md"
+    }
+  ],
+  "relation_pass_2": {
+    "note": "After all rows are created, run a second pass to wire 'Related People' relations. For each row, look up its 'Related People' list (currently strings), find matching pages by Name, and set the relation property to the resolved page IDs."
+  }
+}

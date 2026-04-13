@@ -1,0 +1,464 @@
+{
+  "title": "\ud83d\udcd4 Journal",
+  "schema": {
+    "Name": {
+      "type": "title"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Type": {
+      "type": "select",
+      "options": [
+        "journal",
+        "journal-archive"
+      ]
+    },
+    "Category": {
+      "type": "select",
+      "options": [
+        "journal"
+      ]
+    },
+    "Tags": {
+      "type": "multi_select",
+      "options": [
+        "arc",
+        "archive",
+        "interview-prep",
+        "notes",
+        "nursing",
+        "personal",
+        "reflection",
+        "school"
+      ]
+    },
+    "Source": {
+      "type": "rich_text"
+    }
+  },
+  "default_view": {
+    "type": "table",
+    "sort": [
+      {
+        "property": "Date",
+        "direction": "descending"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "title": "Journal \u2014 9/27/25 \u2014 Saturday",
+      "properties": {
+        "Date": "2025-09-27",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "First journal entry. Asked \"who is Jackson?\" \u2014 felt like he'd been wearing a mask so long he became the mask. Didn't know who was underneath. Felt pieces of himself come out when he saw *her* that night (someone from high school) \u2014 said it felt natural, not like he had to perform to be liked. Declared he was ready to wake up and live his own God-given life, not float through it. Realized he was lost but not depressed. Wrote: *\"Self love is the cure to self hate.\"* Noted fear of getting close with God even though he wanted to.",
+      "source_file": "Journal/2025-09-27-1.md"
+    },
+    {
+      "title": "Journal \u2014 9/28/25 \u2014 Sunday",
+      "properties": {
+        "Date": "2025-09-28",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Questioned whether he was a good guy. Felt unwanted \u2014 like he had everyone else's back but no one had his (except family). Felt like he was just *there* and no one actually wanted to hang out with him one on one. Wrote \"it sucks\" and signed it.",
+      "source_file": "Journal/2025-09-28-1.md"
+    },
+    {
+      "title": "Journal \u2014 9/29/25 \u2014 Monday",
+      "properties": {
+        "Date": "2025-09-29",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Rough day. Completely in his head, unbelievably anxious. Didn't go to class. Used the time to study instead. Tried everything \u2014 went back to the Bible (not selfishly, just needed answers), exercised, tried to push through. Felt like he was doing everything wrong. Lonely. Everyone around him had someone they loved. Frustrated that every female friend either liked him or he liked them \u2014 exhausting dynamic. Went to Panda Express, went to the gym.",
+      "source_file": "Journal/2025-09-29-1.md"
+    },
+    {
+      "title": "Journal \u2014 10/1/25 \u2014 Wednesday",
+      "properties": {
+        "Date": "2025-10-01",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Studied for Gov exam, felt he did well. Threw his weed out \u2014 tired of the life he was living. Felt lonely, especially watching everyone around him have girlfriends. Missed his mom. Grateful for everything she does. Wrote: *\"There is about to be a huge change. I'm old enough where I need to be locked in.\"*",
+      "source_file": "Journal/2025-10-01-1.md"
+    },
+    {
+      "title": "Journal \u2014 10/13/25 \u2014 Monday",
+      "properties": {
+        "Date": "2025-10-13",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Wrote \"good luck buddy, we'll see how this one turns out\" to himself. Lost again \u2014 inside his own mind 75% of the day. Praying daily for it to get better but still feels the same. Then wrote: *\"I may have met my wife \u2014 she's stated not wanting a relationship but she has not seen the BE absolute 100% JPB.\"* (Bailey Edwards \u2014 first mention.)",
+      "source_file": "Journal/2025-10-13-1.md"
+    },
+    {
+      "title": "Journal \u2014 10/17/25 \u2014 Tuesday (misdated)",
+      "properties": {
+        "Date": "2025-10-17",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Felt like he needed to get his life together. Every best friend had found a great girlfriend. Felt lonely \u2014 not even lonely but *falling behind* everyone else. Didn't fit in any group besides his own. Wrote in big letters: **\"I have got to get a plan for my life.\"**",
+      "source_file": "Journal/2025-10-17-1.md"
+    },
+    {
+      "title": "Journal \u2014 10/19/25 \u2014 Sunday",
+      "properties": {
+        "Date": "2025-10-19",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Made a 56 on AP2 test \u2014 way worse than expected. Found Bailey Edwards. Described her as very God-driven, absolutely wife material, scared she only sees him as a friend. Listed everything about her \u2014 favorite color purple, flowers: daisies/hydrangeas/hibiscus, twin brother Ethan, loves cats, country music, Mexican food, allergic to smoke. Wrote *\"I Love Doesn't Exist\"* then crossed it out. Said *\"I truly admire her.\"*",
+      "source_file": "Journal/2025-10-19-1.md"
+    },
+    {
+      "title": "Journal \u2014 10/27/25",
+      "properties": {
+        "Date": "2025-10-27",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Bailey got very distant. Hurt. In bad judgment posted a pic with another girl on Instagram \u2014 petty move, knew it. Feared anything between them was gone. Sidenote: she sent a pic with her roommate and he saved it. *\"I might just be playing mind games.\"*",
+      "source_file": "Journal/2025-10-27-1.md"
+    },
+    {
+      "title": "Journal \u2014 10/27/25 \u2014 Monday Morning, 11:30am",
+      "properties": {
+        "Date": "2025-10-27",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Bailey rejected him the night before. Called him a shitty person for what he did to Jansen. Hurt but also numb \u2014 questioned if he'd been depressed. Still didn't want to stop pursuing. Wrote: *\"I don't know what to do. I hate having a bad reputation.\"*",
+      "source_file": "Journal/2025-10-27-2.md"
+    },
+    {
+      "title": "Journal \u2014 10/28/25",
+      "properties": {
+        "Date": "2025-10-28",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "In his head about everything. Didn't think he was wrong in the Jansen situation \u2014 told her from the start he didn't want a relationship. Couldn't believe she called him a pathological liar. Felt like he was slightly losing himself daily, getting overall down and didn't know how to pull out.",
+      "source_file": "Journal/2025-10-28-1.md"
+    },
+    {
+      "title": "Journal \u2014 11/2/25",
+      "properties": {
+        "Date": "2025-11-02",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Complete 180. *\"Genuinely might be my top 2 weeks of my life.\"* Stopped talking to Bailey \u2014 sucked, but a lot happened and life was becoming peak. Noticed Ava Field from Auburn Danceline. Ordered an iced medium Blondie from 7 Brew.",
+      "source_file": "Journal/2025-11-02-1.md"
+    },
+    {
+      "title": "Journal \u2014 11/8/25 \u2014 Saturday",
+      "properties": {
+        "Date": "2025-11-08",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Weird week. Went to the bar with Dev Patel, great night until they needed a ride. Asked Ella Dupree (ex talking stage) for a ride home. Left his phone in her car. She held it hostage. He barged through the door to grab it and accidentally broke her toes. Felt terrible. Mom said he was in the right. Got really sick \u2014 103-104 fever, sweats, puking. Life felt like death itself. *\"Day by day life gets harder and I am getting tired.\"*",
+      "source_file": "Journal/2025-11-08-1.md"
+    },
+    {
+      "title": "Journal \u2014 11/20/25",
+      "properties": {
+        "Date": "2025-11-20",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Still getting more and more tired. Wrote *\"Damn days of it\"* in red.",
+      "source_file": "Journal/2025-11-20-1.md"
+    },
+    {
+      "title": "Journal \u2014 11/22/25 \u2014 Saturday",
+      "properties": {
+        "Date": "2025-11-22",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "*\"It is getting really really hard. I'm trying my best but I don't know how much more I have left in me at this point. Every day is a struggle and I'm getting exhausted.\"* Wrote *\"Cry me a fucking river\"* underneath \u2014 both self-deprecating and determined.",
+      "source_file": "Journal/2025-11-22-1.md"
+    },
+    {
+      "title": "Journal \u2014 11/23/25 \u2014 Sunday",
+      "properties": {
+        "Date": "2025-11-23",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "*\"Still really hard. I don't know what to do.\"*",
+      "source_file": "Journal/2025-11-23-1.md"
+    },
+    {
+      "title": "Journal \u2014 11/27/25 \u2014 Thanksgiving",
+      "properties": {
+        "Date": "2025-11-27",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "*\"Sometimes I just feel so out of place even at my own family's Thanksgiving.\"* Struggling with seasonal depression. Felt out of his own life for what felt like forever. Couldn't remember the last time he felt like Jackson Pate. Not alone on paper but *\"I am ALONE.\"* Emptiness deep in his chest. Drew a sad and happy face side by side. Wrote *\"When will I be better? Will I ever be?\"* and *\"I'm about to lose my mind.\"*",
+      "source_file": "Journal/2025-11-27-1.md"
+    },
+    {
+      "title": "Journal \u2014 12/4/25 \u2014 Thursday",
+      "properties": {
+        "Date": "2025-12-04",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "*\"I genuinely think I might be losing my mind. I am losing my mind. I can't think straight. I'm on copilot.\"* Then later wrote next to it: *\"What a pussy I was, wow.\"* \u2014 growth in retrospect.",
+      "source_file": "Journal/2025-12-04-1.md"
+    },
+    {
+      "title": "Journal \u2014 12/8/25 \u2014 Monday",
+      "properties": {
+        "Date": "2025-12-08",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Starting to feel a lot better. Realized he was going insane because he wasn't busy. Now swamped. No new women \u2014 slightly disappointing. But overall chilling.",
+      "source_file": "Journal/2025-12-08-1.md"
+    },
+    {
+      "title": "Journal \u2014 1/29/26",
+      "properties": {
+        "Date": "2026-01-29",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Nursing instructor said: *\"A C from Auburn is an A from everywhere else.\"* One line. Locked in.",
+      "source_file": "Journal/2026-01-29-1.md"
+    },
+    {
+      "title": "Journal \u2014 2/2/26 \u2014 Monday",
+      "properties": {
+        "Date": "2026-02-02",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "*\"Everything in life is truly great. I have zero idea what changed from last semester to this one but life is truly amazing.\"*",
+      "source_file": "Journal/2026-02-02-1.md"
+    },
+    {
+      "title": "Journal \u2014 2/8/26 \u2014 Eye Exam",
+      "properties": {
+        "Date": "2026-02-08",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Found out he needed glasses. Symptoms: sees double especially white words on black backgrounds on digital devices, sees streaks of lights at night when driving (really bad in rain), hard to see small words after 4 feet, eyes hurt really bad after extended screen time.",
+      "source_file": "Journal/2026-02-08-1.md"
+    },
+    {
+      "title": "Journal \u2014 2/24/26",
+      "properties": {
+        "Date": "2026-02-24",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Bored in NURS 2030 class. Packed down with things to study. Looked back at his old journals and wrote: *\"What a pussy I was.\"* \u2014 full circle moment.",
+      "source_file": "Journal/2026-02-24-1.md"
+    },
+    {
+      "title": "Journal \u2014 3/1/26",
+      "properties": {
+        "Date": "2026-03-01",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Reminder to self: bring Ms. Lisa a Ron Jon Panama City sticker and Sex Wax chapstick.",
+      "source_file": "Journal/2026-03-01-1.md"
+    },
+    {
+      "title": "Journal \u2014 3/9/26",
+      "properties": {
+        "Date": "2026-03-09",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Started watching Peaky Blinders to finish before the movie. Already hooked on episode 2. *\"Genuinely peak cinema.\"*",
+      "source_file": "Journal/2026-03-09-1.md"
+    },
+    {
+      "title": "Journal \u2014 3/15/26",
+      "properties": {
+        "Date": "2026-03-15",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "Got Ms. Lisa her things. Won $405 on Betr overall but lost $55 on poker \u2014 still up overall. PCB trip rated 10/10 so far. Daniel Sosa pulling up to PCB the next day \u2014 hadn't seen him in a long time, hoping he's still cool.",
+      "source_file": "Journal/2026-03-15-1.md"
+    },
+    {
+      "title": "What Jackson Has Shared Personally",
+      "properties": {
+        "Date": "2026-04-06",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notion \u2014 Thought Journal"
+      },
+      "content_markdown": "## Identity & The Real Fear\n- Biggest fear isn't wasted potential \u2014 it's **not being good enough**. The deeper fear is trying everything and still not being enough.\n- Biggest lie he tells himself: *\"I should already have it figured out.\"*\n- Sees everyone as better than him. That's the internal story nobody sees.\n- Keeps people at a distance because he's scared if they see the real him they won't like what they find.\n- Feels like a side character in everyone else's story \u2014 but wants desperately to matter in someone's life.\n- Nobody fully gets how much he's in his head second-guessing everything he does and says.\n\n## Faith\n- Believes in Christianity \u2014 heaven, purpose, something bigger.\n- Faith brings both peace and pressure. The guilt is real.\n- Feels scared to get close with God and doesn't fully know why.\n\n## Family\n- Doesn't share the same ideologies as his family and probably never will.\n- Brother Cameron has spina bifida \u2014 feels Cameron has wasted potential due to laziness, enabled by their mom.\n- Auburn was freedom from all of it. First time he felt truly himself.\n- *\"Absofuckinglutely. I have become more than what I ever thought I could be \u2014 not just academically but as a person.\"*\n\n## Ethan Arce\n- Most trusted person in his life. Lives in Oklahoma.\n- Similar in almost every way except: Ethan isn't religious, and Ethan sees people as beneath him while Jackson sees everyone as better than him.\n- Even Ethan doesn't know about the \"not good enough\" fear. Nobody does.\n\n## Emotional Processing\n- Processes emotions analytically, not expressively. Often misread as emotionally detached \u2014 actually feels deeply.\n- Thinks then feels, not the other way around.\n- Prone to overthinking but rarely impulsive.\n- Doesn't guard emotions \u2014 just chooses very carefully who gets that version of him.\n\n## The Emma Arc (March\u2013April 2026)\n- Emma Williard \u2014 talked for 6 months in high school before she dated Frey for 1.5 years.\n- March 6th 2026: Ran into each other at a bar. Talked for 4 hours. Stayed at her place until 4:30am. Realized he's in love with her.\n- Her mom already knew his name. He's #2 on her Snapchat best friends list (after her mom).\n- Treaty Oak Revival rodeo concert \u2014 she told him to find her. Spent the night with her group, danced together, drove her home sober, asked her on a date. She said yes.\n- Emma said she wants something but is scared of being hurt. He told her he wouldn't hurt her.\n- Fell asleep together talking at her place. She woke him up at 3-4am to leave for an 8am advisor appointment.\n- Wednesday April 9th \u2014 date planned (The Depot, Auburn, white hydrangeas ready). She ghosted before it happened. Date never occurred.\n- *\"I know she could be my wife and I would hate to see it all go away just because of insecure irrational arrogant assholes.\"*\n- *\"I really love her.\"* \u2014 said without hesitation or analysis. The clearest he's ever been about anyone.\n- Emma prefers oval cut rings.\n\n## The Frey Situation\n- Frey (Trey Frachiseur \u2014 Jackson's roommate) has been talking about Jackson negatively since the summer \u2014 Emma told him directly.\n- After the rodeo Frey texted Emma: *\"wait till you fall off before you date him, he's so under me.\"*\n- Jackson's response: not reacting. Living well is the answer.\n\n## Social Modes\nTwo distinct modes \u2014 both real, both Jackson:\n- **Locked-in mode:** studying, building, goal-oriented, structured, mentally serious\n- **Letting loose mode:** out with the boys, turns off the seriousness, enjoys it fully, rarely regrets it\n\nThe ability to switch between them is intentional. \"That's the time to let loose.\" Wakes up after going out with neutral-to-good feelings \u2014 no guilt, just memories of how fun it was. Doesn't escape into going out, just enjoys it.\n\n## Money\nMotivates more than it stresses. Sees it as a tool for freedom and stability \u2014 not the primary goal in life, but a necessary foundation. Legacy and meaning matter more than the number.\n\n## Alcohol\nTreats it socially, not as an escape. Goes out with friends, has fun, doesn't black out or do things he regrets. Part of normal social life, not a crutch.\n\n## Preferred Name\nGoes by **Pate** \u2014 uses it as his go-to name in social and casual contexts.\n\n## Life Philosophy (His Own Words)\n- Good life = meaningful work, strong relationships, peace with yourself.\n- Home is a feeling, not a place \u2014 comfort, familiarity, trust.\n- Wants to be remembered as a good guy, always there for anyone.\n- Believes trust can be rebuilt but it's harder than building it the first time.\n- Purpose: build something meaningful and help people.\n\n---\n\n## Summary of the Arc\n\nSeptember 2025: Lost, masked, questioning identity.\nOctober\u2013November 2025: Dark stretch \u2014 rejection, sickness, loneliness, seasonal depression.\nDecember 2025: Hitting rock bottom mentally, then slowly climbing out.\nJanuary\u2013February 2026: Complete shift. Life is great, nursing is locked in, direction is clear.\nMarch 2026: Living. PCB, Peaky Blinders, Emma, building the life he planned.\n\n*The guy who wrote \"will I ever be better\" became the guy who looked back and said \"what a pussy I was.\" That's the whole story.*",
+      "source_file": "Journal/2026-personal-reflections.md"
+    },
+    {
+      "title": "Bar Night \u2014 April 9, 2026",
+      "properties": {
+        "Date": "2026-04-09",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notability"
+      },
+      "content_markdown": "Notability handwritten note \u2014 content not OCR-extractable (blank/image-only page).\n\nSource: `bar nigbt 4-9-26.pdf` \u2014 7.3KB file, single blank page with no readable ink.",
+      "source_file": "Journal/bar-night-2026-04-09.md"
+    },
+    {
+      "title": "Auburn Nursing Notes \u2014 NCLEX Prep (Sep 24, 2025)",
+      "properties": {
+        "Date": "2025-09-24",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [
+          "nursing",
+          "school",
+          "interview-prep"
+        ],
+        "Source": "Notability"
+      },
+      "content_markdown": "Notability handwritten note. Auburn nursing program interview / NCLEX preparation notes.\n\n---\n\n## Auburn Nursing Notes \u2014 NCLEX\n\nAuburn mission statement:\n> \"To advance health, wellness, and healthcare for all through excellence in practice, teaching, scholarship, and outreach.\"\n\n### Qualities that make a good nurse\n- Empathy\n- Communication\n- Leadership\n- Time management\n- Critical thinking skills\n- Integrity\n\n---\n\n### Interview prep questions\n\n**Why should we choose you for Auburn Nursing?**\n\u2014 If I am chosen I will work incredibly hard to do well and become an excellent nurse, and I will strive to represent Auburn Nursing Program with total [dedication].\n\n**What are good qualities of a nurse?**\n\n**Why did you choose Auburn?**\n- 95% NCLEX [pass rate]\n- Love Auburn as a whole \u2014 second home because brother went here\n- Spoke to graduated nurses that are friends with brother\n- Connected to mission statement\n\n**Patient Privacy**\n\n**Conflict** \u2014 defuse, honest, calm open conversation about it\n\n**Why nursing is rewarding:** Take care of people \u2014 professional, different specialized areas, different areas, room to grow, even possibly teach.\n\n**Biggest fear:** Lots of stress and pressure \u2014 keep life in balance, not only committing to work.\n\n---\n\nMission statement (repeated):\n> \"To advance health, wellness, and healthcare for all through excellence in practice, teaching, scholarship, and outreach.\"",
+      "source_file": "Journal/note-2025-09-24.md"
+    },
+    {
+      "title": "Note \u2014 February 6, 2026",
+      "properties": {
+        "Date": "2026-02-06",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notability"
+      },
+      "content_markdown": "Notability handwritten note \u2014 minimal content.\n\n---\n\n- **Netner Portal** \u2014 [829, 80, -494]\n\n*(Single line on an otherwise blank page. Appears to be a reference number or portal coordinates.)*",
+      "source_file": "Journal/note-2026-02-06.md"
+    },
+    {
+      "title": "Note \u2014 March 26, 2026",
+      "properties": {
+        "Date": "2026-03-26",
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [],
+        "Source": "Notability"
+      },
+      "content_markdown": "Notability handwritten note \u2014 content not OCR-extractable. Page shows only blank ruled lines with a small pen mark in the upper right corner. No text was written or the ink was not captured in the export.\n\nSource: `Note Mar 26, 2026.pdf` \u2014 18.3KB file.",
+      "source_file": "Journal/note-2026-03-26.md"
+    },
+    {
+      "title": "Personal Notes Root B",
+      "properties": {
+        "Date": null,
+        "Type": "journal-archive",
+        "Category": "journal",
+        "Tags": [
+          "personal",
+          "notes",
+          "archive"
+        ],
+        "Source": "Obsidian vault"
+      },
+      "content_markdown": "Transcribed from handwritten PDFs in notes-inbox. Six files processed; two were blank pages (Note Sep 30, 2025 (2).pdf and bar nigbt 4-9-26.pdf).\n\n---\n\n## Oct 28, 2025 \u2014 Psych Exam 77 Review Notes\n\nSource: `Note Oct 28, 2025.pdf`\n\nHandwritten study notes for Psych Exam 77. Q&A format \u2014 answers written below each question.\n\n1. Theory of physiological arousal / free emotion\n   - James-Lange Theory\n\n2. Prenatal development results of implantation \u2014 on uterine wall = Zygote Stage\n\n3. Piaget stated: the ability to understand mass or quantity even when the shape changes is...\n   - Conservation\n\n4. A person who avoids stealing because they believe it would harm society's rules and reputation is reasoning at the **Conventional** level of moral development\n\n5. The belief that effort and persistence will likely lead to success reflects...\n   - Self-efficacy\n\n6. Which of the following Big Five Traits best predicts reliability, organization, and attention to detail?\n   - Conscientiousness\n\n7. According to Freud, the part of personality that operates on the reality principle is...\n   - Ego\n\n8. The Yerkes-Dodson Law states that performance is best when arousal is...\n   - Moderate\n\n9. Seeking comfort, then rejecting it = insecure / ambivalent\n\n10. A person that is creative, curious, and open to new things scores high on...\n    - Openness to experience\n\n---\n\n## Sep 24, 2025 \u2014 Auburn Nursing Interview Prep / NCLEX Notes\n\nSource: `Note Sep 24, 2025 (2).pdf`\n\nHandwritten prep notes for Auburn Nursing program application/interview, plus general NCLEX framing.\n\n**Auburn Nursing mission statement (written out):**\n\"To advance health, wellness, and healthcare for all through excellence in practice, teaching, scholarship, and outreach\"\n\n**Qualities that make a good nurse:**\nEmpathy, Communication, Leadership, Time Management, Critical Thinking Skills, Integrity\n\n**Why should we choose you for Auburn Nursing?**\n- If chosen I will work incredibly hard to do well and become an excellent nurse\n- I will strive to represent Auburn's Nursing Program with total commitment\n- What are good qualities of a nurse? (listed above)\n\n**Why did you choose Auburn?**\n- 95% NCLEX pass rate\n- Love Auburn as a whole \u2014 second home because brother went here\n- Spoke to graduated nurses that were friends with brother\n- Connected to the mission statement\n- Patient privacy\n- Conflict \u2014 defuse, honest, calm open conversation about it\n\n**Rewarding aspects of nursing:**\nTake care of people \u2014 professional \u2014 different specialized areas, different areas, room to grow, even possibly teach\n\n**Biggest fear:**\nLots of stress and pressure \u2014 keep life in balance, not only committing to work\n\n**Mission statement (second copy written):**\n\"To advance health, wellness, and healthcare for all, through excellence in practice, teaching, scholarship, and outreach\"\n\n---\n\n## Sep 30, 2025 \u2014 [Blank Page]\n\nSource: `Note Sep 30, 2025 (2).pdf`\n\nPage rendered blank \u2014 no content captured.\n\n---\n\n## asap.pdf \u2014 Weekly Planning Template\n\nSource: `asap.pdf`\n\nHandwritten planning grid layout with three sections:\n- Today\n- Tomorrow\n- Rest of Week\n\nAll sections were empty at the time of capture \u2014 template only, no tasks written in.\n\n---\n\n## things to remember .pdf \u2014 Quick Note\n\nSource: `things to remember .pdf`\n\nSingle line of text on an otherwise blank lined page:\n\n> Blond~Iris-Robin - yugo internet password\n\n*(Note: this appears to be a wifi/internet password reminder. Stored here as captured \u2014 treat as sensitive.)*\n\n---\n\n## Bar Night 4-9-26 \u2014 [Blank Page]\n\nSource: `bar nigbt 4-9-26.pdf`\n\nPage rendered blank \u2014 no content captured. File was titled \"bar nigbt 4-9-26\" (typo for \"bar night\"), dated April 9, 2026.\n\n- **personal-arc**\n- **active-situations**",
+      "source_file": "Journal/personal-notes-root-B.md"
+    },
+    {
+      "title": "Personal Notes \u2014 Root iCloud Inbox",
+      "properties": {
+        "Date": null,
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [
+          "personal",
+          "reflection",
+          "arc",
+          "notes"
+        ],
+        "Source": "Notability iCloud inbox"
+      },
+      "content_markdown": "*Extracted from iCloud inbox PDFs \u2014 source files in notes-inbox root*\n\nRelated: **identity**, **personal-arc**, **circle**\n\n---\n\n## Source: Thought Journal.pdf (10 pages)\n*Handwritten journal entries spanning fall 2025 through spring 2026. Dates reconstructed from content.*\n\n---\n\n### 9/27/25 \u2014 Saturday (First Entry)\nThis will be the start of my own thoughts, experiences, and ideas. Talking to friends and family is great but sometimes you just need to talk to yourself \u2014 honestly who knows you more than you? No one.\n\nI feel like I have always been the person everyone wants me to be. I gave myself a mask but eventually became the mask. So now who am I? Who is under the mask \u2014 or is there even anybody under the mask? Did I become the mask?\n\nI see pieces of me come out here and there but how do I emerge? I felt myself come out last night for the first true time in a while when I saw her, talked to her \u2014 she brought out the me I remember in high school. It just felt natural, not that I had to try to mask myself to be liked.\n\nI want to find myself, my journey, my purpose. I'm ready. I am finally ready to wake up. I only have so much time but by God's grace I will live my life \u2014 not a mask, not questioning myself but my own God-given life. This life is too short to be living in misery and confusion.\n\nI realized I was lost. I'm not depressed but I am lost and I really only want to find my way, to see the light. I think I know why I feel unfulfilled. I am such a worldly person. I don't know but I feel scared to get close with God and I don't know why.\n\n---\n\n### 9/? \u2014 [Day 2]\nI said more in my notes today than most. I'm just questioning \u2014 am I a good guy? Because I really try to be a good, nice guy but I feel like no matter what... I don't think I have anyone who has everyone else's back besides my family. But that's different \u2014 feeling loved by your family feels different than feeling loved by friends.\n\nI feel like I'm just there and no one actually wants to hang out with me.\n\n---\n\n### 9/29/25 \u2014 Monday\nI've had a rough day today. I've been completely in my head and unbelievably anxious. I didn't even go to class because of how terrible I felt. At least I used my time in a positive way studying.\n\nI just don't know what to do to make myself feel better. I'm trying. Literally everything. I've ever been taught \u2014 back in the Bible, not in a selfish way, I just need answers. I'm exercising. I'm just trying to live without this awful sick feeling.\n\nI am lonely. Everyone around me has someone, someone they love. Not me. I mean there is Jansen and Lily but I just don't like them like that and it is honestly exhausting that every female I am friends with either likes me or I like them \u2014 what do I do? How do I fix this?\n\n---\n\n### 10/1/25 \u2014 Wednesday\nI was unbelievably busy yesterday. Had to study for my Gov exam. I know I did well but I still haven't gotten my grade back. Today has been a struggle. I threw my weed out today because I'm tired of this life I am living. I just feel lonely, especially whenever everyone around me has a girlfriend. I don't understand why I feel like this but I'm trying to stop. I miss my Mom \u2014 she works a lot and I am so thankful for all she does for me. Anyway, not much to say except there is about to be a huge change. I'm old enough where I need to be locked in.\n\n---\n\n### 10/13/25 \u2014 Monday\nWell here I am once again, lost in this world, this place, even myself. I'm lost inside my own mind 75% of the day. I pray day by day for it to get better but I still feel the same. I may have met my wife \u2014 she's stated not wanting a relationship but she has not seen the absolute look of [excitement from me].\n\n---\n\n### 10/? \u2014 Sunday (AP2 test)\nWell, f**k. I made a 56 on my AP2 Test which was way worse than the second. I really screwed up.\n\nGood news though \u2014 I found this girl Bailey Edwards. Very God-driven. She is absolutely wife material but I'm scared \u2014 she only sees me as a friend. Her favorite color is purple. Flowers: Daisies, Hydrangeas, Hibiscus. She is beautiful. Like completely wife material. She has a twin brother Ethan. She was [major noted] now psychology. She has a just [something] grabbing your heart. I'm starting to really like her. She loves cats. She is the type of girl I have been looking for. Loves country music, Mexican food, allergic to smoke. She thinks of herself as a flame \u2014 exciting, passionate, lights up people around her. She loves to talk about everything, herself a lot, but I love it. I truly admire her.\n\n---\n\n### 10/27/25\nShe grew very distant and I am pretty hurt to be honest. I thought she was going to be different. I really thought she liked me. Well in my bad judgment of all of this I posted a picture with another girl on my Instagram, so if she didn't already not want me, she definitely doesn't now. Sure it might've been petty but I liked her a lot. I would still do anything for her. But I fear anything that was ever between us is gone.\n\nSide note: She just sent me a picture with her roommate and I saved it.\n\n---\n\n### 10/29/25 \u2014 Monday Morning, 11:30\nShe rejected me last night, basically calling me a shitty person for what I did to Jansen. I'm hurt but also I'm not. I don't know if I have been depressed but sometimes I just feel emotionless. I did really like her and I don't think I am going to stop pursuing quite yet. I really hope she doesn't just drop me.\n\n---\n\n### 10/28/25\nI've really been in my head the past few days about just everything going on right now. I really don't think I was in the wrong in the Jansen situation. I told her from the start I did not want a relationship. I also can literally not believe she called me a pathological liar. I did not even do anything to her besides tell her the truth. I cannot help her crazy expectations. I also feel like I'm slightly losing myself daily. I feel myself getting overall down and I don't know what to do to pull out.\n\n---\n\n### [After 10/28] \u2014 Turnaround\nGenuinely might be my top 2 weeks of my life. I stopped talking to Bailey \u2014 sure it sucked \u2014 but a lot has happened and life is becoming peak, I cannot lie. Ava Field \u2014 Auburn Dance Line, very cute, I could get down with her. Iced Medium Blondie 7Brew.\n\n---\n\n### [Late Oct/Early Nov] \u2014 Saturday\nA lot has happened in the last few days. It has genuinely been a weird week. Thursday night I went to the bar with Dev Patel and we had a great night until we needed a ride home. I then asked Ella Dupree (ext. talking stage) if she could take us home. She did but I accidentally left my phone in her car. She was holding it hostage and I barged through the door to grab it and accidentally broke her toes. I felt super bad but she yelled and screamed at me anyway. I drove home panicked. [Talked to] Mother about it \u2014 she said I was in the right, which made me feel better. Chilled and hung out with Brady and Anna Katherine.\n\nAnyway, so I got sick. I'm talking about really sick \u2014 103-104 fevers, sweats, puking. Honestly just feel like death itself. I do not know what my life has come to. Day by day life gets harder and I am getting tired.\n\n---\n\n### 11/22/25 \u2014 Saturday\nIt is getting really, really hard. I'm trying my best but I don't know how much more I have left in me at this point. Every day is a struggle and I'm getting exhausted.\n\n---\n\n### 11/23/25 \u2014 Sunday\nStill really hard. I don't know what to do.\n\n---\n\n### 11/27/25 \u2014 Thanksgiving\nSometimes I just feel so out of place even at my own family's Thanksgiving. I am struggling with seasonal depression and have just felt so out of my own life for what feels like forever. I wonder daily when I will start feeling like myself again. But at the same time I can't even think of the last time I felt like Jackson Pate. It's been longer than anyone knows \u2014 even though I am not on paper alone \u2014 but I am ALONE.\n\nLife at this point is getting so exhausting. I get more and more exhausted even when I hang out with people. There is this emptiness deep down inside my chest. When will it get better?\n\n---\n\n### 12/4/29 \u2014 Thursday [12/4/25]\nI genuinely think I might be losing my mind. I am losing my mind. I can't think straight. I'm on autopilot. I'm losing my mind.\n\n---\n\n### [After 12/4] \u2014 Turnaround Again\nStarting to feel better about life. I think I was just going insane because I wasn't busy at all. But now I am swamped. No new women in my life so that's slightly disappointing but besides that we are chilling.\n\n---\n\n### 10/17/25 \u2014 Technically Tuesday [Written out of order]\nI've got to start getting my life together. Every one of my best friends has found a great girlfriend and I'm simply so lonely \u2014 not even lonely but I feel like I'm falling behind everyone else. It's just me. Even if I have friends I don't fit into any group besides my own \u2014 me and myself. I have got to get a plan for my life.\n\n---\n\n### 1/29/26\nNursing instructor just said: \"A C from Auburn is an H from everywhere else.\"\n\n---\n\n### 2/12/26\nEverything in life is truly great. I have zero idea what changed from last semester to this one but life is truly amazing. Always areas of improvement.\n\n---\n\n### 2/1/26 \u2014 Eye Concerns [noted for follow-up]\nIf I in fact did have to get glasses:\n- See double, especially white words on black background on digital devices\n- See streaks of lights at night when driving \u2014 really bad when raining\n- Hard to see small words after like 4 feet away\n- Eyes hurt really bad if looking at screen for extended period of time\n\n---\n\n### 2/MGI [Feb 2026]\nI'm so f**king bored. Currently writing this in NURS 2030 \u2014 most boring class of all time. Just trying to push through it. I have so much I have to study for to do by next week. I just looked back at my own journals \u2014 what a [different person I] was.\n\n---\n\n### 3/9/26 \u2014 Jackson Pate\nJust started watching Peaky Blinders. I'm trying to finish the show before the movie comes out next week. I am literally going to grind this show and I'm only on episode 2 and I'm already so hooked. This show is genuinely peak cinema. It is so good.\n\n---\n\n### 5/2023 \u2014 [Date unclear / Mexico trip entry?]\n1/5/26 \u2014 Jackson Pate. I got Ms. Lisa her things. I have won overall $5 on Betr but lost $55 on Poker but overall still up. Honestly a 10/10 trip so far. Daniel Sosa is pulling up to PCB tomorrow \u2014 been a long time since I've seen him, hopefully he's still cool as f.\n\n---\n\n## Source: bar nigbt 4-9-26.pdf (1 page)\n*Image-based PDF \u2014 no extractable text. Date: April 9, 2026 (night before this session). Likely bar or social notes.*\n\n---\n\n## Source: asap.pdf (1 page)\n*Image-based or near-blank PDF. Header text \"NOTESNE\" visible. Total: 1 \u2014 Take. No additional content extractable.*\n\n---\n\n## Source: things to remember .pdf (1 page)\n*Single line extracted:*\n\n**Blond~Iris-Robin - yugo internet password**\n\n---\n\n## Source: Note Apr 8, 2026.pdf (4 pages)\n*Content appears to be biology/genetics notes (DNA, mutations, chromosomes). Likely microbiology or genetics course notes \u2014 not personal content.*\n\nTopics visible:\n- Codon/mutation types: Silent (no protein change, same amino acid), Missense (one base change), Frameshift (base inserted/deleted, shifts reading frame \u2014 usually nonfunctional)\n- Genome sizes: Prokaryotes vs. Eukaryotes; non-coding DNA\n- Prokaryotic chromosome: Circular, nucleoid (no membrane), very little non-coding DNA\n- Eukaryotic chromosomes: Lots of non-coding DNA; pseudogenes, introns, true histones; linear; can carry antibiotic resistance genes\n- Plasmids: Usually circular, double-stranded; replicate by rolling circle replication; can be transferred between cells\n- DNA base pairs: G-C (3 hydrogen bonds), A-T (2 hydrogen bonds)\n\n---\n\n## Source: Note Dec 7, 2025.pdf (13 pages)\n*Psychology exam prep / study notes. Topics covered:*\n\n- Milgram experiment (obedience to authority \u2014 electric shocks study)\n- Fundamental Attribution Error: When attributing behavior of others we make dispositional attributions; for ourselves we make situational attributions\n- Social facilitation: Presence of other people enhances individual performance\n- Group polarization: Group's attitude toward something becomes more extreme than individual attitudes\n- Stereotypes and how they persist\n- Cognitive dissonance (Festinger & Carlsmith, 1959): $20 paid participants did NOT change attitude because the money justified the lie\n- Implicit attitudes: Thoughts/opinions affecting performance that one is not aware of\n- Central route persuasion (Elaboration Likelihood Model): Carefully examining evidence\n- Ethnocentrism, prejudice vs. discrimination\n- Mere exposure effect: More favorable attitudes about things encountered more frequently\n- In-group/out-group thinking\n- Schizophrenia: Positive vs. negative symptoms\n- Psychological disorders:\n  - Bipolar disorder\n  - Mania\n  - Depressive disorder\n  - Phobia (anxiety disorder)\n  - Compulsion (reduces anxiety from obsessive thoughts)\n  - Antisocial Personality Disorder (manipulative, callous, no remorse)\n  - Comorbidity (multiple disorders co-occurring)\n  - Borderline Personality Disorder (manipulative, intense fear of abandonment)\n  - Anxiety disorders: Behavioral inhibition\n  - Generalized Anxiety Disorder\n  - Diathesis-stress model\n  - Learned helplessness\n  - Autism spectrum: Increase in diagnoses reflects better identification\n- Psychotherapy:\n  - Freud's psychoanalysis (purpose: bring unconscious to conscious)\n  - Behavioral therapy: Principles of conditioning\n  - Cognitive therapy: Change thinking patterns about unsuccessful situations\n  - Cognitive-behavioral therapy (CBT)\n  - Deep brain stimulation\n  - Electroconvulsive therapy (ECT): Treats depressive disorder\n  - Transcranial magnetic stimulation\n  - Psychopharmaceutical medications: Prescribed by psychiatrist\n  - Anti-psychotics: Treat schizophrenia; work by affecting neurotransmitters\n  - Self-help groups: Help cope with difficult life circumstances; not for significant mental illness\n\n---\n\n## Source: Note Apr 13, 2025.pdf \u2014 5 pages (image-based, no text)\n*No extractable text. Handwritten notes.*\n\n## Source: Note Aug 18, 2025 (Recovered).pdf \u2014 26 pages (image-based, no text)\n*No extractable text. Handwritten notes.*\n\n## Source: Note Jan 15, 2025.pdf \u2014 2 pages (image-based, no text)\n*No extractable text. Handwritten notes.*\n\n## Source: Note Jan 23, 2026.pdf \u2014 2 pages (image-based, no text)\n*No extractable text. Handwritten notes.*\n\n## Source: Note Nov 3, 2025.pdf \u2014 5 pages (image-based, no text)\n*No extractable text. Handwritten notes.*\n\n## Source: Note Oct 28, 2025.pdf \u2014 1 page (image-based, no text)\n*No extractable text. Handwritten notes.*\n\n## Source: Note Sep 24, 2025 (2).pdf \u2014 2 pages (image-based, no text)\n*No extractable text. Handwritten notes.*\n\n## Source: Note Sep 30, 2025 (2).pdf \u2014 1 page (image-based, no text)\n*No extractable text. Handwritten notes.*",
+      "source_file": "Journal/personal-notes-root.md"
+    },
+    {
+      "title": "Thought Journal (Notability)",
+      "properties": {
+        "Date": null,
+        "Type": "journal",
+        "Category": "journal",
+        "Tags": [
+          "personal",
+          "reflection",
+          "arc"
+        ],
+        "Source": "Notability"
+      },
+      "content_markdown": "Jackson Pate \u2014 handwritten journal, Sept 2025 \u2013 Mar 2026. Transcribed from PDF export.\n\n---\n\n## 9/27/25 \u2014 Saturday\n\nI guess this will be the start of my own thoughts, experiences and ideas. This might be a journey but I feel as if I have needed this for a while. Talking to friends and family is great but sometimes you just need to talk to yourself. Because honestly who knows you more than you? No one. There is not a soul on this earth that knows you as much as yourself \u2014 you know the ups and downs, the good and the bad, the goodness in yourself and the hatred that you have in your heart.\n\nI just think sometimes: who is Jackson, who am I? I mean obviously I know I'm myself, but how can I come to that conclusion if I don't know myself? I just feel like I have always been the person that everyone wants me to be. I gave myself a mask, but I eventually became the mask. So now who am I? Who is under the mask? Who is this mystery under the mask \u2014 or is there even anybody under the mask? Did I become the mask?\n\nI don't actually believe I have zero idea who I am. I see pieces of me come out here and there, but how do I emerge? How do I know it will be better?\n\nI felt myself come out last night for the first true time in awhile when I saw her, talked to her. She brought out the me I remember in high school. It just felt natural \u2014 not that I had to try to mask myself to be liked.\n\nThis \u2014 I'm saying it now \u2014 I want to find myself, my journey, my purpose. I'm ready. I am finally ready to wake up. I only have so much time to live, but by God's grace I will live MY life. Not a mask, not questioning myself, but my own God-given life. This life is too short to be living in misery and confusion. It is my choice how to live my life \u2014 either float through my life or take it over as mine.\n\nSuch as today: I felt bad because I did not really do anything, but I might have done the most important thing I will ever do. I realized \u2014 I realized that I was lost. I'm not depressed, but I am lost, and I really only want to find my way, to see the light. When will I know I'm ready? You want? It's a leap of faith.\n\nI think I know why I feel unfulfilled. I am such a worldly person. I don't know, but I feel scared to get close with God and I don't know why. I don't know where to start. But I want to feel fulfilled. Should I isolate myself? Should I limit myself to only myself? No. I can do everything, I can be myself while I'm learning to become me.\n\n> **\"Self love is the cure to self hate\"**\n\nThis quote hit me really hard. I really appreciate the message behind this. It shows that all of your insecurities, issues, anger \u2014 all will go away once you start loving yourself.\n\n---\n\n## 9/28/25 \u2014 Sunday\n\nI am more in my head today than most. I'm just questioning: am I a good guy? Because I really try to be a good, nice guy but I feel like no matter what, I am **unwanted**. I try to be the guy who has everyone else's back, but I really don't think anyone has mine, besides my family. But that's different \u2014 feeling loved by your family feels different than feeling loved by friends. I feel like I'm just there and no one actually wants to hang out with me 1 on 1. And it sucks.\n\n---\n\n## 9/29/25 \u2014 Monday\n\nI've had a rough day today. I've been completely in my head and unbelievably anxious. I did not even go to class because of how terrible I felt. I at least used my time in a positive way \u2014 I just used class time to study. I just don't know what to do to make myself feel better. I'm trying literally everything I've ever been taught. I'm back in the Bible \u2014 not in a selfish way, I just need answers. I'm exercising. I'm just trying to live without this awful sick feeling I have that I am doing everything wrong.\n\nI just am lonely. Everyone around me has someone \u2014 someone they love. Not me. I mean there is Jansen and Lily, but I just do not like them like that, and it is honestly exhausting that every female I am friends with either likes me or thinks I like them. What do I do? How do I fix this?\n\nAnyways \u2014 I just wanted to share the daily feel. I'm also going to start going through my day during this. I went to Panda Express \u2014 absolutely nothing. I mean the gym, but I always go to gym.\n\n---\n\n## 10/1/25 \u2014 Wednesday\n\nI was unbelievably busy yesterday. I had to study for my Gov exam. I know I did well but I still haven't gotten my grade back. Today has been a struggle. I threw my weed out today because I'm tired of this life I am living. I just feel lonely, especially whenever everyone around me has a girlfriend. I don't understand why I feel like this but I'm trying to stop. I miss my mom \u2014 she works a lot and I am so thankful for all she does for me.\n\nAnyways \u2014 not much to say except: there is about to be a huge change. I'm old enough where I need to be locked in.\n\n---\n\n## 10/13/25 \u2014 Monday\n\n*[Written in corner: \"Good luck buddy \u2014 we'll see how this one turns out\"]*\n\nWell here I am, once again lost in this world, this place, even myself. I'm lost inside my own mind 75% of the day. I pray day by day for it to get better, but I still feel the same.\n\nI may have met my wife. She's stated not wanting a relationship, but she has not seen the BE absolute 100% JPB.\n\n*[Drawing of a cross on this page]*\n\n---\n\n## 10/19/25 \u2014 Sunday\n\nWell f***. I made a 56 on my A&P2 test, which was way worse than the second. I really screwed up.\n\nGood news though \u2014 I found this girl Bailey Edwards. Very God-driven. She is absolutely wife material but I'm scared she only sees me as a friend. Her favorite color is purple. Flowers: Daisies, Hydrangeas, and Hibiscus. She is beautiful \u2014 like completely wife material. She has a twin brother Ethan. She was Biomed, now Psychology. She has a way of just absolutely grabbing your heart.\n\nI'm starting to really like her. She loves cats. She is the type of girl I have been looking for \u2014 loves country music, Mexican food, allergic to smoke, Tide. She thinks of herself as a flame \u2014 exciting, passionate, lights up people around her. She loves to talk about everything (herself a lot), but I love that. I adore her. I truly admire her.\n\n*[Written in red: \"Love Doesn't Exist\"]*\n\n---\n\n## 10/27/25\n\nShe grew very distant and I am pretty hurt to be honest. I thought she was going to be different. I really thought she liked me. Well in my bad judgement of all of this, I posted a picture with another girl on my Insta, so if she didn't already want me she definitely doesn't now. Sure it might have been petty but I liked her a lot. I would still do anything for her, but I fear anything that was ever between us is gone.\n\nSidenote: She just sent me a picture with her roommate, and I saved it. I might just be playing mind games.\n\n---\n\n## 10/27/25 \u2014 Monday Morning @ 11:30\n\nShe rejected me last night \u2014 basically calling me a shitty person for what I did to Jansen. I'm hurt, but also I'm not. I don't know if I have been depressed, but sometimes I just feel emotionless. I did really like her and I don't think I am going to stop pursuing quite yet. I really hope she does not just drop me.\n\nI don't know what to do. I hate having a bad reputation.\n\n---\n\n## 10/28/25\n\nI've really been in my head the past few days about just everything going on right now. I really don't think I was in the wrong in the Jansen situation. I told her from the start I did not want a relationship. I also can literally not believe she called me a pathological liar. I did not even do anything to her besides tell her the truth. I cannot help her crazy ass expectations.\n\nI also feel like I'm slightly losing myself daily. I feel myself getting overall down and I don't know what to do to pull out.\n\n---\n\n## 11/2/25\n\nGenuinely might be my top 2 weeks of my life. I stopped talking to Bailey \u2014 sure it sucked \u2014 but a lot has happened and life is becoming peak. I cannot lie.\n\nAva Field \u2014 Auburn Danceline. Very cute, I could get down with her.\n\u2014 Iced Medium Blondie \u2014 7 Brew\n\n---\n\n## 11/8/25 \u2014 Saturday\n\nA lot has happened in the last few days. It has genuinely been a weird week. Thursday night I went to the bar with Dev Patel and we had a great night until we needed a ride home. I then asked Ella Dupree (ex talking stage) if she could take us home. She did, but I accidentally left my phone in her car. She had it. I went to get it, she was holding it hostage, and I barged through the door to grab it and accidentally broke her toes. I felt super bad but she yelled and screamed at me anyway. I drove home, panicked, and told Mother about it. She said I was in the right, which made me feel better about the situation. Friday I just chilled and hung out with Brady and Anna Katherine. I'll finish this tomorrow.\n\nAnyways \u2014 so I got sick. I'm talking about really sick. 103-104 fevers, sweats, puking. Honestly just feel like death itself. I do not know what my life has come to. Day by day life gets harder and I am getting tired.\n\n---\n\n## 11/20/25\n\nStill just getting more and more tired \u2014 I don't know how much more tired I can get.\n\n*[Written in red: \"Damn Days of It?\"]*\n\n*[Written: \"Awww...\"]*\n\n---\n\n## 11/22/25 \u2014 Saturday\n\nIt is getting really, really hard. I'm trying my best but I don't know how much more I have left in me at this point. Every day is a struggle and I'm getting exhausted.\n\n*[Written in red: \"Cry me a f***ing River\"]*\n\n---\n\n## 11/23/25 \u2014 Sunday\n\nStill really hard. I don't know what to do.\n\n---\n\n## 11/27/25 \u2014 Thanksgiving\n\nSometimes I just feel so out of place, even at my own family's Thanksgiving. I am struggling with Seasonal Depression and have just felt so out of my own life for what feels like forever. I wonder daily when I will start feeling like myself again. But at the same time I can't even think of the last time I felt like Jackson Pate. It's been longer than anyone knows \u2014 even though I am not on paper alone, but I am **ALONE**. Life at this point is getting so exhausting. I get more and more exhausted even when I hang out with people. There is this emptiness deep down inside my chest. When will it get better?\n\n*[Written alongside: \"When will I be better? Will I ever be?\" and \"I'm about to lose my mind.\"]*\n\n---\n\n## 12/4/25 \u2014 Thursday\n\nI genuinely think I might be losing my mind. I am losing my mind. I can't think straight. I'm on copilot. I'm losing my mind. I'm losing it.\n\n*[Written in red later: \"What a pussy I was, wow\"]*\n\n---\n\n## 12/8/25 \u2014 Monday (Technically)\n\nWell it's been a few days and I am starting to feel a lot better about life. I think I was just going insane because I wasn't busy at all. But now I am swamped. No new women in my life, so that's slightly disappointing, but besides that we are chilling.\n\n---\n\n## 10/17/25 \u2014 (Technically Tuesday)\n\nI've got to start getting my life together. Every one of my best friends have found a great girlfriend and I'm simply so lonely \u2014 not even lonely, but I feel like I'm falling behind everyone else. It's just me. Even if I have friends, I don't fit in any group besides my own \u2014 me and myself.\n\n> **I have got to get a plan for my life.**\n\n---\n\n## 1/29/26\n\nNursing instructor just said: \"A C from Auburn is an A from everywhere else.\"\n\n---\n\n## 2/2/26 \u2014 Monday\n\nEverything in life is truly great. I have zero idea what changed from last semester to this one, but life is truly amazing.\n\n\u2014 Always areas of improvement.\n\n---\n\n## 2/8/26 \u2014 Eye Exam Info\n\nIn fact did have to get glasses.\n\n- See double especially white words on black background on digital devices\n- See streaks of lights at night when driving \u2014 really bad when raining\n- Hard to see small words after like 4 feet away\n- Eyes hurt really bad if looking at screen for an extended period of time\n\n---\n\n## 2/24/26\n\nI'm so f***ing bored. Currently writing this in Nurs 2030. Most boring class of all time. Just trying to push through it. I have so much shit I have to study for / do by next week. Just kill me now \u2014 just kidding. But still \u2014 holy, I am packed down. We'll try to get through it.\n\nI just looked back at my own journals. What a pussy I was.\n\n---\n\n## 3/1/26\n\n*[Note: \"3/1/26\" with wavy lines, no additional text extracted]*\n\n---\n\n## 3/16/26 \u2014 Jackson Pate\n\nBring Ms. Lisa a Ron Jon Panama City sticker + sex wax chapstick.\n\n---\n\n## 3/9/26 \u2014 Jackson Pate\n\nI just started watching Peaky Blinders. I'm trying to finish the show before the movie comes out next week. I am literally going to grind this show \u2014 and I'm only on episode 2 and I'm already so hooked. This show is genuinely peak cinema. It is so good. Started 5/2/2 [likely 3/9/26].\n\n---\n\n## 3/15/26 \u2014 Jackson Pate\n\nI got Ms. Lisa her things. I have won overall $405 dollars on Betr but lost $55 dollars on Poker, but overall still up hella. Honestly a 10/10 trip so far. Daniel Sosa is pulling up to PCB tomorrow \u2014 been a long ass time since I've seen him. Hopefully he's still cool as f*** with me.\n\n---",
+      "source_file": "Journal/thought-journal-notability.md"
+    }
+  ]
+}

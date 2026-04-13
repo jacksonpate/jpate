@@ -1,0 +1,458 @@
+{
+  "migration": "Obsidian \u2192 Notion",
+  "date": "2026-04-13",
+  "branch": "claude/obsidian-to-notion-migration-0E8WD",
+  "vault_root": "/home/user/jpate",
+  "package_root": "/home/user/jpate/AI & Tech/migrations/2026-04-13-obsidian-to-notion",
+  "target_notion_root": "Jackson Pate \u2192 \ud83d\udcd6 Vault Mirror (NEW)",
+  "structure": {
+    "static_pages": {
+      "count": 30,
+      "by_section": {
+        "life": 7,
+        "identity": 10,
+        "ai-tech": 9,
+        "interests": 2,
+        "health": 2
+      },
+      "pages": [
+        {
+          "section": "identity",
+          "title": "Core Identity",
+          "source": "Core/identity.md",
+          "output": "pages/identity/core-identity.md",
+          "frontmatter": {
+            "source": "oracle-synthesis",
+            "category": "life",
+            "date_processed": "2026-04-10",
+            "related_people": [
+              "Ethan Arce",
+              "Emma Williard",
+              "Aubrie",
+              "Angie Pate",
+              "Todd Pate",
+              "Cameron Pate",
+              "Shadow",
+              "Oreo"
+            ]
+          }
+        },
+        {
+          "section": "identity",
+          "title": "Close Circle",
+          "source": "Core/circle.md",
+          "output": "pages/identity/close-circle.md",
+          "frontmatter": {
+            "type": "core",
+            "source": "oracle-synthesis",
+            "category": "life",
+            "date_processed": "2026-04-10",
+            "related_people": [
+              "Trey Frachiseur",
+              "Brock Adams",
+              "Kirtan Patel",
+              "Brittain Snyder",
+              "Harrison",
+              "Ethan Arce",
+              "Tre Jackson",
+              "Luke",
+              "Angie Pate",
+              "Todd Pate",
+              "Cameron Pate",
+              "Aubrie",
+              "Emma Williard",
+              "Bailey Edwards",
+              "Ella"
+            ]
+          }
+        },
+        {
+          "section": "identity",
+          "title": "Roles",
+          "source": "Core/roles.md",
+          "output": "pages/identity/roles.md",
+          "frontmatter": {
+            "type": "core",
+            "source": "oracle-synthesis",
+            "category": "life",
+            "date_processed": "2026-04-10",
+            "related_people": []
+          }
+        },
+        {
+          "section": "identity",
+          "title": "Claude-Brain \u2014 Identity",
+          "source": "Claude-Brain/00-identity.md",
+          "output": "pages/identity/claude-brain-00-identity.md",
+          "frontmatter": {
+            "source": "oracle-synthesis",
+            "category": "context",
+            "date_processed": "2026-04-10",
+            "related_people": []
+          }
+        },
+        {
+          "section": "identity",
+          "title": "Claude-Brain \u2014 School",
+          "source": "Claude-Brain/01-school.md",
+          "output": "pages/identity/claude-brain-01-school.md",
+          "frontmatter": {
+            "type": "context",
+            "source": "oracle-synthesis",
+            "category": "context",
+            "date_processed": "2026-04-10",
+            "related_people": []
+          }
+        },
+        {
+          "section": "identity",
+          "title": "Claude-Brain \u2014 Projects",
+          "source": "Claude-Brain/02-projects.md",
+          "output": "pages/identity/claude-brain-02-projects.md",
+          "frontmatter": {
+            "type": "context",
+            "source": "oracle-synthesis",
+            "category": "context",
+            "date_processed": "2026-04-10",
+            "related_people": []
+          }
+        },
+        {
+          "section": "identity",
+          "title": "Claude-Brain \u2014 Goals",
+          "source": "Claude-Brain/03-goals.md",
+          "output": "pages/identity/claude-brain-03-goals.md",
+          "frontmatter": {
+            "type": "context",
+            "source": "oracle-synthesis",
+            "category": "context",
+            "date_processed": "2026-04-10",
+            "related_people": []
+          }
+        },
+        {
+          "section": "identity",
+          "title": "Claude-Brain \u2014 Health",
+          "source": "Claude-Brain/04-health.md",
+          "output": "pages/identity/claude-brain-04-health.md",
+          "frontmatter": {
+            "type": "context",
+            "source": "oracle-synthesis",
+            "category": "context",
+            "date_processed": "2026-04-10",
+            "related_people": []
+          }
+        },
+        {
+          "section": "identity",
+          "title": "Claude-Brain \u2014 Life",
+          "source": "Claude-Brain/05-life.md",
+          "output": "pages/identity/claude-brain-05-life.md",
+          "frontmatter": {
+            "type": "context",
+            "source": "oracle-synthesis",
+            "category": "context",
+            "date_processed": "2026-04-10",
+            "related_people": [
+              "Emma Williard",
+              "Ethan Arce",
+              "Brittain Snyder",
+              "Trey Frachiseur",
+              "Harrison"
+            ]
+          }
+        },
+        {
+          "section": "identity",
+          "title": "Claude-Brain \u2014 Systems",
+          "source": "Claude-Brain/06-systems.md",
+          "output": "pages/identity/claude-brain-06-systems.md",
+          "frontmatter": {
+            "type": "context",
+            "source": "oracle-synthesis",
+            "category": "context",
+            "date_processed": "2026-04-10",
+            "related_people": []
+          }
+        },
+        {
+          "section": "life",
+          "title": "Active Situations",
+          "source": "Life/active-situations.md",
+          "output": "pages/life/active-situations.md",
+          "frontmatter": {
+            "source": "Notion \u2014 Mind Vault",
+            "category": "life",
+            "date_processed": "2026-04-10",
+            "related_people": [
+              "Emma Williard",
+              "Trey Frachiseur",
+              "Ella",
+              "Bailey Edwards"
+            ],
+            "tags": [
+              "situations"
+            ],
+            "date_updated": "2026-04-10"
+          }
+        },
+        {
+          "section": "life",
+          "title": "Personal Arc",
+          "source": "Life/personal-arc.md",
+          "output": "pages/life/personal-arc.md",
+          "frontmatter": {
+            "source": "Notion",
+            "title": "Personal arc \u2014 Sept 2025 to April 2026",
+            "category": "life",
+            "date_processed": "2026-04-10",
+            "related_people": [
+              "Emma Williard",
+              "Ella",
+              "Bailey Edwards",
+              "Ethan Arce"
+            ],
+            "tags": [
+              "situations",
+              "goals"
+            ],
+            "date_updated": "2026-04-10"
+          }
+        },
+        {
+          "section": "life",
+          "title": "Long-Term Vision",
+          "source": "Life/long-term-vision.md",
+          "output": "pages/life/long-term-vision.md",
+          "frontmatter": {
+            "source": "Notion",
+            "title": "Long-term vision",
+            "category": "life",
+            "date_processed": "2026-04-10",
+            "related_people": [],
+            "tags": [
+              "goals"
+            ],
+            "date_updated": "2026-04-10"
+          }
+        },
+        {
+          "section": "life",
+          "title": "Bible Journal",
+          "source": "Life/bible-journal.md",
+          "output": "pages/life/bible-journal.md",
+          "frontmatter": {
+            "source": "oracle-synthesis",
+            "category": "life",
+            "date_processed": "2026-04-10",
+            "related_people": [],
+            "tags": [
+              "faith"
+            ],
+            "date_updated": "2026-04-10"
+          }
+        },
+        {
+          "section": "life",
+          "title": "Book Journal",
+          "source": "Life/book-journal.md",
+          "output": "pages/life/book-journal.md",
+          "frontmatter": {
+            "source": "oracle-synthesis",
+            "category": "life",
+            "date_processed": "2026-04-10",
+            "related_people": [],
+            "tags": [
+              "reading"
+            ],
+            "date_updated": "2026-04-10"
+          }
+        },
+        {
+          "section": "life",
+          "title": "Things to Remember",
+          "source": "Life/things-to-remember.md",
+          "output": "pages/life/things-to-remember.md",
+          "frontmatter": {
+            "source": "oracle-synthesis",
+            "category": "life",
+            "date_processed": "2026-04-10",
+            "related_people": [],
+            "tags": [
+              "todo"
+            ],
+            "date_updated": "2026-04-10"
+          }
+        },
+        {
+          "section": "life",
+          "title": "ASAP Todo",
+          "source": "Life/asap-todo.md",
+          "output": "pages/life/asap-todo.md",
+          "frontmatter": {
+            "source": "oracle-synthesis",
+            "category": "life",
+            "date_processed": "2026-04-10",
+            "related_people": [],
+            "tags": [
+              "todo"
+            ],
+            "date_updated": "2026-04-10"
+          }
+        },
+        {
+          "section": "health",
+          "title": "Health Protocol",
+          "source": "Health/health-protocol.md",
+          "output": "pages/health/health-protocol.md",
+          "frontmatter": {
+            "source": "Notion \u2014 Health Protocol",
+            "category": "health",
+            "date_processed": "2026-04-10",
+            "related_people": []
+          }
+        },
+        {
+          "section": "health",
+          "title": "Medication & Supplement Protocol",
+          "source": "Health/medication-supplement-protocol.md",
+          "output": "pages/health/medication-supplement-protocol.md",
+          "frontmatter": {
+            "source": "Notion \u2014 Daily Medication & Supplement Protocol",
+            "category": "health",
+            "date_processed": "2026-04-10",
+            "related_people": []
+          }
+        },
+        {
+          "section": "interests",
+          "title": "Interests Lab",
+          "source": "Interests/interests-lab.md",
+          "output": "pages/interests/interests-lab.md",
+          "frontmatter": {
+            "source": "Notion \u2014 Interests Lab"
+          }
+        },
+        {
+          "section": "interests",
+          "title": "Gear",
+          "source": "Interests/gear.md",
+          "output": "pages/interests/gear.md",
+          "frontmatter": {
+            "source": "oracle-synthesis",
+            "category": "life",
+            "date_processed": "2026-04-10",
+            "related_people": []
+          }
+        },
+        {
+          "section": "ai-tech",
+          "title": "Dev Log 2026 04 07",
+          "source": "AI & Tech/dev-log-2026-04-07.md",
+          "output": "pages/ai-tech/dev-log-2026-04-07-md.md",
+          "frontmatter": {
+            "source": "oracle-synthesis",
+            "category": "ai-tech",
+            "date_processed": "2026-04-10",
+            "related_people": []
+          }
+        },
+        {
+          "section": "ai-tech",
+          "title": "2026 04 07 Agent Coordination",
+          "source": "AI & Tech/docs/plans/2026-04-07-agent-coordination.md",
+          "output": "pages/ai-tech/docs-plans-2026-04-07-agent-coordination-md.md",
+          "frontmatter": {}
+        },
+        {
+          "section": "ai-tech",
+          "title": "2026 04 07 Notion Migration",
+          "source": "AI & Tech/docs/plans/2026-04-07-notion-migration.md",
+          "output": "pages/ai-tech/docs-plans-2026-04-07-notion-migration-md.md",
+          "frontmatter": {}
+        },
+        {
+          "section": "ai-tech",
+          "title": "2026 04 07 Obsidian Brain",
+          "source": "AI & Tech/docs/plans/2026-04-07-obsidian-brain.md",
+          "output": "pages/ai-tech/docs-plans-2026-04-07-obsidian-brain-md.md",
+          "frontmatter": {}
+        },
+        {
+          "section": "ai-tech",
+          "title": "2026 04 07 Agent Coordination Design",
+          "source": "AI & Tech/docs/specs/2026-04-07-agent-coordination-design.md",
+          "output": "pages/ai-tech/docs-specs-2026-04-07-agent-coordination-design-md.md",
+          "frontmatter": {}
+        },
+        {
+          "section": "ai-tech",
+          "title": "2026 04 07 Notion Migration Design",
+          "source": "AI & Tech/docs/specs/2026-04-07-notion-migration-design.md",
+          "output": "pages/ai-tech/docs-specs-2026-04-07-notion-migration-design-md.md",
+          "frontmatter": {}
+        },
+        {
+          "section": "ai-tech",
+          "title": "2026 04 07 Obsidian Brain Design",
+          "source": "AI & Tech/docs/specs/2026-04-07-obsidian-brain-design.md",
+          "output": "pages/ai-tech/docs-specs-2026-04-07-obsidian-brain-design-md.md",
+          "frontmatter": {}
+        },
+        {
+          "section": "ai-tech",
+          "title": "System State",
+          "source": "AI & Tech/system-state.md",
+          "output": "pages/ai-tech/system-state-md.md",
+          "frontmatter": {
+            "source": "oracle-synthesis",
+            "category": "ai-tech",
+            "date_processed": "2026-04-10",
+            "related_people": []
+          }
+        },
+        {
+          "section": "ai-tech",
+          "title": "Scripts Index",
+          "source": "AI & Tech/scripts/",
+          "output": "pages/ai-tech/scripts-index.md",
+          "frontmatter": {}
+        }
+      ]
+    },
+    "databases": [
+      {
+        "name": "\ud83d\udcd4 Journal",
+        "rows": 33,
+        "file": "databases/journal.json"
+      },
+      {
+        "name": "\ud83d\udc65 People",
+        "rows": 30,
+        "file": "databases/people.json"
+      },
+      {
+        "name": "\ud83d\udcf8 Snapchat Contacts",
+        "rows": 41,
+        "file": "databases/snapchat-contacts.json"
+      }
+    ],
+    "snapchat_pages": [
+      {
+        "name": "Snapchat Intelligence \u2014 Overview",
+        "file": "snapchat/overview.md"
+      },
+      {
+        "name": "Snapchat \u2014 Notable Threads",
+        "file": "snapchat/notable-threads.md"
+      }
+    ]
+  },
+  "skipped": {
+    "agents": "Operational coordination files (inboxes, Shared_Log, handoff, JOURNAL, STATUS).",
+    "memory_rules": "Standing rules and feedback files (operational, not personal info).",
+    "snapchat_raw": "Per-conversation Messages/*.md files (373 raw \u2014 represented via Notable Threads + Contacts DB instead).",
+    "scripts_code": "Python source code (documented on Scripts Index page, code stays in the repo).",
+    "untitled_base": "*.base placeholder files (empty)."
+  }
+}

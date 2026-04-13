@@ -1,0 +1,482 @@
+{
+  "title": "\ud83d\udcf8 Snapchat Contacts",
+  "schema": {
+    "Name": {
+      "type": "title"
+    },
+    "Username": {
+      "type": "rich_text"
+    },
+    "Era": {
+      "type": "multi_select"
+    },
+    "Status": {
+      "type": "select"
+    },
+    "Tags": {
+      "type": "multi_select"
+    }
+  },
+  "default_view": {
+    "type": "table",
+    "sort": [
+      {
+        "property": "Name",
+        "direction": "ascending"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "title": "alexnorris_13",
+      "properties": {
+        "Username": "alexnorris_13",
+        "Era": "auburn",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | \u2014 |\n| Messages | \u2014 |\n| Date Range | \u2014 |\n\n## Notes\nAuburn era. Bowling teammate. Connected through the Bowling and sane-bowling-people group chats.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **bowling**\n- **sane-bowling-people**",
+      "source_file": "Personal Data/Snapchat/People/alexnorris_13.md"
+    },
+    {
+      "title": "atallent97",
+      "properties": {
+        "Username": "atallent97",
+        "Era": "both",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "> Second person Jackson ever texted on Snapchat \u2014 a substantive high school friendship that faded by late 2025.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 125 |\n| Sent | 18 |\n| Received | 107 |\n| Total Messages | 433 |\n| Message Date Range | 2020-09 \u2013 2025-12 |\n| Snap Ratio | 1:5.94 sent:received |\n\n## Relationship Profile\n- **Era**: Both \u2014 began Sep 2020, maintained through most of Auburn, ended late 2025\n- **Type**: Chat-dominant (messages far exceed snaps)\n- **Current Status**: Dormant \u2014 last message Dec 2025\n- **Dynamic**: One of the most message-heavy relationships in the dataset (433 messages over 5+ years) but very few snaps from Jackson's side. The conversation opened Sep 2020 with a substantive paragraph about Jackson's ideal school day \u2014 establishing a thoughtful, text-based relationship from the start. Relationship faded naturally by end of 2025 with no resumed contact.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nReal name unknown. The Sep 2020 start makes this the second person Jackson ever messaged. The high message count with substantive content (school essays, personal thoughts documented in export) contrasts with near-zero snap engagement from Jackson. atallent97 sent 107 snaps with only 18 back \u2014 a lopsided snap ratio combined with genuine text depth. Relationship is considered dormant as of Dec 2025.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n\n## Full Profile\n- **Anna**",
+      "source_file": "Personal Data/Snapchat/People/atallent97.md"
+    },
+    {
+      "title": "Aubrie (aubrieee.kate)",
+      "properties": {
+        "Username": "aubrieee.kate",
+        "Era": "auburn",
+        "Status": "ended",
+        "Tags": []
+      },
+      "content_markdown": "> Auburn-era relationship spanning almost exactly the duration of the relationship \u2014 #3 by total messages, no contact since Nov 2024.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 0 (not in export) |\n| Sent | \u2014 |\n| Received | \u2014 |\n| Total Messages | 681 |\n| Message Date Range | 2022-10 \u2013 2024-11 |\n| Snap Ratio | N/A |\n\n## Relationship Profile\n- **Era**: Auburn exclusively\n- **Type**: Chat-dominant (no snap data available)\n- **Current Status**: Ended \u2014 no contact since Nov 2024\n- **Dynamic**: The Oct 2022 start and Nov 2024 end align precisely with the relationship timeline (almost 2 years together). 681 messages makes this #3 all-time by message count. The absence of snap data may indicate snaps were not saved to the export, or the streak was maintained via a different mechanism. No contact since the relationship ended.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nData speaks only to platform engagement. The conversation volume (681 messages over ~2 years) is consistent with a primary romantic relationship. No editorial inference made beyond what the data shows.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **Aubrie**\n\n## Full Profile\n- **Aubrie**",
+      "source_file": "Personal Data/Snapchat/People/aubrieee.kate.md"
+    },
+    {
+      "title": "aydenj0915",
+      "properties": {
+        "Username": "aydenj0915",
+        "Era": "high-school",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "> Entirely high school era \u2014 97 messages from Jun 2020 through Apr 2022, ended at the Auburn transition.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 0 (not in export) |\n| Sent | \u2014 |\n| Received | \u2014 |\n| Total Messages | 97 |\n| Message Date Range | 2020-06 \u2013 2022-04 |\n| Snap Ratio | N/A |\n\n## Relationship Profile\n- **Era**: High school exclusively\n- **Type**: Chat-dominant (no snap data in export)\n- **Current Status**: Dormant \u2014 ended at Auburn transition\n- **Dynamic**: 97 messages from account creation (Jun 2020) through Apr 2022 \u2014 entirely pre-Auburn. The conversation ends two months before Auburn starts, consistent with a high school friendship that did not carry over. No snap data suggests either a chat-only relationship or snaps were not retained.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nReal name unknown. This is one of Jackson's earliest Snapchat contacts (Jun 2020 = near account creation). The clean end in Apr 2022 before Auburn is consistent with a high school social circle that dispersed at graduation.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n\n## Full Profile\n- **Ayden Smith**",
+      "source_file": "Personal Data/Snapchat/People/aydenj0915.md"
+    },
+    {
+      "title": "baileeneal1",
+      "properties": {
+        "Username": "baileeneal1",
+        "Era": "both",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "> Snap-dominant contact spanning both eras \u2014 #6 by total snaps, still active as of April 2026.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 316 |\n| Sent | 104 |\n| Received | 212 |\n| Total Messages | 81 |\n| Message Date Range | 2022-03 \u2013 2026-04-01 |\n| Snap Ratio | 1:2.04 sent:received |\n\n## Relationship Profile\n- **Era**: Both (Mar 2022 start, active through Apr 2026)\n- **Type**: Snap-dominant\n- **Current Status**: Active \u2014 last message Apr 1 2026\n- **Dynamic**: 316 snaps vs 81 messages indicates a snap-forward relationship. Receiver-dominant (2:1). The Mar 2022 start is late high school. Low message frequency relative to snap volume over 4 years suggests periodic contact maintained through snaps rather than conversation.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nReal name unknown. The 4-year span with a recent April 2026 message shows ongoing maintenance. 81 messages over 4 years averages to roughly 20 per year \u2014 low but consistent. Snap relationship is the primary channel.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n\n## Full Profile\n- **Bailee**",
+      "source_file": "Personal Data/Snapchat/People/baileeneal1.md"
+    },
+    {
+      "title": "basketballlily",
+      "properties": {
+        "Username": "basketballlily",
+        "Era": "auburn",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | 164 (sent 52 / received 112) |\n| Messages | 0 |\n| Date Range | \u2014 |\n\n## Notes\nAuburn era. Snap-only relationship \u2014 no direct messages in the top list. Receiver-dominant.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**",
+      "source_file": "Personal Data/Snapchat/People/basketballlily.md"
+    },
+    {
+      "title": "bellaowen4121",
+      "properties": {
+        "Username": "bellaowen4121",
+        "Era": "auburn",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | 69 (sent 3 / received 66) |\n| Messages | \u2014 |\n| Date Range | \u2014 |\n\n## Notes\nHeavy receiver \u2014 Jackson receives almost all snaps in this relationship (66 of 69). No messages in top list.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**",
+      "source_file": "Personal Data/Snapchat/People/bellaowen4121.md"
+    },
+    {
+      "title": "bradenthekid21",
+      "properties": {
+        "Username": "bradenthekid21",
+        "Era": "auburn",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | 57 (sent 32 / received 25) |\n| Messages | \u2014 |\n| Date Range | \u2014 |\n\n## Notes\nSlightly sender-dominant. Snap-only relationship.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**",
+      "source_file": "Personal Data/Snapchat/People/bradenthekid21.md"
+    },
+    {
+      "title": "Brittain Snyder (brittain_snyder)",
+      "properties": {
+        "Username": "brittain_snyder",
+        "Era": "auburn",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "> Most consistently active current contact \u2014 Auburn-era only, messaging as of today, and next year's roommate.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 1,059 |\n| Sent | 367 |\n| Received | 692 |\n| Total Messages | 688 |\n| Message Date Range | 2022-06 \u2013 2026-04-10 |\n| Snap Ratio | 1:1.89 sent:received |\n\n## Relationship Profile\n- **Era**: Auburn exclusively\n- **Type**: Balanced (snap + chat both high)\n- **Current Status**: Active \u2014 messaged today (2026-04-10)\n- **Dynamic**: One of the two most active current direct contacts (alongside Ethan Arce). Snaps skew toward Brittain initiating, but messages are nearly balanced. The relationship appears to have started precisely when Jackson arrived at Auburn, suggesting they met there. Combined 1,747 interactions makes this the #2 relationship behind Tre Jackson.\n\n## Group Chats Shared\n- apartment (Apr 2026 \u2014 brand new, likely roommate coordination)\n- Aubbies sex slaves (with Trey Frachiseur + Brock Adams + curtain_kid)\n\n## Notes\nThe brand-new apartment group chat (April 2026) confirms active planning for next year's living situation. High message volume with an active-today status makes Brittain one of the most present people in Jackson's current life. The Auburn-only era means this relationship is entirely post-high school.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **Brittain Snyder**\n\n## Full Profile\n- **Brittain Snyder**",
+      "source_file": "Personal Data/Snapchat/People/brittain_snyder.md"
+    },
+    {
+      "title": "brockadams_02",
+      "properties": {
+        "Username": "brockadams_02",
+        "Era": "auburn",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | \u2014 |\n| Messages | \u2014 |\n| Date Range | \u2014 |\n\n## Notes\nAuburn era. In Aubbies crew group chat. Real name: Brock Adams.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **aubbies-crew**\n\n## Full Profile\n- **Brock Adams**",
+      "source_file": "Personal Data/Snapchat/People/brockadams_02.md"
+    },
+    {
+      "title": "Cameron Pate (cpate2006)",
+      "properties": {
+        "Username": "cpate2006",
+        "Era": "both",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "> Family contact (Pate surname) \u2014 minimal platform engagement, two messages across 5 years.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 14 |\n| Sent | 5 |\n| Received | 9 |\n| Total Messages | 2 |\n| Message Date Range | 2021-08 \u2013 2026-03 |\n| Snap Ratio | 1:1.80 sent:received |\n\n## Relationship Profile\n- **Era**: Both \u2014 Aug 2021 first message, Mar 2026 most recent\n- **Type**: Minimal \u2014 family contact maintained off-platform\n- **Current Status**: Active (Mar 2026 message)\n- **Dynamic**: 16 combined interactions over nearly 5 years is the lowest of any tracked contact. Two messages spaced ~4.5 years apart. Family relationships (Pate surname) typically exist primarily in-person or via other channels (phone, iMessage). Snapchat is not the primary channel here.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nNo dedicated people page exists for Cameron Pate. The Pate surname indicates family. The Mar 2026 message is recent, confirming the relationship is at least minimally active. Platform data is not reflective of the actual family relationship.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n\n## Full Profile\n- **Cameron Pate**",
+      "source_file": "Personal Data/Snapchat/People/cpate2006.md"
+    },
+    {
+      "title": "curtain_kid",
+      "properties": {
+        "Username": "curtain_kid",
+        "Era": "auburn",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | \u2014 |\n| Messages | \u2014 |\n| Date Range | \u2014 |\n\n## Notes\nAuburn era. In Aubbies crew group chat. Active as of Apr 2026.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **aubbies-crew**\n\n## Full Profile\n- **Kirtan Patel**",
+      "source_file": "Personal Data/Snapchat/People/curtain_kid.md"
+    },
+    {
+      "title": "daltonsuther",
+      "properties": {
+        "Username": "daltonsuther",
+        "Era": [],
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "**Display name:** daltonsuther (unresolved)\n**Username:** daltonsuther\n**Tier:** 5 \u2014 Dormant / Peripheral\n\n## Overview\n\nSnapchat contact. No message history found in export. Appeared in group context (Bowling, Nov 2023\u2013Oct 2025).\n\n## Group Memberships\n\n- **Bowling** \u2014 Bowling group, Nov 2023\u2013Oct 2025\n\n## See Also\n\n- **Relationship Map**\n- **People Index**",
+      "source_file": "Personal Data/Snapchat/People/daltonsuther.md"
+    },
+    {
+      "title": "dbrackett89",
+      "properties": {
+        "Username": "dbrackett89",
+        "Era": "auburn",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | \u2014 |\n| Messages | \u2014 |\n| Date Range | \u2014 |\n\n## Notes\nAuburn era. In Brady gyatt group chat. Connected to Ethan Arce.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **brady-gyatt**",
+      "source_file": "Personal Data/Snapchat/People/dbrackett89.md"
+    },
+    {
+      "title": "devlo_07",
+      "properties": {
+        "Username": "devlo_07",
+        "Era": "both",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "> Long-running low-key contact \u2014 circle member, still active April 2026, opened with a Krispy Kreme gift card link.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 142 |\n| Sent | 22 |\n| Received | 120 |\n| Total Messages | 49 |\n| Message Date Range | 2022-02 \u2013 2026-04-09 |\n| Snap Ratio | 1:5.45 sent:received |\n\n## Relationship Profile\n- **Era**: Both \u2014 Feb 2022 start, active through Apr 2026\n- **Type**: Snap-dominant, heavily receiver-skewed\n- **Current Status**: Active \u2014 last message April 9 2026\n- **Dynamic**: One of the most lopsided snap ratios in the dataset (5.45:1 \u2014 devlo_07 initiates almost exclusively). Jackson barely reciprocates at the snap level. 49 messages over 4 years is low but the relationship persists. Identified as a circle member.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nThe conversation opened Feb 2022 with a Krispy Kreme gift card link \u2014 an unusual first message that may indicate the relationship started through a specific shared context or joke. No dedicated people page exists for this contact. Real name unknown.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**",
+      "source_file": "Personal Data/Snapchat/People/devlo_07.md"
+    },
+    {
+      "title": "edenprice27",
+      "properties": {
+        "Username": "edenprice27",
+        "Era": "high-school",
+        "Status": "ended",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | \u2014 |\n| Messages | 169 |\n| Date Range | 2021 \u2013 2021 |\n\n## Notes\nHigh school era. Short, intense window \u2014 all activity confined to August 2021. 169 messages in a single month indicates an intense but brief connection that did not persist.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**",
+      "source_file": "Personal Data/Snapchat/People/edenprice27.md"
+    },
+    {
+      "title": "elladupree22859",
+      "properties": {
+        "Username": "elladupree22859",
+        "Era": "auburn",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "> Significant recent Auburn relationship \u2014 active from Aug 2024 through early 2026 with both snap and chat engagement.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 172 |\n| Sent | 54 |\n| Received | 118 |\n| Total Messages | 412 |\n| Message Date Range | 2024-08 \u2013 2026-03 |\n| Snap Ratio | 1:2.19 sent:received |\n\n## Relationship Profile\n- **Era**: Auburn exclusively, recent (Aug 2024 start)\n- **Type**: Balanced (both snaps and messages are substantial)\n- **Current Status**: Active \u2014 conversation through Mar 2026\n- **Dynamic**: 584 combined interactions from a standing start in Aug 2024 is a fast-building relationship. Both snap and message volume are meaningful. Receiver-dominant in snaps (2.19:1). 412 messages places this #7 all-time by message count despite only 19 months of history.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nReal name unknown. The Aug 2024 start is well into the Auburn era \u2014 this is not a first-year connection. The combination of 172 snaps and 412 messages in under 2 years suggests an active, multidimensional relationship. Last message Mar 2026 \u2014 recent but not current-month active.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n\n## Full Profile\n- **Ella Dupree**",
+      "source_file": "Personal Data/Snapchat/People/elladupree22859.md"
+    },
+    {
+      "title": "Ella (ellazoeb)",
+      "properties": {
+        "Username": "ellazoeb",
+        "Era": "both",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "> #1 all-time by messages \u2014 the defining high school Snapchat relationship, with a separate chapter in early 2026 that occurred off-platform.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 0 (not in snap export) |\n| Sent | \u2014 |\n| Received | \u2014 |\n| Total Messages | 1,045 |\n| Message Date Range | 2020-06 \u2013 2022-06 |\n| Snap Ratio | N/A |\n\n## Relationship Profile\n- **Era**: High school (Jun 2020 \u2013 Jun 2022); with a separate off-platform chapter in early 2026\n- **Type**: Chat-dominant \u2014 1,045 messages is the highest message count of any contact\n- **Current Status**: Dormant on Snapchat since Jun 2022\n- **Dynamic**: The most message-dense relationship in the entire dataset across the high school window. The Snapchat conversation ends exactly at the Auburn transition (Jun 2022). The 2026 seeing-each-other chapter is not reflected in this data \u2014 it occurred off-platform or via another channel. Account ellazoeb has not sent a message since June 2022.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nThe early 2026 chapter is documented separately: they were seeing each other, it ended March 2026, and Ella disclosed she had been in love with Jackson for over a year. This is not visible in the Snapchat data \u2014 the platform record shows a clean end at Jun 2022. The 1,045-message high school thread represents the most intensive communication relationship in the dataset.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **Ella**\n\n## Full Profile\n- **Ella**",
+      "source_file": "Personal Data/Snapchat/People/ellazoeb.md"
+    },
+    {
+      "title": "Ethan Arce (ethan_arce14)",
+      "properties": {
+        "Username": "ethan_arce14",
+        "Era": "auburn",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "> Jackson's most trusted person \u2014 one of the only contacts where Jackson sends more snaps than he receives.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 1,042 |\n| Sent | 604 |\n| Received | 438 |\n| Total Messages | 268 |\n| Message Date Range | 2024-07 \u2013 2026-04-09 |\n| Snap Ratio | 1.38:1 sent:received |\n\n## Relationship Profile\n- **Era**: Auburn (active from July 2024)\n- **Type**: Snap-dominant with active messaging\n- **Current Status**: Active \u2014 last message April 9 2026\n- **Dynamic**: Sender-dominant \u2014 Jackson sends more snaps to Ethan than anyone else on a ratio basis. This is the inverse of most relationships. Indicates Jackson initiates with Ethan more than Ethan initiates. Known to be Jackson's most trusted person, described as nearly identical to Jackson in many ways. Based in Oklahoma.\n\n## Group Chats Shared\n- Brady gyatt (Jul\u2013Dec 2023, with mrbradyt07 + dbrackett89)\n\n## Notes\nThe sender-dominant pattern here is significant: across nearly all of Jackson's high-volume relationships, he receives more than he sends. Ethan is the primary exception. This aligns with the characterization as most-trusted \u2014 Jackson leans into this relationship rather than waiting for the other person to initiate. Messages began July 2024 and are continuous through April 9 2026.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **Ethan Arce**\n\n## Full Profile\n- **Ethan Arce**",
+      "source_file": "Personal Data/Snapchat/People/ethan_arce14.md"
+    },
+    {
+      "title": "Ethan Wynn (ethanwynn1)",
+      "properties": {
+        "Username": "ethanwynn1",
+        "Era": "auburn",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "> Circle member \u2014 minimal Snapchat data but actively messaging as of today (2026-04-10).\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | Not in top-25 export |\n| Sent | \u2014 |\n| Received | \u2014 |\n| Total Messages | 5 |\n| Message Date Range | 2025-11 \u2013 2026-04-10 |\n| Snap Ratio | N/A (not captured) |\n\n## Relationship Profile\n- **Era**: Auburn (recent)\n- **Type**: Data-limited \u2014 message count too low to characterize\n- **Current Status**: Active \u2014 messaged today (2026-04-10)\n- **Dynamic**: Low message count (5) but the relationship is current and active. Snap relationship likely exists but did not rank in the top 25 by snap volume. Known circle member.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nNo dedicated people page exists for Ethan Wynn. The Nov 2025 message start is recent. The active-today status with only 5 messages total suggests this relationship either lives heavily on snaps (not captured) or is an emerging connection. Circle membership indicates social proximity regardless of platform data.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**",
+      "source_file": "Personal Data/Snapchat/People/ethanwynn1.md"
+    },
+    {
+      "title": "evan_clay77",
+      "properties": {
+        "Username": "evan_clay77",
+        "Era": "auburn",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "> Auburn-era contact and founder of the Bowling group chat \u2014 moderate message history, dormant since Apr 2024.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | Not in top-25 export |\n| Sent | \u2014 |\n| Received | \u2014 |\n| Total Messages | 171 |\n| Message Date Range | 2022-07 \u2013 2024-04 |\n| Snap Ratio | N/A (not captured) |\n\n## Relationship Profile\n- **Era**: Auburn exclusively\n- **Type**: Chat-dominant (snaps not in top 25)\n- **Current Status**: Dormant \u2014 last message Apr 2024\n- **Dynamic**: 171 messages over ~21 months is an active chat relationship within the Auburn era. Founded the Bowling group chat, suggesting a social organizer role. Conversation has been dormant since Apr 2024.\n\n## Group Chats Shared\n- Bowling (founder)\n- Sane bowling people\n\n## Notes\nReal name unknown. The bowling group chat context suggests a shared activity or hobby circle. 171 messages without snap data in the top 25 indicates a chat-forward relationship. No contact since Apr 2024.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n\n## Full Profile\n- **Evan Clay**",
+      "source_file": "Personal Data/Snapchat/People/evan_clay77.md"
+    },
+    {
+      "title": "Emma Williard (ewilliard09)",
+      "properties": {
+        "Username": "ewilliard09",
+        "Era": "both",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "> Low platform numbers, enormous real-world significance. Both from Gadsden, AL. The relationship lived off Snapchat. Ghosted before the planned April 9 date \u2014 date never happened.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 47 |\n| Sent | 13 |\n| Received | 34 |\n| Total Messages | 12 |\n| Message Date Range | 2022-06 \u2013 2026-04-08 |\n| Snap Ratio | 1:2.62 sent:received |\n\n## Relationship Profile\n- **Era**: Both \u2014 first contact Jun 2022 (high school overlap), reconnected Mar 2026\n- **Type**: Data-minimal \u2014 actual relationship is off-platform\n- **Current Status**: Ghosted \u2014 last message April 8 2026, planned date April 9 2026 never happened\n- **Dynamic**: The raw numbers (59 combined interactions) dramatically underrepresent this relationship's significance. A Jul 2022 message includes her sending an address \u2014 an early-contact moment. The relationship went quiet, then reconnected in March 2026, with recent messages Apr 7\u20138 2026 (content deleted/unavailable). She ghosted before the April 9 date. Previously talked in high school. Both from Gadsden, AL.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nTrey Frachiseur (current roommate) dated Emma for 1.5 years \u2014 a significant relational layer. This context makes the current situation notably complex. The deleted message content from Apr 7\u20138 is consistent with the relationship moving off Snapchat. Jackson's strongest current romantic interest as of April 2026.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **Emma Williard**\n\n## Full Profile\n- **Emma Williard**",
+      "source_file": "Personal Data/Snapchat/People/ewilliard09.md"
+    },
+    {
+      "title": "Harrison (harrison.cha7)",
+      "properties": {
+        "Username": "harrison.cha7",
+        "Era": "auburn",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "> Next year's roommate alongside Brittain and Trey \u2014 snap relationship predates their text history, which only began Oct 2025.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 156 |\n| Sent | 61 |\n| Received | 95 |\n| Total Messages | 120 |\n| Message Date Range | 2025-10 \u2013 2026-04-09 |\n| Snap Ratio | 1:1.56 sent:received |\n\n## Relationship Profile\n- **Era**: Auburn\n- **Type**: Snap-dominant historically, shifting to balanced\n- **Current Status**: Active \u2014 last message April 9 2026\n- **Dynamic**: The snap count of 156 spans further back than the message record (messages only begin Oct 2025). This means Jackson and Harrison had a snap relationship for some time before they started texting directly. The Oct 2025 messaging start may coincide with the roommate decision being made. Snap ratio is the most balanced of any high-volume contact (1.56:1).\n\n## Group Chats Shared\n- None documented (likely in the apartment group chat with Brittain)\n\n## Notes\nKnown next year's roommate with Trey Frachiseur and Brittain Snyder. The relatively recent start to direct messaging (Oct 2025 = ~6 months ago) despite existing snap history suggests the close friendship formalized later. 120 messages in 6 months is an active pace.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **Harrison**\n\n## Full Profile\n- **Harrison**",
+      "source_file": "Personal Data/Snapchat/People/harrison.cha7.md"
+    },
+    {
+      "title": "jakeedwards-2",
+      "properties": {
+        "Username": "jakeedwards-2",
+        "Era": [],
+        "Status": null,
+        "Tags": []
+      },
+      "content_markdown": "## Overview\n- **Display name:** Jake Edwards (unconfirmed)\n- **Status:** In active group chat (madison's sandals) alongside **Brittain Snyder** and **Harrison**\n- **Direct messages:** None captured in export\n\n## Group Membership\n- **madisons-sandals** \u2014 active, high-velocity group with Brittain Snyder, Harrison, and Jackson\n\n## Notes\nNo direct 1:1 data in the export. Context: member of a current active group alongside two of Jackson's closest friends (Brittain, Harrison). No rich People/ page \u2014 insufficient data. Create one if Jake Edwards becomes a named contact with individual context.\n\n## See Also\n- **Relationship Map**\n- **People Index**",
+      "source_file": "Personal Data/Snapchat/People/jakeedwards-2.md"
+    },
+    {
+      "title": "jdub0055",
+      "properties": {
+        "Username": "jdub0055",
+        "Era": "auburn",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | 56 (sent 22 / received 34) |\n| Messages | \u2014 |\n| Date Range | \u2014 |\n\n## Notes\nAuburn era. Connected through the sane-bowling-people group chat.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **sane-bowling-people**",
+      "source_file": "Personal Data/Snapchat/People/jdub0055.md"
+    },
+    {
+      "title": "jkilgo39",
+      "properties": {
+        "Username": "jkilgo39",
+        "Era": "auburn",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | \u2014 |\n| Messages | \u2014 |\n| Date Range | \u2014 |\n\n## Notes\nAuburn era. Bowling group member.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **bowling**\n- **sane-bowling-people**",
+      "source_file": "Personal Data/Snapchat/People/jkilgo39.md"
+    },
+    {
+      "title": "jovimarble01",
+      "properties": {
+        "Username": "jovimarble01",
+        "Era": [],
+        "Status": "active",
+        "Tags": []
+      },
+      "content_markdown": "**Display name:** Jovi\n**Username:** jovimarble01\n**Tier:** 3 \u2014 Moderate contact\n\n## Overview\n\n5.5-year Snapchat connection (Sep 2020 \u2192 Mar 2026). Text-based relationship at moderate, consistent pace. 78 messages, 4 snaps.\n\n## See Also\n\n- **Jovi**\n- **Relationship Map**\n- **People Index**\n\n## Full Profile\n- **Jovi**",
+      "source_file": "Personal Data/Snapchat/People/jovimarble01.md"
+    },
+    {
+      "title": "kaylee_ann41706",
+      "properties": {
+        "Username": "kaylee_ann41706",
+        "Era": "both",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "> #4 all-time by messages \u2014 a substantial high school chat relationship with no known real-name identity.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 0 (not in export) |\n| Sent | \u2014 |\n| Received | \u2014 |\n| Total Messages | 476 |\n| Message Date Range | 2021-02 \u2013 2023-04 |\n| Snap Ratio | N/A |\n\n## Relationship Profile\n- **Era**: High school, extending slightly into early Auburn\n- **Type**: Chat-dominant (no snap data available)\n- **Current Status**: Dormant \u2014 conversation ended Apr 2023\n- **Dynamic**: 476 messages over ~26 months is a substantial chat relationship. The Feb 2021 start is mid-high school. The conversation extended briefly into the Auburn era (ending Apr 2023) before going silent. Real identity unknown.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nNo real name or known identity for this contact. The message volume (476) places this #4 all-time, above Aubrie and most other contacts. The lack of snap data in the export is notable \u2014 this may be a chat-only relationship or snaps were not retained. Conversation ended without resumption.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n\n## Full Profile\n- **Kaylee Henderson**",
+      "source_file": "Personal Data/Snapchat/People/kaylee_ann41706.md"
+    },
+    {
+      "title": "m.dozier",
+      "properties": {
+        "Username": "m.dozier",
+        "Era": "auburn",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | 118 (sent 67 / received 51) |\n| Messages | \u2014 |\n| Date Range | \u2014 |\n\n## Notes\nSender-dominant snap ratio \u2014 Jackson sends more snaps than he receives. Snap-only relationship, no messages in top list.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**",
+      "source_file": "Personal Data/Snapchat/People/m.dozier.md"
+    },
+    {
+      "title": "ma_anglea",
+      "properties": {
+        "Username": "ma_anglea",
+        "Era": [],
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "**Display name:** Mary Alice\n**Username:** ma_anglea\n**Tier:** 3 \u2014 Moderate contact\n\n## Overview\n\nActive contact 2021\u20132025 (Apr 2021 \u2192 Feb 2025). 75 messages, 14 snaps. Dormant after Feb 2025.\n\n## See Also\n\n- **Mary Alice**\n- **Relationship Map**\n- **People Index**\n\n## Full Profile\n- **Mary Alice**",
+      "source_file": "Personal Data/Snapchat/People/ma_anglea.md"
+    },
+    {
+      "title": "madieexo_o",
+      "properties": {
+        "Username": "madieexo_o",
+        "Era": "both",
+        "Status": "ended",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | \u2014 |\n| Messages | 180 |\n| Date Range | 2022 \u2013 2022 |\n\n## Notes\nTransition era (high school to Auburn). Short, intense window \u2014 Mar to Jun 2022 only. High message density in a compressed period.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**",
+      "source_file": "Personal Data/Snapchat/People/madieexo_o.md"
+    },
+    {
+      "title": "maximusv29",
+      "properties": {
+        "Username": "maximusv29",
+        "Era": [],
+        "Status": "active",
+        "Tags": []
+      },
+      "content_markdown": "**Display name:** Max Valentine\n**Username:** maximusv29\n**Tier:** 3 \u2014 Moderate contact\n\n## Overview\n\n5-year Snapchat relationship (Apr 2021 \u2192 Mar 2026). 122 messages, 160 snaps \u2014 snap-heavy relative to text. Consistent low-volume over 5 years.\n\n## See Also\n\n- **Max Valentine**\n- **Relationship Map**\n- **People Index**\n\n## Full Profile\n- **Max Valentine**",
+      "source_file": "Personal Data/Snapchat/People/maximusv29.md"
+    },
+    {
+      "title": "miller_jolliff",
+      "properties": {
+        "Username": "miller_jolliff",
+        "Era": "auburn",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "> Auburn-era contact, started same window as Brittain Snyder, still active April 2026.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 168 |\n| Sent | 56 |\n| Received | 112 |\n| Total Messages | 156 |\n| Message Date Range | 2022-06 \u2013 2026-04-09 |\n| Snap Ratio | 1:2.0 sent:received |\n\n## Relationship Profile\n- **Era**: Auburn exclusively\n- **Type**: Balanced (snaps and messages both meaningful)\n- **Current Status**: Active \u2014 last message April 9 2026\n- **Dynamic**: 324 combined interactions over 4 Auburn years. Snap ratio is 2:1 receiver-dominant. 156 messages alongside 168 snaps indicates a more conversational relationship than most snap-dominant contacts. Jun 2022 start \u2014 same Auburn cohort entry point as Brittain Snyder.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nReal name unknown. The simultaneous Auburn start with Brittain Snyder (Jun 2022) may indicate these contacts were met in the same social context. Active through April 9 2026 \u2014 current.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n\n## Full Profile\n- **Miller Jolliff**",
+      "source_file": "Personal Data/Snapchat/People/miller_jolliff.md"
+    },
+    {
+      "title": "Brady (mrbradyt07)",
+      "properties": {
+        "Username": "mrbradyt07",
+        "Era": "both",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "> Bridge contact connecting the Oklahoma (Ethan Arce) and Tre Jackson circles \u2014 low message count but a long-spanning, multi-group presence.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 260 |\n| Sent | 55 |\n| Received | 205 |\n| Total Messages | 53 |\n| Message Date Range | 2020-06 \u2013 2026-01 |\n| Snap Ratio | 1:3.73 sent:received |\n\n## Relationship Profile\n- **Era**: Both \u2014 Jun 2020 start, through Jan 2026\n- **Type**: Snap-dominant\n- **Current Status**: Dormant \u2014 last message Jan 2026\n- **Dynamic**: Receiver-dominant (3.73:1) \u2014 Brady sends far more snaps to Jackson than he receives. Only 53 messages over almost 6 years indicates the relationship is maintained entirely through snaps. Notable as a bridge figure connecting separate friend groups.\n\n## Group Chats Shared\n- Brady gyatt (with ethan_arce14 + dbrackett89, Jul\u2013Dec 2023)\n- Fagmophobia (with trej3635)\n\n## Notes\nThe dual group chat presence \u2014 one with Ethan Arce (Oklahoma connection) and one with Tre Jackson \u2014 makes Brady a bridge node in Jackson's network. The group chat named after him (Brady gyatt) suggests social centrality within that subgroup. Despite 5+ years of contact, messages are sparse (53 total).\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**",
+      "source_file": "Personal Data/Snapchat/People/mrbradyt07.md"
+    },
+    {
+      "title": "nickzito-17",
+      "properties": {
+        "Username": "nickzito-17",
+        "Era": "auburn",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "> Recent snap-dominant contact \u2014 low message count, receiver-heavy snaps, still active April 2026.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 149 |\n| Sent | 26 |\n| Received | 123 |\n| Total Messages | 10 |\n| Message Date Range | 2025-03 \u2013 2026-04-07 |\n| Snap Ratio | 1:4.73 sent:received |\n\n## Relationship Profile\n- **Era**: Auburn (recent \u2014 messages only from Mar 2025)\n- **Type**: Snap-dominant\n- **Current Status**: Active \u2014 last message April 7 2026\n- **Dynamic**: 149 snaps with only 10 messages indicates an almost purely visual relationship. Heavily receiver-dominant (4.73:1). The message window (Mar 2025 \u2013 Apr 2026) is about 13 months. Real name unknown.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nVery low message engagement despite an active snap relationship. The recent start (2025) and current activity suggest an Auburn-era acquaintance maintained primarily through streaks.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**",
+      "source_file": "Personal Data/Snapchat/People/nickzito-17.md"
+    },
+    {
+      "title": "rb_waldrup",
+      "properties": {
+        "Username": "rb_waldrup",
+        "Era": "auburn",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | 67 (sent 43 / received 24) |\n| Messages | \u2014 |\n| Date Range | \u2014 |\n\n## Notes\nSender-dominant \u2014 Jackson sends nearly twice as many snaps as he receives. Snap-only relationship.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**",
+      "source_file": "Personal Data/Snapchat/People/rb_waldrup.md"
+    },
+    {
+      "title": "shaw22222",
+      "properties": {
+        "Username": "shaw22222",
+        "Era": "both",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "> Longest-spanning snap relationship with the most balanced send/receive ratio \u2014 almost exclusively snap-based over 5 years.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 168 |\n| Sent | 79 |\n| Received | 89 |\n| Total Messages | 17 |\n| Message Date Range | 2020-09 \u2013 2025-10 |\n| Snap Ratio | 1:1.13 sent:received |\n\n## Relationship Profile\n- **Era**: Both \u2014 Sep 2020 through Oct 2025\n- **Type**: Snap-dominant (17 messages over 5 years)\n- **Current Status**: Dormant\n- **Dynamic**: The most balanced snap ratio in the dataset (1.13:1 \u2014 nearly equal initiating). 17 messages over 5 years is among the lowest message rates for any long-running contact. This is purely a snap relationship \u2014 the near-perfect balance suggests a mutual streak maintained without meaningful text conversation.\n\n## Group Chats Shared\n- None documented\n\n## Notes\nReal name unknown. The snap balance (79 sent / 89 received) is unique in the dataset \u2014 most relationships have a clear initiator. Shaw22222 and Jackson appear to mutually maintain the snap connection at roughly equal rates. Despite the 5-year span, this never became a text relationship.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**",
+      "source_file": "Personal Data/Snapchat/People/shaw22222.md"
+    },
+    {
+      "title": "td_reeve",
+      "properties": {
+        "Username": "td_reeve",
+        "Era": [],
+        "Status": "active",
+        "Tags": []
+      },
+      "content_markdown": "**Display name:** Tay (TD Reeve)\n**Username:** td_reeve\n**Tier:** 2 \u2014 High contact\n\n## Overview\n\nActive contact Apr 2022 \u2192 Jan 2026. 721 snaps (4th highest 1:1 snap count in dataset), 265 messages. 73% of interactions are snaps \u2014 primarily a visual/daily-check-in relationship rather than text-based.\n\n## See Also\n\n- **TD Reeve**\n- **Relationship Map**\n- **People Index**\n\n## Full Profile\n- **TD Reeve**",
+      "source_file": "Personal Data/Snapchat/People/td_reeve.md"
+    },
+    {
+      "title": "Tre Jackson (trej3635)",
+      "properties": {
+        "Username": "trej3635",
+        "Era": "both",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "> Highest combined engagement contact across all of Snapchat \u2014 snap-dominant relationship spanning high school end through Auburn.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 2,020 |\n| Sent | 624 |\n| Received | 1,396 |\n| Total Messages | 265 |\n| Message Date Range | 2022-04 \u2013 2026-01 |\n| Snap Ratio | 1:2.24 sent:received |\n\n## Relationship Profile\n- **Era**: Both (high school end through Auburn)\n- **Type**: Snap-dominant\n- **Current Status**: Active\n- **Dynamic**: Jackson receives ~2.2x more snaps than he sends \u2014 Tre is the heavy initiator. The 2,020 snaps with only 265 messages points to a streak-based relationship maintained primarily through visual content rather than conversation. #1 combined contact by volume.\n\n## Group Chats Shared\n- Fagmophobia (Dec 2024\u2013present)\n\n## Notes\nVolume at this scale strongly suggests a continuous daily streak maintained across years. The April 2022 start date aligns with late high school. Low message count relative to snap volume confirms this is a snap relationship, not a chat relationship. Tre initiates at more than twice Jackson's rate.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **Tre Jackson**\n\n## Full Profile\n- **Tre Jackson**",
+      "source_file": "Personal Data/Snapchat/People/trej3635.md"
+    },
+    {
+      "title": "Trey Frachiseur (trey_frachiseur)",
+      "properties": {
+        "Username": "trey_frachiseur",
+        "Era": "both",
+        "Status": "active-2026",
+        "Tags": []
+      },
+      "content_markdown": "> Longest-spanning relationship in the dataset \u2014 nearly 6 years \u2014 but snap ratio reveals a passive, one-directional streak dynamic.\n\n## Snapchat Engagement\n| Metric | Value |\n|--------|-------|\n| Total Snaps | 681 |\n| Sent | 116 |\n| Received | 565 |\n| Total Messages | 138 |\n| Message Date Range | 2020-10 \u2013 2026-04-09 |\n| Snap Ratio | 1:4.87 sent:received |\n\n## Relationship Profile\n- **Era**: Both \u2014 Oct 2020 is nearly account creation\n- **Type**: Snap-dominant, heavily receiver-skewed\n- **Current Status**: Active \u2014 last message April 9 2026\n- **Dynamic**: Trey sends 4.9x more snaps to Jackson than Jackson sends back \u2014 the most lopsided major relationship in the dataset. Jackson rarely initiates with Trey. Despite being current roommates and next year's roommates, the snap data suggests Trey carries the streak. Low message count (138 over 6 years) with an active status indicates the relationship runs on snaps, not conversation.\n\n## Group Chats Shared\n- Aubbies sex slaves (with Brock Adams + curtain_kid + Brittain Snyder)\n\n## Notes\nThe Oct 2020 start date makes this Jackson's longest-running Snapchat relationship. Current situation: living together, planning to room again next year, but there is noted tension currently. The snap ratio (1:4.87) is the starkest imbalance among high-volume contacts \u2014 Trey initiates consistently while Jackson rarely reciprocates at the snap level. Trey dated Emma Williard for 1.5 years, who is now Jackson's current romantic interest \u2014 a notable relational dynamic.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**\n- **Trey Frachiseur**\n\n## Full Profile\n- **Trey Frachiseur**",
+      "source_file": "Personal Data/Snapchat/People/trey_frachiseur.md"
+    },
+    {
+      "title": "ynvgboy247",
+      "properties": {
+        "Username": "ynvgboy247",
+        "Era": "auburn",
+        "Status": "dormant",
+        "Tags": []
+      },
+      "content_markdown": "## Snapchat Stats\n| Metric | Value |\n|--------|-------|\n| Snaps | 122 (sent 39 / received 83) |\n| Messages | \u2014 |\n| Date Range | \u2014 |\n\n## Notes\nSnap-only relationship \u2014 no messages in the top list. Auburn era.\n\n## See Also\n- **Relationship Map**\n- **People Index**\n- **Communication Patterns**",
+      "source_file": "Personal Data/Snapchat/People/ynvgboy247.md"
+    }
+  ]
+}
